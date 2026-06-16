@@ -77,7 +77,7 @@ python scripts/run_phase12.py               # Cas-OFFinder, ENCODE, bigWig, DMR
 If you use this code, please cite the accompanying NAR Methods manuscript and this repository:
 
 - **GitHub:** https://github.com/vsanker21/pws-epigenome-editing-design-platform
-- **Zenodo:** https://doi.org/10.5281/zenodo.XXXXXXX *(update after Zenodo archives release v1.0.0)*
+- **Zenodo:** https://doi.org/10.5281/zenodo.20723805
 
 ## License
 
