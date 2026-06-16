@@ -680,7 +680,11 @@ def build_document(fig: dict[str, Path]) -> None:
 
     # Data availability, refs, supplementary
     heading(doc, "Data Availability")
-    para(doc, "All source GEO/CRISPRepi data are public. Processed outputs listed in Supplementary Data Inventory (Supplementary Table S11).")
+    para(doc, (
+        "All source GEO/CRISPRepi data are public. Processed outputs listed in Supplementary Data Inventory "
+        f"(Supplementary Table S11). Analysis code, configuration files, and processed data supporting catalog "
+        f"generation are available at {D.GITHUB_REPO} and archived on Zenodo ({D.ZENODO_URL})."
+    ))
 
     heading(doc, "References")
     for i, ref in enumerate([

@@ -317,7 +317,7 @@ def write_materials_and_methods(doc: Document) -> None:
         "Python 3.13. Core packages: pandas 2.x, numpy, scipy (differential_evolution, Spearman), scikit-learn (Ridge, CV), "
         "matplotlib (figures). External tools: UCSC liftOver, bigWigSummary (WSL Linux binary), UCSC REST API. "
         "Pipeline scripts in scripts/; reproducible execution via scripts/run_pipeline.py --phase [3|5|6|9|10|11|12|all]. "
-        "Code and processed data: [repository URL to be inserted at submission]."
+        f"Code and processed data: {D.GITHUB_REPO} (Zenodo: {D.ZENODO_URL})."
     ))
 
     # ------------------------------------------------------------------

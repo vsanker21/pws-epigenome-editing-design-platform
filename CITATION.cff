@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: >-
+  An allele-aware computational design platform for CRISPR epigenome-editing
+  therapy in maternal UPD15 Prader-Willi syndrome
+message: >-
+  If you use this software, please cite it using the metadata from this file
+  and the accompanying NAR Methods manuscript.
+type: software
+authors:
+  - family-names: Sanker
+    given-names: V.
+repository-code: >-
+  https://github.com/vsanker21/pws-epigenome-editing-design-platform
+url: >-
+  https://github.com/vsanker21/pws-epigenome-editing-design-platform
+license: MIT
+version: 1.0.0
+keywords:
+  - Prader-Willi syndrome
+  - CRISPR epigenome editing
+  - UPD15
+  - SNRPN
+  - computational biology

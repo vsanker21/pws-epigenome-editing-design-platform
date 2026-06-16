@@ -1,0 +1,32 @@
+{
+  "title": "PWS maternal UPD15 CRISPR epigenome-editing design platform",
+  "description": "Computational design-prioritization platform for CRISPR epigenome-editing therapy in maternal UPD15 Prader-Willi syndrome. Integrates public multi-omic datasets into an allele-aware GRCh38 PWS-locus digital twin, applies editor-stratified forward models, optimizes hybrid Tet1+VP64 designs, and exports a ranked uncertainty-aware therapeutic catalog with retrospective validation.",
+  "upload_type": "software",
+  "publication_date": "2026-06-16",
+  "creators": [
+    {
+      "name": "Sanker, V.",
+      "affiliation": "See accompanying NAR Methods manuscript"
+    }
+  ],
+  "keywords": [
+    "Prader-Willi syndrome",
+    "CRISPR epigenome editing",
+    "UPD15",
+    "SNRPN",
+    "computational biology",
+    "guide RNA design",
+    "Tet1",
+    "VP64"
+  ],
+  "license": "mit",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/vsanker21/pws-epigenome-editing-design-platform",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}

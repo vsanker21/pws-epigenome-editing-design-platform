@@ -8,6 +8,13 @@ import pandas as pd
 
 ROOT = Path(r"g:\Prader Willi Syndrome")
 
+GITHUB_REPO = "https://github.com/vsanker21/pws-epigenome-editing-design-platform"
+ZENODO_DOI = "10.5281/zenodo.XXXXXXX"  # Replace after Zenodo archives GitHub release v1.0.0
+ZENODO_URL = f"https://doi.org/{ZENODO_DOI}"
+CODE_AVAILABILITY = (
+    f"{GITHUB_REPO} (archived on Zenodo: {ZENODO_URL})"
+)
+
 
 def load_json(rel: str) -> dict:
     with open(ROOT / rel, encoding="utf-8") as f:
