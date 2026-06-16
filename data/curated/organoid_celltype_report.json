@@ -1,0 +1,99 @@
+{
+  "source": "Nemoto 2025 GSE262700 organoid scRNA-seq",
+  "n_cells_edited": 8791,
+  "marker_summary": [
+    {
+      "sample": "edited",
+      "cell_type": "AgRP_neurons",
+      "marker_enrichment": 0.1060175179160505,
+      "markers": "AGRP,NPY"
+    },
+    {
+      "sample": "edited",
+      "cell_type": "POMC_neurons",
+      "marker_enrichment": 0.0741667614605847,
+      "markers": "POMC,CART,PCSK1"
+    },
+    {
+      "sample": "edited",
+      "cell_type": "OXT_neurons",
+      "marker_enrichment": 0.005118871573199863,
+      "markers": "OXT,AVP"
+    },
+    {
+      "sample": "edited",
+      "cell_type": "SIM1_neurons",
+      "marker_enrichment": 0.0,
+      "markers": "SIM1"
+    },
+    {
+      "sample": "edited",
+      "cell_type": "Neural_progenitor",
+      "marker_enrichment": 0.8261858719144579,
+      "markers": "PAX6,SOX2"
+    },
+    {
+      "sample": "edited",
+      "cell_type": "PWS_gene",
+      "gene": "SNRPN",
+      "mean": 2.0067114093959733,
+      "pct_expressing": 58.503014446593106,
+      "n_cells": 8791
+    },
+    {
+      "sample": "edited",
+      "cell_type": "PWS_gene",
+      "gene": "SNHG14",
+      "mean": 5.371743828915937,
+      "pct_expressing": 73.57524741212603,
+      "n_cells": 8791
+    },
+    {
+      "sample": "control",
+      "cell_type": "AgRP_neurons",
+      "marker_enrichment": 0.015027149892663214,
+      "markers": "AGRP,NPY"
+    },
+    {
+      "sample": "control",
+      "cell_type": "POMC_neurons",
+      "marker_enrichment": 0.09230963505493117,
+      "markers": "POMC,CART,PCSK1"
+    },
+    {
+      "sample": "control",
+      "cell_type": "OXT_neurons",
+      "marker_enrichment": 0.006566485667382245,
+      "markers": "OXT,AVP"
+    },
+    {
+      "sample": "control",
+      "cell_type": "SIM1_neurons",
+      "marker_enrichment": 0.024876878393736583,
+      "markers": "SIM1"
+    },
+    {
+      "sample": "control",
+      "cell_type": "Neural_progenitor",
+      "marker_enrichment": 0.7234499305467862,
+      "markers": "PAX6,SOX2"
+    },
+    {
+      "sample": "control",
+      "cell_type": "PWS_gene",
+      "gene": "SNRPN",
+      "mean": 0.00037883571157974494,
+      "pct_expressing": 0.03788357115797449,
+      "n_cells": 7919
+    },
+    {
+      "sample": "control",
+      "cell_type": "PWS_gene",
+      "gene": "SNHG14",
+      "mean": 0.03396893547165046,
+      "pct_expressing": 3.1948478343225153,
+      "n_cells": 7919
+    }
+  ],
+  "interpretation": "PWS gene reactivation occurs across organoid cell populations; circuit mapping uses marker enrichment as proxy"
+}

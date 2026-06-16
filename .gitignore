@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+*.log
+
+# Large raw GEO downloads (re-download via scripts/download_data.py)
+data/gse*/
+
+# Genome reference cache (auto-downloaded for Cas-OFFinder)
+data/genome/
+
+# Large manifests
+data/manifests/
+
+# Tools binaries
+tools/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local draft documents (not part of code deposit)
+*.docx
+!manuscript/**/*.png
+
+# Extracted doc scratch
+extracted_docs/

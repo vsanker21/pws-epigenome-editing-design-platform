@@ -1,0 +1,59 @@
+{
+  "liftover": {
+    "screens_total": 23506,
+    "screens_mapped": 23506,
+    "screens_mapping_rate": 1.0,
+    "methylation_total": 80,
+    "methylation_mapped": 80,
+    "reference_build": "GRCh38",
+    "example_lift": {
+      "hg19_Tet1_top_hit": "chr15:25200068 \u2192 hg38:24954921",
+      "note": "PWS-ICR region; ~145kb shift typical for chr15 between builds"
+    }
+  },
+  "merge": {
+    "merged_sites": 464,
+    "with_cpg": 1,
+    "with_atac": 36
+  },
+  "digital_twin": {
+    "reference_build": "GRCh38",
+    "integration_complete": true,
+    "node_counts": {
+      "atac_peak": 897,
+      "grna_target": 464,
+      "gene": 153,
+      "cpg_island": 81,
+      "methylation_cpg": 80
+    },
+    "edge_count": 2315,
+    "merged_grna_sites": 464,
+    "subregion_hg38_distribution": {
+      "pws_icr": 373,
+      "snrpn_snh14": 75,
+      "pws_critical": 9,
+      "snord116_cluster": 4,
+      "outside_pws_critical": 3
+    }
+  },
+  "top_design_hg38": {
+    "grna_id": "PWS_G.9414",
+    "protospacer": "CAGTTCAGGGCATGAGATAA",
+    "editor_system": "dCas9-VP64",
+    "chrom_hg38": "chr15",
+    "start_hg38": 24862855,
+    "end_hg38": 24862875,
+    "start_hg19": 25108002,
+    "subregion_hg38": "snrpn_snh14",
+    "subregion_hg19": "pws_critical",
+    "padj": 7.5e-133,
+    "has_cpg_island": false,
+    "has_atac_in_hypothalamic_neuron": false,
+    "overlapping_genes": "SNHG14",
+    "methylation_delta_edited_vs_nt": NaN,
+    "reactivation_score": 0.203,
+    "subregion_bonus": 0.95,
+    "composite_score_hg38": 0.6483,
+    "genome_build": "GRCh38"
+  }
+}

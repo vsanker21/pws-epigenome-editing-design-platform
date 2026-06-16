@@ -1,0 +1,167 @@
+{
+  "source": "Nemoto et al. 2025 GSE262700",
+  "edited_sample": "guide_plus (epigenome-edited hypothalamic organoids)",
+  "control_sample": "guide_minus (unedited PWS organoids)",
+  "genes": [
+    {
+      "sample": "edited_organoid",
+      "gene_symbol": "SNRPN",
+      "ensembl": "ENSG00000128739",
+      "n_cells": 8791,
+      "mean_counts": 2.0067114093959733,
+      "median_counts": 1.0,
+      "pct_expressing": 58.503014446593106,
+      "total_counts": 17641
+    },
+    {
+      "sample": "edited_organoid",
+      "gene_symbol": "SNHG14",
+      "ensembl": "ENSG00000224078",
+      "n_cells": 8791,
+      "mean_counts": 5.371743828915937,
+      "median_counts": 3.0,
+      "pct_expressing": 73.57524741212603,
+      "total_counts": 47223
+    },
+    {
+      "sample": "edited_organoid",
+      "gene_symbol": "MAGEL2",
+      "ensembl": "ENSG00000254585",
+      "n_cells": 8791,
+      "mean_counts": 0.13809577977476964,
+      "median_counts": 0.0,
+      "pct_expressing": 9.566602206802411,
+      "total_counts": 1214
+    },
+    {
+      "sample": "edited_organoid",
+      "gene_symbol": "NDN",
+      "ensembl": "ENSG00000182636",
+      "n_cells": 8791,
+      "mean_counts": 0.00011375270162666363,
+      "median_counts": 0.0,
+      "pct_expressing": 0.011375270162666363,
+      "total_counts": 1
+    },
+    {
+      "sample": "edited_organoid",
+      "gene_symbol": "MKRN3",
+      "ensembl": "ENSG00000179455",
+      "n_cells": 8791,
+      "mean_counts": 0.010806506654533045,
+      "median_counts": 0.0,
+      "pct_expressing": 0.9327721533386417,
+      "total_counts": 95
+    },
+    {
+      "sample": "edited_organoid",
+      "gene_symbol": "NPAP1",
+      "ensembl": "ENSG00000185823",
+      "n_cells": 8791,
+      "mean_counts": 0.007621431008986463,
+      "median_counts": 0.0,
+      "pct_expressing": 0.75076783073598,
+      "total_counts": 67
+    },
+    {
+      "sample": "edited_organoid",
+      "gene_symbol": "UBE3A",
+      "ensembl": "ENSG00000114062",
+      "n_cells": 8791,
+      "mean_counts": 0.7174382891593676,
+      "median_counts": 0.0,
+      "pct_expressing": 43.624161073825505,
+      "total_counts": 6307
+    },
+    {
+      "sample": "edited_organoid",
+      "gene_symbol": "ATP10A",
+      "ensembl": "ENSG00000206190",
+      "n_cells": 8791,
+      "mean_counts": 0.008531452621999773,
+      "median_counts": 0.0,
+      "pct_expressing": 0.8303947218746446,
+      "total_counts": 75
+    },
+    {
+      "sample": "control_organoid",
+      "gene_symbol": "SNRPN",
+      "ensembl": "ENSG00000128739",
+      "n_cells": 7919,
+      "mean_counts": 0.00037883571157974494,
+      "median_counts": 0.0,
+      "pct_expressing": 0.03788357115797449,
+      "total_counts": 3
+    },
+    {
+      "sample": "control_organoid",
+      "gene_symbol": "SNHG14",
+      "ensembl": "ENSG00000224078",
+      "n_cells": 7919,
+      "mean_counts": 0.03396893547165046,
+      "median_counts": 0.0,
+      "pct_expressing": 3.1948478343225153,
+      "total_counts": 269
+    },
+    {
+      "sample": "control_organoid",
+      "gene_symbol": "MAGEL2",
+      "ensembl": "ENSG00000254585",
+      "n_cells": 7919,
+      "mean_counts": 0.0,
+      "median_counts": 0.0,
+      "pct_expressing": 0.0,
+      "total_counts": 0
+    },
+    {
+      "sample": "control_organoid",
+      "gene_symbol": "NDN",
+      "ensembl": "ENSG00000182636",
+      "n_cells": 7919,
+      "mean_counts": 0.0,
+      "median_counts": 0.0,
+      "pct_expressing": 0.0,
+      "total_counts": 0
+    },
+    {
+      "sample": "control_organoid",
+      "gene_symbol": "MKRN3",
+      "ensembl": "ENSG00000179455",
+      "n_cells": 7919,
+      "mean_counts": 0.0002525571410531633,
+      "median_counts": 0.0,
+      "pct_expressing": 0.025255714105316327,
+      "total_counts": 2
+    },
+    {
+      "sample": "control_organoid",
+      "gene_symbol": "NPAP1",
+      "ensembl": "ENSG00000185823",
+      "n_cells": 7919,
+      "mean_counts": 0.0,
+      "median_counts": 0.0,
+      "pct_expressing": 0.0,
+      "total_counts": 0
+    },
+    {
+      "sample": "control_organoid",
+      "gene_symbol": "UBE3A",
+      "ensembl": "ENSG00000114062",
+      "n_cells": 7919,
+      "mean_counts": 0.6845561308245991,
+      "median_counts": 0.0,
+      "pct_expressing": 42.93471397903776,
+      "total_counts": 5421
+    },
+    {
+      "sample": "control_organoid",
+      "gene_symbol": "ATP10A",
+      "ensembl": "ENSG00000206190",
+      "n_cells": 7919,
+      "mean_counts": 0.0029044071221113778,
+      "median_counts": 0.0,
+      "pct_expressing": 0.29044071221113776,
+      "total_counts": 23
+    }
+  ]
+}

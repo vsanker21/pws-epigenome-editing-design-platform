@@ -1,0 +1,60 @@
+{
+  "method": "Non-dominated sorting (4-objective Pareto frontier)",
+  "objectives": [
+    "SNRPN_window_score",
+    "SNHG14_window_score",
+    "safety_proxy",
+    "confidence"
+  ],
+  "n_total_designs": 121,
+  "n_pareto_optimal": 5,
+  "pareto_fraction": 0.041,
+  "top_pareto_designs": [
+    {
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna_id": "PWS_G.4670",
+      "vp64_grna_id": "PWS_G.4662",
+      "predicted_SNRPN_pct_WT": 70.0,
+      "predicted_SNHG14_pct_WT": 98.3,
+      "obj_SNRPN": 1.0,
+      "obj_SNHG14": 1.0
+    },
+    {
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna_id": "PWS_G.4670",
+      "vp64_grna_id": "PWS_G.5117",
+      "predicted_SNRPN_pct_WT": 70.0,
+      "predicted_SNHG14_pct_WT": 98.3,
+      "obj_SNRPN": 1.0,
+      "obj_SNHG14": 1.0
+    },
+    {
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna_id": "PWS_G.4670",
+      "vp64_grna_id": "PWS_G.8738",
+      "predicted_SNRPN_pct_WT": 70.0,
+      "predicted_SNHG14_pct_WT": 98.3,
+      "obj_SNRPN": 1.0,
+      "obj_SNHG14": 1.0
+    },
+    {
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna_id": "PWS_G.4670",
+      "vp64_grna_id": "PWS_G.9414",
+      "predicted_SNRPN_pct_WT": 70.0,
+      "predicted_SNHG14_pct_WT": 98.3,
+      "obj_SNRPN": 1.0,
+      "obj_SNHG14": 1.0
+    },
+    {
+      "strategy": "Tet1_monotherapy",
+      "tet1_grna_id": "PWS_G.4670",
+      "vp64_grna_id": NaN,
+      "predicted_SNRPN_pct_WT": 52.3,
+      "predicted_SNHG14_pct_WT": 99.6,
+      "obj_SNRPN": 0.7471428571428571,
+      "obj_SNHG14": 1.0
+    }
+  ],
+  "interpretation": "Multiple designs achieve dual-gene window simultaneously; Pareto frontier identifies trade-off boundary between SNRPN rescue, SNHG14 rescue, and uncertainty. Hybrid designs with both_in_window=True dominate the frontier."
+}

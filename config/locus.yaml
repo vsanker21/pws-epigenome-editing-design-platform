@@ -1,0 +1,69 @@
+# 15q11.2-q13 PWS critical region (GRCh38/hg38)
+# Coordinates from GeneReviews, ClinGen, and published PWS epigenome-editing studies.
+# Rationale: captures PWS-ICR through SNORD116 cluster and flanking GABAA receptor genes.
+
+genome_build: GRCh38
+chromosome: chr15
+
+regions:
+  pws_critical:
+    start: 24800000   # hg38: includes SNHG14 (24,823,607)
+    end: 32700000
+    description: "Full PWS/Angelman critical region including imprinting center"
+
+  pws_icr:
+    start: 24940000
+    end: 25010000
+    description: "PWS imprinting control region (PWS-ICR); hg38 lifted from Gersbach Tet1 hits ~24,954,921"
+
+  snrpn_snh14:
+    start: 24850000
+    end: 25450000
+    description: "SNRPN-SNHG14 transcriptional unit (hg38)"
+
+  snord116_cluster:
+    start: 25000000
+    end: 26800000
+    description: "SNORD116 snoRNA cluster"
+
+  gabaa_cluster:
+    start: 28500000
+    end: 31000000
+    description: "GABRB3, GABRA5, GABRG3 cluster (preserve in editing design)"
+
+key_genes:
+  paternally_expressed:
+    - SNRPN
+    - SNHG14
+    - SNORD116-1
+    - IPW
+    - PAR5
+    - PAR-SNCG
+    - MKRN3
+    - MAGEL2
+    - NDN
+    - NPAP1
+  maternally_expressed:
+    - UBE3A
+    - ATP10A
+  regulatory:
+    - PWS-ICR
+    - AS-ICR
+
+imprinting_mechanism:
+  pws_subtype_focus: maternal_UPD15
+  rationale: >
+    In maternal UPD15, both alleles are maternal and epigenetically silenced at PWS-ICR.
+    DNA sequence is intact; therapeutic target is epigenetic reactivation.
+  editor_priority:
+    - dCas9-SunTag-TET1   # Nemoto 2025; Gersbach 2025 - validated demethylation
+    - dCas9-TET1
+    - dCas9-p300          # activation at distinct elements (Cell Genomics 2025)
+    - G9a_EHMT2_inhibitor # Kim 2017 - systemic but proof-of-concept
+
+therapeutic_target_state:
+  expression_window_pct: [70, 130]  # % of control paternal expression
+  genes:
+    - SNRPN
+    - SNHG14
+    - SNORD116 cluster

@@ -1,0 +1,360 @@
+{
+  "assessment_type": "genome_wide_offtarget_seed_scan",
+  "reference": {
+    "genome": "hg38",
+    "source": "UCSC hgdownload",
+    "chromosomes": [
+      "chr1",
+      "chr2",
+      "chr3",
+      "chr4",
+      "chr5",
+      "chr6",
+      "chr7",
+      "chr8",
+      "chr9",
+      "chr10",
+      "chr11",
+      "chr12",
+      "chr13",
+      "chr14",
+      "chr15",
+      "chr16",
+      "chr17",
+      "chr18",
+      "chr19",
+      "chr20",
+      "chr21",
+      "chr22",
+      "chrX",
+      "chrY",
+      "chrM"
+    ],
+    "chromosome_stats": {
+      "chr1": {
+        "scanned": true,
+        "length": 248956422
+      },
+      "chr2": {
+        "scanned": true,
+        "length": 242193529
+      },
+      "chr3": {
+        "scanned": true,
+        "length": 198295559
+      },
+      "chr4": {
+        "scanned": true,
+        "length": 190214555
+      },
+      "chr5": {
+        "scanned": true,
+        "length": 181538259
+      },
+      "chr6": {
+        "scanned": true,
+        "length": 170805979
+      },
+      "chr7": {
+        "scanned": true,
+        "length": 159345973
+      },
+      "chr8": {
+        "scanned": true,
+        "length": 145138636
+      },
+      "chr9": {
+        "scanned": true,
+        "length": 138394717
+      },
+      "chr10": {
+        "scanned": true,
+        "length": 133797422
+      },
+      "chr11": {
+        "scanned": true,
+        "length": 135086622
+      },
+      "chr12": {
+        "scanned": true,
+        "length": 133275309
+      },
+      "chr13": {
+        "scanned": true,
+        "length": 114364328
+      },
+      "chr14": {
+        "scanned": true,
+        "length": 107043718
+      },
+      "chr15": {
+        "scanned": true,
+        "length": 101991189
+      },
+      "chr16": {
+        "scanned": true,
+        "length": 90338345
+      },
+      "chr17": {
+        "scanned": true,
+        "length": 83257441
+      },
+      "chr18": {
+        "scanned": true,
+        "length": 80373285
+      },
+      "chr19": {
+        "scanned": true,
+        "length": 58617616
+      },
+      "chr20": {
+        "scanned": true,
+        "length": 64444167
+      },
+      "chr21": {
+        "scanned": true,
+        "length": 46709983
+      },
+      "chr22": {
+        "scanned": true,
+        "length": 50818468
+      },
+      "chrX": {
+        "scanned": true,
+        "length": 156040895
+      },
+      "chrY": {
+        "scanned": true,
+        "length": 57227415
+      },
+      "chrM": {
+        "scanned": true,
+        "length": 16569
+      }
+    }
+  },
+  "parameters": {
+    "pam": "SpCas9 NGG",
+    "guide_len": 20,
+    "seed_len": 12,
+    "max_seed_mismatches": 1,
+    "max_total_mismatches": 4
+  },
+  "per_guide": {
+    "PWS_G.4627": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 0,
+        "mm4": 32
+      },
+      "risk_score": 3.0,
+      "risk_label": "low"
+    },
+    "PWS_G.4662": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 1,
+        "mm3": 4,
+        "mm4": 32
+      },
+      "risk_score": 3.75,
+      "risk_label": "low"
+    },
+    "PWS_G.6065": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 4,
+        "mm4": 20
+      },
+      "risk_score": 2.75,
+      "risk_label": "low"
+    },
+    "PWS_G.2815": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 2,
+        "mm4": 9
+      },
+      "risk_score": 1.812,
+      "risk_label": "low"
+    },
+    "PWS_G.10218": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 8,
+        "mm4": 21
+      },
+      "risk_score": 3.312,
+      "risk_label": "low"
+    },
+    "PWS_G.8738": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 4,
+        "mm4": 15
+      },
+      "risk_score": 2.438,
+      "risk_label": "low"
+    },
+    "PWS_G.6318": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 1,
+        "mm3": 7,
+        "mm4": 29
+      },
+      "risk_score": 3.938,
+      "risk_label": "low"
+    },
+    "PWS_G.5117": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 4,
+        "mm4": 26
+      },
+      "risk_score": 3.125,
+      "risk_label": "low"
+    },
+    "PWS_G.4521": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 1,
+        "mm4": 9
+      },
+      "risk_score": 1.688,
+      "risk_label": "low"
+    },
+    "PWS_G.4862": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 2,
+        "mm4": 11
+      },
+      "risk_score": 1.938,
+      "risk_label": "low"
+    },
+    "PWS_G.3858": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 1,
+        "mm4": 12
+      },
+      "risk_score": 1.875,
+      "risk_label": "low"
+    },
+    "PWS_G.9414": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 1,
+        "mm3": 2,
+        "mm4": 18
+      },
+      "risk_score": 2.625,
+      "risk_label": "low"
+    },
+    "PWS_G.5691": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 2,
+        "mm4": 5
+      },
+      "risk_score": 1.562,
+      "risk_label": "low"
+    },
+    "PWS_G.5029": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 3,
+        "mm4": 22
+      },
+      "risk_score": 2.75,
+      "risk_label": "low"
+    },
+    "PWS_G.5452": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 2,
+        "mm4": 6
+      },
+      "risk_score": 1.625,
+      "risk_label": "low"
+    },
+    "PWS_G.4670": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 1,
+        "mm4": 5
+      },
+      "risk_score": 1.438,
+      "risk_label": "low"
+    },
+    "PWS_G.1288": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 0,
+        "mm4": 1
+      },
+      "risk_score": 1.062,
+      "risk_label": "low"
+    },
+    "PWS_G.3437": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 0,
+        "mm4": 4
+      },
+      "risk_score": 1.25,
+      "risk_label": "low"
+    },
+    "PWS_G.5274": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 1,
+        "mm4": 5
+      },
+      "risk_score": 1.438,
+      "risk_label": "low"
+    }
+  },
+  "limitations": [
+    "Mismatch-only model; no RNA-DNA bulges",
+    "Does not model chromatin accessibility",
+    "mm0 hits include intended on-target sites",
+    "Derived from Cas-OFFinder-style scan"
+  ]
+}

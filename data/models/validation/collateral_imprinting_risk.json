@@ -1,0 +1,384 @@
+{
+  "assessment_type": "collateral_imprinting_risk",
+  "gabaa_cluster_hg38": [
+    28500000,
+    31000000
+  ],
+  "bulk_collateral": {
+    "collateral_expression": [
+      {
+        "editor": "dCas9-Tet1",
+        "gene": "UBE3A",
+        "pct_of_WT": 51.834289992513106,
+        "risk_level": "low"
+      },
+      {
+        "editor": "dCas9-Tet1",
+        "gene": "ATP10A",
+        "pct_of_WT": 65.24486571879936,
+        "risk_level": "low"
+      },
+      {
+        "editor": "dCas9-Tet1",
+        "gene": "NDN",
+        "pct_of_WT": 0.0,
+        "risk_level": "high"
+      },
+      {
+        "editor": "dCas9-Tet1",
+        "gene": "MKRN3",
+        "pct_of_WT": 0.0,
+        "risk_level": "high"
+      },
+      {
+        "editor": "dCas9-Tet1",
+        "gene": "NPAP1",
+        "pct_of_WT": 57.05045278137128,
+        "risk_level": "low"
+      },
+      {
+        "editor": "dCas9-VP64",
+        "gene": "UBE3A",
+        "pct_of_WT": 47.45631668470698,
+        "risk_level": "moderate"
+      },
+      {
+        "editor": "dCas9-VP64",
+        "gene": "ATP10A",
+        "pct_of_WT": 34.00926998841251,
+        "risk_level": "moderate"
+      },
+      {
+        "editor": "dCas9-VP64",
+        "gene": "NDN",
+        "pct_of_WT": 0.059844404548174746,
+        "risk_level": "high"
+      },
+      {
+        "editor": "dCas9-VP64",
+        "gene": "MKRN3",
+        "pct_of_WT": null,
+        "risk_level": "low"
+      },
+      {
+        "editor": "dCas9-VP64",
+        "gene": "NPAP1",
+        "pct_of_WT": 35.29411764705882,
+        "risk_level": "moderate"
+      }
+    ],
+    "Tet1_collateral_summary": "Low changes at UBE3A/ATP10A under Tet1 (observed bulk RNA)",
+    "VP64_collateral_summary": "NPAP1 elevated (~60% WT); SNHG14 absent; check off-target methylation",
+    "vp64_off_icr_methylation_sites": 0,
+    "vp64_off_icr_note": "No VP64 methylation changes measured outside ICR"
+  },
+  "top_design_proximity": [
+    {
+      "rank": 1,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5691",
+      "vp64_grna": "PWS_G.9414",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 2,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5452",
+      "vp64_grna": "PWS_G.6318",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 3,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5452",
+      "vp64_grna": "PWS_G.4662",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 4,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5452",
+      "vp64_grna": "PWS_G.5117",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 5,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5452",
+      "vp64_grna": "PWS_G.3437",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 6,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5452",
+      "vp64_grna": "PWS_G.4862",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 7,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5452",
+      "vp64_grna": "PWS_G.10218",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 8,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5452",
+      "vp64_grna": "PWS_G.8738",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 9,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5452",
+      "vp64_grna": "PWS_G.9414",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 10,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.3437",
+      "vp64_grna": "PWS_G.6318",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 11,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.3437",
+      "vp64_grna": "PWS_G.4662",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 12,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.3437",
+      "vp64_grna": "PWS_G.5117",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 13,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.3437",
+      "vp64_grna": "PWS_G.3437",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 14,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.3437",
+      "vp64_grna": "PWS_G.4862",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 15,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.3437",
+      "vp64_grna": "PWS_G.10218",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 16,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.3437",
+      "vp64_grna": "PWS_G.8738",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 17,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.3437",
+      "vp64_grna": "PWS_G.9414",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 18,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.4670",
+      "vp64_grna": "PWS_G.6318",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 19,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.4670",
+      "vp64_grna": "PWS_G.4662",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 20,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.4670",
+      "vp64_grna": "PWS_G.5117",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 21,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.4670",
+      "vp64_grna": "PWS_G.3437",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 22,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.4670",
+      "vp64_grna": "PWS_G.4862",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 23,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.4670",
+      "vp64_grna": "PWS_G.10218",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 24,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.4670",
+      "vp64_grna": "PWS_G.8738",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 25,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.4670",
+      "vp64_grna": "PWS_G.9414",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 26,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5691",
+      "vp64_grna": "PWS_G.3437",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 27,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5691",
+      "vp64_grna": "PWS_G.8738",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 28,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5691",
+      "vp64_grna": "PWS_G.10218",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 29,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5691",
+      "vp64_grna": "PWS_G.4862",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    },
+    {
+      "rank": 30,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5691",
+      "vp64_grna": "PWS_G.4662",
+      "gabaa_proximity_flags": [
+        "none"
+      ],
+      "collateral_risk_score": 0.0
+    }
+  ],
+  "overall_collateral_risk": "low_to_moderate",
+  "rationale": "All top Tet1 guides target PWS-ICR (~24.95M hg38), >3.5 Mb from GABAA cluster (~28.5M). Tet1 bulk RNA shows minimal collateral expression changes. VP64 carries higher risk (SNRPN overshoot, distant methylation sites) \u2014 hybrid designs use minimal VP64 dose to mitigate.",
+  "recommendations": [
+    "Monitor UBE3A and ATP10A expression in any experimental validation",
+    "Genome-wide methylation array recommended before clinical translation",
+    "Prefer Tet1-primary hybrid over VP64 monotherapy"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "manifest_source": "http://hgdownload.soe.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeHaibMethyl450/supplemental/wgEncodeHaibMethyl450CpgIslandDetails.txt",
+  "manifest_probes_chr15": 15259,
+  "pws_window": "chr15:24800000-32700000",
+  "gse28525": {
+    "probes_in_window": 71,
+    "imprinted_dmrs_in_window": 10,
+    "icr_imprinted_dmrs": 3,
+    "pws_icr_maternally_methylated_probes": 3
+  },
+  "gse298378": {
+    "probes_in_window": 1544,
+    "mean_beta_range": [
+      0.00919120275,
+      0.9797747875
+    ],
+    "n_samples": 8
+  },
+  "scientific_rationale": "Probe-level mapping anchors methylation array data to hg38 PWS coordinates, enabling collateral imprinting risk assessment at known imprinted DMRs.",
+  "outputs": {
+    "manifest": "G:\\Prader Willi Syndrome\\data\\manifests\\methylation450_chr15_hg38.parquet",
+    "gse28525": "G:\\Prader Willi Syndrome\\data\\curated\\gse28525_pws_probe_methylation.csv",
+    "gse298378": "G:\\Prader Willi Syndrome\\data\\curated\\gse298378_pws_probe_methylation.csv"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "validation_type": "organoid_quantitative_concordance",
+  "organoid_source": "Nemoto et al. 2025 Nat Commun \u2014 GSE262700",
+  "bulk_source": "Rohm et al. 2025 Cell Genomics \u2014 GSE243185/GSE285306",
+  "editor_construct_note": "Organoids: SunTag-dCas9-TET1; Screens/bulk: dCas9-Tet1/VP64. Same mechanism class (TET1 demethylation) but different delivery/format.",
+  "direction_concordance": {
+    "genes": [
+      {
+        "gene": "SNRPN",
+        "organoid_fold_change": 5297.049217002237,
+        "organoid_direction": "up",
+        "bulk_pct_WT": 52.336,
+        "bulk_direction": "up",
+        "direction_concordant": true
+      },
+      {
+        "gene": "SNHG14",
+        "organoid_fold_change": 158.13694937243608,
+        "organoid_direction": "up",
+        "bulk_pct_WT": 99.629,
+        "bulk_direction": "up",
+        "direction_concordant": true
+      }
+    ],
+    "all_concordant": true
+  },
+  "magnitude_comparison": {
+    "organoid": {
+      "SNRPN_fold_change": 5297.0,
+      "SNHG14_fold_change": 158.1,
+      "SNRPN_pct_cells_expressing_edited": 58.50301444659311,
+      "SNHG14_pct_cells_expressing_edited": 73.57524741212603,
+      "SNRPN_mean_counts_edited": 2.0067114093959733,
+      "SNHG14_mean_counts_edited": 5.371743828915937
+    },
+    "bulk_rna_GSE243185": {
+      "SNRPN_pct_WT": 52.3,
+      "SNHG14_pct_WT": 99.6
+    },
+    "scale_mismatch_note": "Organoid FC uses PWS organoid baseline (near-zero expression); bulk %WT uses healthy iPSC WT denominator. Magnitudes are NOT directly comparable. Both confirm Tet1-class editing reactivates SNRPN and SNHG14.",
+    "SNHG14_organoid_stronger_relative": false,
+    "interpretation": "Organoid shows massive reactivation from silenced baseline (5297\u00d7 SNRPN). Bulk RNA shows partial SNRPN rescue (52% WT) but near-complete SNHG14 (100% WT). Pattern is consistent: SNHG14 rescues more completely than SNRPN under ICR demethylation."
+  },
+  "hybrid_model_support": {
+    "Tet1_SNRPN_partial": true,
+    "Tet1_SNHG14_near_complete": true,
+    "VP64_SNRPN_overshoot": true,
+    "VP64_SNHG14_absent": true,
+    "hybrid_strategy_justified": true,
+    "rationale": "Bulk RNA pattern supports hybrid: Tet1 for SNHG14/ICR, minimal VP64 for SNRPN gap. Organoid confirms biological feasibility of Tet1-class approach in hypothalamic tissue."
+  },
+  "overall_pass": true
+}

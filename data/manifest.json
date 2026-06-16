@@ -1,0 +1,391 @@
+{
+  "last_updated": "2026-06-16T10:56:30.377079+00:00",
+  "files": {
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243185/suppl/GSE243185_Tet1v4-featurecounts.csv.gz": {
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243185/suppl/GSE243185_Tet1v4-featurecounts.csv.gz",
+      "path": "data\\gse285306\\GSE243185_Tet1v4-featurecounts.csv.gz",
+      "status": "failed",
+      "error": "No connection adapters were found for 'ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243185/suppl/GSE243185_Tet1v4-featurecounts.csv.gz'"
+    },
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243185/suppl/GSE243185_VP64_featurecounts.csv.gz": {
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243185/suppl/GSE243185_VP64_featurecounts.csv.gz",
+      "path": "data\\gse285306\\GSE243185_VP64_featurecounts.csv.gz",
+      "status": "failed",
+      "error": "No connection adapters were found for 'ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243185/suppl/GSE243185_VP64_featurecounts.csv.gz'"
+    },
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285289/suppl/GSE285289_Tet1_sublib_results.csv.gz": {
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285289/suppl/GSE285289_Tet1_sublib_results.csv.gz",
+      "path": "data\\gse285306\\GSE285289_Tet1_sublib_results.csv.gz",
+      "status": "failed",
+      "error": "No connection adapters were found for 'ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285289/suppl/GSE285289_Tet1_sublib_results.csv.gz'"
+    },
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285300/suppl/GSE285300_filtered_methylation_values_Tet1.csv.gz": {
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285300/suppl/GSE285300_filtered_methylation_values_Tet1.csv.gz",
+      "path": "data\\gse285306\\GSE285300_filtered_methylation_values_Tet1.csv.gz",
+      "status": "failed",
+      "error": "No connection adapters were found for 'ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285300/suppl/GSE285300_filtered_methylation_values_Tet1.csv.gz'"
+    },
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285300/suppl/GSE285300_filtered_methylation_values_VP64.csv.gz": {
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285300/suppl/GSE285300_filtered_methylation_values_VP64.csv.gz",
+      "path": "data\\gse285306\\GSE285300_filtered_methylation_values_VP64.csv.gz",
+      "status": "failed",
+      "error": "No connection adapters were found for 'ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285300/suppl/GSE285300_filtered_methylation_values_VP64.csv.gz'"
+    },
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285305/suppl/GSE285305_Tet1-featurecounts.csv.gz": {
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285305/suppl/GSE285305_Tet1-featurecounts.csv.gz",
+      "path": "data\\gse285306\\GSE285305_Tet1-featurecounts.csv.gz",
+      "status": "failed",
+      "error": "No connection adapters were found for 'ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285305/suppl/GSE285305_Tet1-featurecounts.csv.gz'"
+    },
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285305/suppl/GSE285305_VP64-featurecounts.csv.gz": {
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285305/suppl/GSE285305_VP64-featurecounts.csv.gz",
+      "path": "data\\gse285306\\GSE285305_VP64-featurecounts.csv.gz",
+      "status": "failed",
+      "error": "No connection adapters were found for 'ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285305/suppl/GSE285305_VP64-featurecounts.csv.gz'"
+    },
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE262nnn/GSE262700/suppl/GSE262700_RAW.tar": {
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE262nnn/GSE262700/suppl/GSE262700_RAW.tar",
+      "path": "data\\gse262700\\GSE262700_RAW.tar",
+      "status": "failed",
+      "error": "No connection adapters were found for 'ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE262nnn/GSE262700/suppl/GSE262700_RAW.tar'"
+    },
+    "http://crisprepi.beyondthe.top:580/assets/download/organism/Homo_sapiens.tsv.gz": {
+      "url": "http://crisprepi.beyondthe.top:580/assets/download/organism/Homo_sapiens.tsv.gz",
+      "path": "data\\crisprepi\\Homo_sapiens.tsv.gz",
+      "size_bytes": 41514,
+      "status": "skipped_existing",
+      "sha256": "2455dc9ae409f6b0f289dc59427a1192f3aa2610f53b1645950f56980d3df895"
+    },
+    "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_Tet1.tsv.gz": {
+      "url": "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_Tet1.tsv.gz",
+      "path": "data\\crisprepi\\dCas9_Tet1.tsv.gz",
+      "size_bytes": 700,
+      "status": "skipped_existing",
+      "sha256": "0aad03e65b8cb49b0ccdb43b6526017d8c174ce53438428acb47a2fe6beb8b0e"
+    },
+    "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_SunTag14aa_TET1cd.tsv.gz": {
+      "url": "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_SunTag14aa_TET1cd.tsv.gz",
+      "path": "data\\crisprepi\\dCas9_SunTag14aa_TET1cd.tsv.gz",
+      "size_bytes": 402,
+      "status": "skipped_existing",
+      "sha256": "bd8a2f2fef451e5e62725414a8d171173611033b5189f43c52e62c59fc0152b6"
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243185/suppl/GSE243185_Tet1v4-featurecounts.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243185/suppl/GSE243185_Tet1v4-featurecounts.csv.gz",
+      "path": "data\\gse243185\\GSE243185_Tet1v4-featurecounts.csv.gz",
+      "size_bytes": 714988,
+      "status": "downloaded",
+      "sha256": "e9cf5ad6bd43bd132025e4dbee57150664ea1f6a4cf68e9e780da0474b10b229",
+      "elapsed_sec": 1.0
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243185/suppl/GSE243185_VP64_featurecounts.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243185/suppl/GSE243185_VP64_featurecounts.csv.gz",
+      "path": "data\\gse243185\\GSE243185_VP64_featurecounts.csv.gz",
+      "size_bytes": 696800,
+      "status": "downloaded",
+      "sha256": "26470c72fb957bf382bdc2ac4063591d462d3735c0691006982714cd8f1a1f5b",
+      "elapsed_sec": 1.1
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285289/suppl/GSE285289_Tet1_sublib_results.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285289/suppl/GSE285289_Tet1_sublib_results.csv.gz",
+      "path": "data\\gse285289\\GSE285289_Tet1_sublib_results.csv.gz",
+      "size_bytes": 19569,
+      "status": "downloaded",
+      "sha256": "c88f9d5810877d10017f748b92e8b292bd5ace7b493b95f1c32234f436b65a31",
+      "elapsed_sec": 0.3
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285300/suppl/GSE285300_filtered_methylation_values_Tet1.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285300/suppl/GSE285300_filtered_methylation_values_Tet1.csv.gz",
+      "path": "data\\gse285300\\GSE285300_filtered_methylation_values_Tet1.csv.gz",
+      "size_bytes": 3744,
+      "status": "downloaded",
+      "sha256": "51ceb2380c5ec3ff3cab036aeb8d2f64764f38446258d9070353ea984c3f3a5a",
+      "elapsed_sec": 0.2
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285300/suppl/GSE285300_filtered_methylation_values_VP64.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285300/suppl/GSE285300_filtered_methylation_values_VP64.csv.gz",
+      "path": "data\\gse285300\\GSE285300_filtered_methylation_values_VP64.csv.gz",
+      "size_bytes": 3150,
+      "status": "downloaded",
+      "sha256": "dad3308d91b7683bf0f8f636abd2816cec7961198d83aed23c4fbd3a0ee1146f",
+      "elapsed_sec": 0.2
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285305/suppl/GSE285305_Tet1-featurecounts.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285305/suppl/GSE285305_Tet1-featurecounts.csv.gz",
+      "path": "data\\gse285305\\GSE285305_Tet1-featurecounts.csv.gz",
+      "size_bytes": 4666006,
+      "status": "downloaded",
+      "sha256": "e6d18c42270c8d913fcddeb3918eb8b5cdd72c947a4c82a645321bb9ac1af188",
+      "elapsed_sec": 0.9
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285305/suppl/GSE285305_VP64-featurecounts.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285305/suppl/GSE285305_VP64-featurecounts.csv.gz",
+      "path": "data\\gse285305\\GSE285305_VP64-featurecounts.csv.gz",
+      "size_bytes": 5133424,
+      "status": "downloaded",
+      "sha256": "b77a848c22b3922fbbde9b6f1b8e46723b8bc9df03d8134aa324af1914e143d6",
+      "elapsed_sec": 4.6
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE262nnn/GSE262700/suppl/GSE262700_RAW.tar": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE262nnn/GSE262700/suppl/GSE262700_RAW.tar",
+      "path": "data\\gse262700\\GSE262700_RAW.tar",
+      "size_bytes": 202629120,
+      "status": "skipped_existing",
+      "sha256": "47904a0b8566f197f5a7e513098d85a695af2d9c6bb0d6b62aafd8584679f3d1"
+    },
+    "http://crisprepi.beyondthe.top:580/assets/download/organism/Mus_musculus.tsv.gz": {
+      "url": "http://crisprepi.beyondthe.top:580/assets/download/organism/Mus_musculus.tsv.gz",
+      "path": "data\\crisprepi\\Mus_musculus.tsv.gz",
+      "size_bytes": 9453,
+      "status": "downloaded",
+      "sha256": "4e4b5b5dfa6f82313be62b8921d2eeb67e8c9e16211be6e1dfe4c8af721aca18",
+      "elapsed_sec": 0.5
+    },
+    "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_SunTag22aa_TET1cd.tsv.gz": {
+      "url": "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_SunTag22aa_TET1cd.tsv.gz",
+      "path": "data\\crisprepi\\dCas9_SunTag22aa_TET1cd.tsv.gz",
+      "size_bytes": 529,
+      "status": "downloaded",
+      "sha256": "bbd48fd1279294c7586227fe2ddeef7190f2d07beb10cee0e8a2c4c65fe32dac",
+      "elapsed_sec": 0.8
+    },
+    "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_VP64.tsv.gz": {
+      "url": "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_VP64.tsv.gz",
+      "path": "data\\crisprepi\\dCas9_VP64.tsv.gz",
+      "size_bytes": 2199,
+      "status": "downloaded",
+      "sha256": "734dc02870190e3305097bf1f51bee94d6d4b16b6e86155de4a71e7ba1e80179",
+      "elapsed_sec": 0.5
+    },
+    "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/VP64_dCas9_VP64.tsv.gz": {
+      "url": "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/VP64_dCas9_VP64.tsv.gz",
+      "path": "data\\crisprepi\\VP64_dCas9_VP64.tsv.gz",
+      "size_bytes": 385,
+      "status": "downloaded",
+      "sha256": "50b2c15ae98fd0466cf0715ad86b75a34f34be3e752df599f3a88c360136be9c",
+      "elapsed_sec": 0.7
+    },
+    "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_KRAB.tsv.gz": {
+      "url": "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_KRAB.tsv.gz",
+      "path": "data\\crisprepi\\dCas9_KRAB.tsv.gz",
+      "size_bytes": 22588,
+      "status": "downloaded",
+      "sha256": "3a5a100e2ab329c05fec981a2c374b4a55dfd2fb7c88593e8d575e0f6cea226c",
+      "elapsed_sec": 0.8
+    },
+    "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_p300.tsv.gz": {
+      "url": "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_p300.tsv.gz",
+      "path": "data\\crisprepi\\dCas9_p300.tsv.gz",
+      "size_bytes": 755,
+      "status": "downloaded",
+      "sha256": "ef46fbab7b7172d089ba0f8b69f18c51665d4244a41f098085844a264682a330",
+      "elapsed_sec": 0.7
+    },
+    "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_SunTag_p300.tsv.gz": {
+      "url": "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_SunTag_p300.tsv.gz",
+      "path": "data\\crisprepi\\dCas9_SunTag_p300.tsv.gz",
+      "size_bytes": 452,
+      "status": "downloaded",
+      "sha256": "0c03f0ab0f1cc90abc54cb33a987fbcc7b1c10ffd09c27a4094f61f68e9c1bf8",
+      "elapsed_sec": 0.8
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152090/suppl/GSE152090_HNvsESC.DE_atacseq_edgeR.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152090/suppl/GSE152090_HNvsESC.DE_atacseq_edgeR.txt.gz",
+      "path": "data\\gse152090\\GSE152090_HNvsESC.DE_atacseq_edgeR.txt.gz",
+      "size_bytes": 7542392,
+      "status": "downloaded",
+      "sha256": "9159bd2af054b30716474d19cf4851f63ec7a1e9024a68ee1801fa98c0a4ad46",
+      "elapsed_sec": 6.0
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152090/suppl/GSE152090_HNvsHP.DE_atacseq_edgeR.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152090/suppl/GSE152090_HNvsHP.DE_atacseq_edgeR.txt.gz",
+      "path": "data\\gse152090\\GSE152090_HNvsHP.DE_atacseq_edgeR.txt.gz",
+      "size_bytes": 7508333,
+      "status": "downloaded",
+      "sha256": "d6bb503f966c95b9fc7d19c3bc1fbf73df52d2c288999fa68dd93bff5ae216f8",
+      "elapsed_sec": 1.2
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152090/suppl/GSE152090_HPvsESC.DE_atacseq_edgeR.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152090/suppl/GSE152090_HPvsESC.DE_atacseq_edgeR.txt.gz",
+      "path": "data\\gse152090\\GSE152090_HPvsESC.DE_atacseq_edgeR.txt.gz",
+      "size_bytes": 7566855,
+      "status": "downloaded",
+      "sha256": "9cda7e9804c743fda39b617e346b3bbf20ec95df71067300f0158dab18c4413e",
+      "elapsed_sec": 1.1
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152090/suppl/GSE152090_HypothalamusESC_atac_counts_fpkm.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152090/suppl/GSE152090_HypothalamusESC_atac_counts_fpkm.txt.gz",
+      "path": "data\\gse152090\\GSE152090_HypothalamusESC_atac_counts_fpkm.txt.gz",
+      "size_bytes": 193086561,
+      "status": "downloaded",
+      "sha256": "436a4e72a6a23f18f221fa07542730be9db9d1f44ba38d3699ca60b700e577c8",
+      "elapsed_sec": 10.2
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152092/suppl/GSE152092_HumanESCells_1frag_chicagoRes.ibed.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152092/suppl/GSE152092_HumanESCells_1frag_chicagoRes.ibed.txt.gz",
+      "path": "data\\gse152092\\GSE152092_HumanESCells_1frag_chicagoRes.ibed.txt.gz",
+      "size_bytes": 3896060,
+      "status": "downloaded",
+      "sha256": "c976e6ee7e1ca430306478613e3baf282b4bc9237675de7d6e0e62115655a994",
+      "elapsed_sec": 0.9
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152092/suppl/GSE152092_HumanESCells_4frag_chicagoRes.ibed.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152092/suppl/GSE152092_HumanESCells_4frag_chicagoRes.ibed.txt.gz",
+      "path": "data\\gse152092\\GSE152092_HumanESCells_4frag_chicagoRes.ibed.txt.gz",
+      "size_bytes": 3495760,
+      "status": "downloaded",
+      "sha256": "449bc432b2f31fbf1cc59583504a4a914f02ab5baab4d16611c729dc52934000",
+      "elapsed_sec": 3.7
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152092/suppl/GSE152092_HypothalamicNeurons_1frag_chicagoRes.ibed.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152092/suppl/GSE152092_HypothalamicNeurons_1frag_chicagoRes.ibed.txt.gz",
+      "path": "data\\gse152092\\GSE152092_HypothalamicNeurons_1frag_chicagoRes.ibed.txt.gz",
+      "size_bytes": 3366683,
+      "status": "downloaded",
+      "sha256": "b7026c904e5d41652788ca439b67157d894b895dec0a56f7954ffe154bc7df1a",
+      "elapsed_sec": 0.8
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152092/suppl/GSE152092_HypothalamicNeurons_4frag_chicagoRes.ibed.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152092/suppl/GSE152092_HypothalamicNeurons_4frag_chicagoRes.ibed.txt.gz",
+      "path": "data\\gse152092\\GSE152092_HypothalamicNeurons_4frag_chicagoRes.ibed.txt.gz",
+      "size_bytes": 2834428,
+      "status": "downloaded",
+      "sha256": "26880b3ce351e75d6f70b6e0d204da2df596b623004719a833428e46327b69e4",
+      "elapsed_sec": 0.8
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152092/suppl/GSE152092_HypothalamicProg_1frag_chicagoRes.ibed.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152092/suppl/GSE152092_HypothalamicProg_1frag_chicagoRes.ibed.txt.gz",
+      "path": "data\\gse152092\\GSE152092_HypothalamicProg_1frag_chicagoRes.ibed.txt.gz",
+      "size_bytes": 3851921,
+      "status": "downloaded",
+      "sha256": "7ecc5611042678264b10902da891a0822343883473e6ba4b2ec1ddd52b0c693b",
+      "elapsed_sec": 0.9
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152092/suppl/GSE152092_HypothalamicProg_4frag_chicagoRes.ibed.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152092/suppl/GSE152092_HypothalamicProg_4frag_chicagoRes.ibed.txt.gz",
+      "path": "data\\gse152092\\GSE152092_HypothalamicProg_4frag_chicagoRes.ibed.txt.gz",
+      "size_bytes": 1784385,
+      "status": "downloaded",
+      "sha256": "97492f1de2f98f9586c3e7c85d24e62e1927db9c12374d140a3b0c99f4c1826b",
+      "elapsed_sec": 2.0
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152097/suppl/GSE152097_ESCvsHN.DE_rnaseq_edgeR.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152097/suppl/GSE152097_ESCvsHN.DE_rnaseq_edgeR.txt.gz",
+      "path": "data\\gse152097\\GSE152097_ESCvsHN.DE_rnaseq_edgeR.txt.gz",
+      "size_bytes": 1000292,
+      "status": "downloaded",
+      "sha256": "b681c4f660cfdad0c41622883347c3816223fff1c6b994c505f77740007afda1",
+      "elapsed_sec": 0.7
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152097/suppl/GSE152097_ESCvsHP.DE_rnaseq_edgeR.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152097/suppl/GSE152097_ESCvsHP.DE_rnaseq_edgeR.txt.gz",
+      "path": "data\\gse152097\\GSE152097_ESCvsHP.DE_rnaseq_edgeR.txt.gz",
+      "size_bytes": 994413,
+      "status": "downloaded",
+      "sha256": "714f00ed1f1f7af9ce15489d103bafc239bee425fc506de0e3f30390c67945aa",
+      "elapsed_sec": 0.6
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152097/suppl/GSE152097_HPvsHN.DE_rnaseq_edgeR.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152097/suppl/GSE152097_HPvsHN.DE_rnaseq_edgeR.txt.gz",
+      "path": "data\\gse152097\\GSE152097_HPvsHN.DE_rnaseq_edgeR.txt.gz",
+      "size_bytes": 996937,
+      "status": "downloaded",
+      "sha256": "3541a2205a89f72a72c5e773992a726b5be0fde94645dcfd5b952249c4f980bc",
+      "elapsed_sec": 1.3
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152097/suppl/GSE152097_HypothalamusESC_rnaseq_tpm_perReplicate.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152097/suppl/GSE152097_HypothalamusESC_rnaseq_tpm_perReplicate.csv.gz",
+      "path": "data\\gse152097\\GSE152097_HypothalamusESC_rnaseq_tpm_perReplicate.csv.gz",
+      "size_bytes": 13482570,
+      "status": "downloaded",
+      "sha256": "6706ae3c9e0ea5c6bd093cbfffd8d05e5da77a756b9559c8c42198634c19e5e4",
+      "elapsed_sec": 2.3
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE28nnn/GSE28525/suppl/GSE28525_signal_intensities.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE28nnn/GSE28525/suppl/GSE28525_signal_intensities.txt.gz",
+      "path": "data\\gse28525\\GSE28525_signal_intensities.txt.gz",
+      "size_bytes": 2316111,
+      "status": "skipped_existing",
+      "sha256": "50feb34216e32ff9c5b1a9c6bebe891955a7c18a759fbec68f548a4c801ce79e"
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285285/suppl/GSE285285_KRAB_full_results_with_counts.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285285/suppl/GSE285285_KRAB_full_results_with_counts.csv.gz",
+      "path": "data\\gse285285\\GSE285285_KRAB_full_results_with_counts.csv.gz",
+      "size_bytes": 718403,
+      "status": "downloaded",
+      "sha256": "9f2cfb26f91e91c05e58e01b93d6425e749e1f181eac8f232bfe35de824ba1c1",
+      "elapsed_sec": 1.3
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285293/suppl/GSE285293_VP64_full_results_with_coords.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285293/suppl/GSE285293_VP64_full_results_with_coords.csv.gz",
+      "path": "data\\gse285293\\GSE285293_VP64_full_results_with_coords.csv.gz",
+      "size_bytes": 703649,
+      "status": "downloaded",
+      "sha256": "fbc0461ae7c44f43961afd2c9434ec29e284db5156e6f4aed583428620a627f1",
+      "elapsed_sec": 0.6
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285295/suppl/GSE285295_VP64_sublib_results.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285295/suppl/GSE285295_VP64_sublib_results.csv.gz",
+      "path": "data\\gse285295\\GSE285295_VP64_sublib_results.csv.gz",
+      "size_bytes": 18671,
+      "status": "downloaded",
+      "sha256": "45f295212e740bccd794cec8f6982e6f8db81ea9093a236bcead038cfba03b22",
+      "elapsed_sec": 0.4
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285302/suppl/GSE285302_neuron_methylation_analysis_coverage.csv.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285302/suppl/GSE285302_neuron_methylation_analysis_coverage.csv.gz",
+      "path": "data\\gse285302\\GSE285302_neuron_methylation_analysis_coverage.csv.gz",
+      "size_bytes": 2890,
+      "status": "downloaded",
+      "sha256": "7fd444c3bf1d724eab72bdf5f9a70a81ae955fe62c88bf6e6e2156ff3b8d588c",
+      "elapsed_sec": 0.3
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE298nnn/GSE298378/suppl/GSE298378_processed_data.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE298nnn/GSE298378/suppl/GSE298378_processed_data.txt.gz",
+      "path": "data\\gse298378\\GSE298378_processed_data.txt.gz",
+      "size_bytes": 235463433,
+      "status": "skipped_existing",
+      "sha256": "99cfb1097ed6cd5d747849d8d824e628fd59c6d2c97b7d5f12395a7f6900109b"
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285306/suppl/GSE285306_RAW.tar": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285306/suppl/GSE285306_RAW.tar",
+      "path": "data\\gse285306\\GSE285306_RAW.tar",
+      "size_bytes": 1239275520,
+      "status": "downloaded",
+      "sha256": "b187445aa95c197ab65b7c93ff8965c32a931477c47d8838006d9401d6981cf5",
+      "elapsed_sec": 99.5
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE298nnn/GSE298378/suppl/GSE298378_RAW.tar": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE298nnn/GSE298378/suppl/GSE298378_RAW.tar",
+      "path": "data\\gse298378\\GSE298378_RAW.tar",
+      "size_bytes": 286863360,
+      "status": "downloaded",
+      "sha256": "69c3f638631464bc48bf12931916f50b92e942b2d8eba4db023829e2172a70f0",
+      "elapsed_sec": 18.0
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE28nnn/GSE28525/suppl/GSE28525_RAW.tar": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE28nnn/GSE28525/suppl/GSE28525_RAW.tar",
+      "path": "data\\gse28525\\GSE28525_RAW.tar",
+      "size_bytes": 6031360,
+      "status": "downloaded",
+      "sha256": "d62dc9234e9d6d6a596212499e870978571d2919953ae0dd58a89c361a0b6aa9",
+      "elapsed_sec": 1.0
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285284/suppl/GSE285284_RAW.tar": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285284/suppl/GSE285284_RAW.tar",
+      "path": "data\\gse285284\\GSE285284_RAW.tar",
+      "size_bytes": 1239275520,
+      "status": "downloaded",
+      "sha256": "b187445aa95c197ab65b7c93ff8965c32a931477c47d8838006d9401d6981cf5",
+      "elapsed_sec": 70.3
+    },
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152098/suppl/GSE152098_RAW.tar": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152098/suppl/GSE152098_RAW.tar",
+      "path": "data\\gse152098\\GSE152098_RAW.tar",
+      "size_bytes": 5124812800,
+      "status": "downloaded",
+      "sha256": "f2c7fcd5508f5a314c8f082204dc644e10255c1c8a2c13c56c747e503f77e966",
+      "elapsed_sec": 234.1
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "reference_build": "GRCh38",
+  "integration_complete": true,
+  "node_counts": {
+    "atac_peak": 897,
+    "grna_target": 464,
+    "gene": 153,
+    "cpg_island": 81,
+    "methylation_cpg": 80
+  },
+  "edge_count": 2315,
+  "merged_grna_sites": 464,
+  "subregion_hg38_distribution": {
+    "pws_icr": 373,
+    "snrpn_snh14": 75,
+    "pws_critical": 9,
+    "snord116_cluster": 4,
+    "outside_pws_critical": 3
+  }
+}

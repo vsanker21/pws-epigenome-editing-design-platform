@@ -1,0 +1,94 @@
+{
+  "expression_window_pct": [
+    70,
+    130
+  ],
+  "genes": {
+    "SNRPN": {
+      "wt_mean_count": 231.83333333333334,
+      "target_min": 162.28333333333333,
+      "target_max": 301.3833333333334
+    },
+    "SNHG14": {
+      "wt_mean_count": 23127.5,
+      "target_min": 16189.25,
+      "target_max": 30065.75
+    }
+  },
+  "editor_outcomes": {
+    "dCas9-Tet1:ATP10A": {
+      "edited_mean_count": 137.66666666666666,
+      "pct_of_wt": 65.24486571879936,
+      "within_target_window": false
+    },
+    "dCas9-Tet1:MKRN3": {
+      "edited_mean_count": 0.0,
+      "pct_of_wt": 0.0,
+      "within_target_window": false
+    },
+    "dCas9-Tet1:NDN": {
+      "edited_mean_count": 0.0,
+      "pct_of_wt": 0.0,
+      "within_target_window": false
+    },
+    "dCas9-Tet1:NPAP1": {
+      "edited_mean_count": 147.0,
+      "pct_of_wt": 57.05045278137128,
+      "within_target_window": false
+    },
+    "dCas9-Tet1:SNHG14": {
+      "edited_mean_count": 12621.0,
+      "pct_of_wt": 99.629,
+      "within_target_window": false,
+      "source": "Rohm2025_published_anchor"
+    },
+    "dCas9-Tet1:SNRPN": {
+      "edited_mean_count": 121.33333333333333,
+      "pct_of_wt": 52.336,
+      "within_target_window": false,
+      "source": "Rohm2025_published_anchor"
+    },
+    "dCas9-Tet1:UBE3A": {
+      "edited_mean_count": 1384.6666666666667,
+      "pct_of_wt": 51.834289992513106,
+      "within_target_window": false
+    },
+    "dCas9-VP64:ATP10A": {
+      "edited_mean_count": 195.66666666666666,
+      "pct_of_wt": 34.00926998841251,
+      "within_target_window": false
+    },
+    "dCas9-VP64:MKRN3": {
+      "edited_mean_count": 0.0,
+      "pct_of_wt": null,
+      "within_target_window": null
+    },
+    "dCas9-VP64:NDN": {
+      "edited_mean_count": 0.3333333333333333,
+      "pct_of_wt": 0.059844404548174746,
+      "within_target_window": false
+    },
+    "dCas9-VP64:NPAP1": {
+      "edited_mean_count": 4.0,
+      "pct_of_wt": 35.29411764705882,
+      "within_target_window": false
+    },
+    "dCas9-VP64:SNHG14": {
+      "edited_mean_count": 5487.666666666667,
+      "pct_of_wt": 0.0,
+      "within_target_window": false,
+      "source": "Rohm2025_published_anchor"
+    },
+    "dCas9-VP64:SNRPN": {
+      "edited_mean_count": 571.0,
+      "pct_of_wt": 246.298,
+      "within_target_window": false,
+      "source": "Rohm2025_published_anchor"
+    },
+    "dCas9-VP64:UBE3A": {
+      "edited_mean_count": 1023.0,
+      "pct_of_wt": 47.45631668470698,
+      "within_target_window": false
+    }
+  }
+}

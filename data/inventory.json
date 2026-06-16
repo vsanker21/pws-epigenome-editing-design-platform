@@ -1,0 +1,518 @@
+{
+  "generated_at": "2026-06-16T10:56:34.484334+00:00",
+  "total_files": 59,
+  "total_bytes": 8612332730,
+  "total_human": "8.0 GB",
+  "datasets": {
+    "crisprepi": {
+      "file_count": 10,
+      "total_bytes": 78977,
+      "files": [
+        "dCas9_KRAB.tsv.gz",
+        "dCas9_p300.tsv.gz",
+        "dCas9_SunTag14aa_TET1cd.tsv.gz",
+        "dCas9_SunTag22aa_TET1cd.tsv.gz",
+        "dCas9_SunTag_p300.tsv.gz",
+        "dCas9_Tet1.tsv.gz",
+        "dCas9_VP64.tsv.gz",
+        "Homo_sapiens.tsv.gz",
+        "Mus_musculus.tsv.gz",
+        "VP64_dCas9_VP64.tsv.gz"
+      ],
+      "total_human": "77.1 KB"
+    },
+    "encode_reference": {
+      "file_count": 1,
+      "total_bytes": 722,
+      "files": [
+        "summary.json"
+      ],
+      "total_human": "722.0 B"
+    },
+    "gse152090": {
+      "file_count": 4,
+      "total_bytes": 215704141,
+      "files": [
+        "GSE152090_HNvsESC.DE_atacseq_edgeR.txt.gz",
+        "GSE152090_HNvsHP.DE_atacseq_edgeR.txt.gz",
+        "GSE152090_HPvsESC.DE_atacseq_edgeR.txt.gz",
+        "GSE152090_HypothalamusESC_atac_counts_fpkm.txt.gz"
+      ],
+      "total_human": "205.7 MB"
+    },
+    "gse152092": {
+      "file_count": 6,
+      "total_bytes": 19229237,
+      "files": [
+        "GSE152092_HumanESCells_1frag_chicagoRes.ibed.txt.gz",
+        "GSE152092_HumanESCells_4frag_chicagoRes.ibed.txt.gz",
+        "GSE152092_HypothalamicNeurons_1frag_chicagoRes.ibed.txt.gz",
+        "GSE152092_HypothalamicNeurons_4frag_chicagoRes.ibed.txt.gz",
+        "GSE152092_HypothalamicProg_1frag_chicagoRes.ibed.txt.gz",
+        "GSE152092_HypothalamicProg_4frag_chicagoRes.ibed.txt.gz"
+      ],
+      "total_human": "18.3 MB"
+    },
+    "gse152097": {
+      "file_count": 4,
+      "total_bytes": 16474212,
+      "files": [
+        "GSE152097_ESCvsHN.DE_rnaseq_edgeR.txt.gz",
+        "GSE152097_ESCvsHP.DE_rnaseq_edgeR.txt.gz",
+        "GSE152097_HPvsHN.DE_rnaseq_edgeR.txt.gz",
+        "GSE152097_HypothalamusESC_rnaseq_tpm_perReplicate.csv.gz"
+      ],
+      "total_human": "15.7 MB"
+    },
+    "gse152098": {
+      "file_count": 1,
+      "total_bytes": 5124812800,
+      "files": [
+        "GSE152098_RAW.tar"
+      ],
+      "total_human": "4.8 GB"
+    },
+    "gse243185": {
+      "file_count": 2,
+      "total_bytes": 1411788,
+      "files": [
+        "GSE243185_Tet1v4-featurecounts.csv.gz",
+        "GSE243185_VP64_featurecounts.csv.gz"
+      ],
+      "total_human": "1.3 MB"
+    },
+    "gse262700": {
+      "file_count": 1,
+      "total_bytes": 202629120,
+      "files": [
+        "GSE262700_RAW.tar"
+      ],
+      "total_human": "193.2 MB"
+    },
+    "gse28525": {
+      "file_count": 2,
+      "total_bytes": 8347471,
+      "files": [
+        "GSE28525_RAW.tar",
+        "GSE28525_signal_intensities.txt.gz"
+      ],
+      "total_human": "8.0 MB"
+    },
+    "gse285284": {
+      "file_count": 1,
+      "total_bytes": 1239275520,
+      "files": [
+        "GSE285284_RAW.tar"
+      ],
+      "total_human": "1.2 GB"
+    },
+    "gse285285": {
+      "file_count": 1,
+      "total_bytes": 718403,
+      "files": [
+        "GSE285285_KRAB_full_results_with_counts.csv.gz"
+      ],
+      "total_human": "701.6 KB"
+    },
+    "gse285289": {
+      "file_count": 1,
+      "total_bytes": 19569,
+      "files": [
+        "GSE285289_Tet1_sublib_results.csv.gz"
+      ],
+      "total_human": "19.1 KB"
+    },
+    "gse285293": {
+      "file_count": 1,
+      "total_bytes": 703649,
+      "files": [
+        "GSE285293_VP64_full_results_with_coords.csv.gz"
+      ],
+      "total_human": "687.2 KB"
+    },
+    "gse285295": {
+      "file_count": 1,
+      "total_bytes": 18671,
+      "files": [
+        "GSE285295_VP64_sublib_results.csv.gz"
+      ],
+      "total_human": "18.2 KB"
+    },
+    "gse285300": {
+      "file_count": 2,
+      "total_bytes": 6894,
+      "files": [
+        "GSE285300_filtered_methylation_values_Tet1.csv.gz",
+        "GSE285300_filtered_methylation_values_VP64.csv.gz"
+      ],
+      "total_human": "6.7 KB"
+    },
+    "gse285302": {
+      "file_count": 1,
+      "total_bytes": 2890,
+      "files": [
+        "GSE285302_neuron_methylation_analysis_coverage.csv.gz"
+      ],
+      "total_human": "2.8 KB"
+    },
+    "gse285305": {
+      "file_count": 2,
+      "total_bytes": 9799430,
+      "files": [
+        "GSE285305_Tet1-featurecounts.csv.gz",
+        "GSE285305_VP64-featurecounts.csv.gz"
+      ],
+      "total_human": "9.3 MB"
+    },
+    "gse285306": {
+      "file_count": 8,
+      "total_bytes": 1250513201,
+      "files": [
+        "GSE243185_Tet1v4-featurecounts.csv.gz",
+        "GSE243185_VP64_featurecounts.csv.gz",
+        "GSE285289_Tet1_sublib_results.csv.gz",
+        "GSE285300_filtered_methylation_values_Tet1.csv.gz",
+        "GSE285300_filtered_methylation_values_VP64.csv.gz",
+        "GSE285305_Tet1-featurecounts.csv.gz",
+        "GSE285305_VP64-featurecounts.csv.gz",
+        "GSE285306_RAW.tar"
+      ],
+      "total_human": "1.2 GB"
+    },
+    "gse298378": {
+      "file_count": 2,
+      "total_bytes": 522326793,
+      "files": [
+        "GSE298378_processed_data.txt.gz",
+        "GSE298378_RAW.tar"
+      ],
+      "total_human": "498.1 MB"
+    },
+    "locus_annotation": {
+      "file_count": 6,
+      "total_bytes": 205145,
+      "files": [
+        "cpg_islands.bed",
+        "cpg_islands.json",
+        "genes.bed",
+        "genes_ucsc.json",
+        "locus_summary.json",
+        "pws_subregions.bed"
+      ],
+      "total_human": "200.3 KB"
+    },
+    "manifest.json": {
+      "file_count": 1,
+      "total_bytes": 24542,
+      "files": [
+        "manifest.json"
+      ],
+      "total_human": "24.0 KB"
+    },
+    "validation_report.json": {
+      "file_count": 1,
+      "total_bytes": 29555,
+      "files": [
+        "validation_report.json"
+      ],
+      "total_human": "28.9 KB"
+    }
+  },
+  "files": [
+    {
+      "path": "crisprepi/dCas9_KRAB.tsv.gz",
+      "size_bytes": 22588,
+      "size_human": "22.1 KB"
+    },
+    {
+      "path": "crisprepi/dCas9_p300.tsv.gz",
+      "size_bytes": 755,
+      "size_human": "755.0 B"
+    },
+    {
+      "path": "crisprepi/dCas9_SunTag14aa_TET1cd.tsv.gz",
+      "size_bytes": 402,
+      "size_human": "402.0 B"
+    },
+    {
+      "path": "crisprepi/dCas9_SunTag22aa_TET1cd.tsv.gz",
+      "size_bytes": 529,
+      "size_human": "529.0 B"
+    },
+    {
+      "path": "crisprepi/dCas9_SunTag_p300.tsv.gz",
+      "size_bytes": 452,
+      "size_human": "452.0 B"
+    },
+    {
+      "path": "crisprepi/dCas9_Tet1.tsv.gz",
+      "size_bytes": 700,
+      "size_human": "700.0 B"
+    },
+    {
+      "path": "crisprepi/dCas9_VP64.tsv.gz",
+      "size_bytes": 2199,
+      "size_human": "2.1 KB"
+    },
+    {
+      "path": "crisprepi/Homo_sapiens.tsv.gz",
+      "size_bytes": 41514,
+      "size_human": "40.5 KB"
+    },
+    {
+      "path": "crisprepi/Mus_musculus.tsv.gz",
+      "size_bytes": 9453,
+      "size_human": "9.2 KB"
+    },
+    {
+      "path": "crisprepi/VP64_dCas9_VP64.tsv.gz",
+      "size_bytes": 385,
+      "size_human": "385.0 B"
+    },
+    {
+      "path": "encode_reference/summary.json",
+      "size_bytes": 722,
+      "size_human": "722.0 B"
+    },
+    {
+      "path": "gse152090/GSE152090_HNvsESC.DE_atacseq_edgeR.txt.gz",
+      "size_bytes": 7542392,
+      "size_human": "7.2 MB"
+    },
+    {
+      "path": "gse152090/GSE152090_HNvsHP.DE_atacseq_edgeR.txt.gz",
+      "size_bytes": 7508333,
+      "size_human": "7.2 MB"
+    },
+    {
+      "path": "gse152090/GSE152090_HPvsESC.DE_atacseq_edgeR.txt.gz",
+      "size_bytes": 7566855,
+      "size_human": "7.2 MB"
+    },
+    {
+      "path": "gse152090/GSE152090_HypothalamusESC_atac_counts_fpkm.txt.gz",
+      "size_bytes": 193086561,
+      "size_human": "184.1 MB"
+    },
+    {
+      "path": "gse152092/GSE152092_HumanESCells_1frag_chicagoRes.ibed.txt.gz",
+      "size_bytes": 3896060,
+      "size_human": "3.7 MB"
+    },
+    {
+      "path": "gse152092/GSE152092_HumanESCells_4frag_chicagoRes.ibed.txt.gz",
+      "size_bytes": 3495760,
+      "size_human": "3.3 MB"
+    },
+    {
+      "path": "gse152092/GSE152092_HypothalamicNeurons_1frag_chicagoRes.ibed.txt.gz",
+      "size_bytes": 3366683,
+      "size_human": "3.2 MB"
+    },
+    {
+      "path": "gse152092/GSE152092_HypothalamicNeurons_4frag_chicagoRes.ibed.txt.gz",
+      "size_bytes": 2834428,
+      "size_human": "2.7 MB"
+    },
+    {
+      "path": "gse152092/GSE152092_HypothalamicProg_1frag_chicagoRes.ibed.txt.gz",
+      "size_bytes": 3851921,
+      "size_human": "3.7 MB"
+    },
+    {
+      "path": "gse152092/GSE152092_HypothalamicProg_4frag_chicagoRes.ibed.txt.gz",
+      "size_bytes": 1784385,
+      "size_human": "1.7 MB"
+    },
+    {
+      "path": "gse152097/GSE152097_ESCvsHN.DE_rnaseq_edgeR.txt.gz",
+      "size_bytes": 1000292,
+      "size_human": "976.8 KB"
+    },
+    {
+      "path": "gse152097/GSE152097_ESCvsHP.DE_rnaseq_edgeR.txt.gz",
+      "size_bytes": 994413,
+      "size_human": "971.1 KB"
+    },
+    {
+      "path": "gse152097/GSE152097_HPvsHN.DE_rnaseq_edgeR.txt.gz",
+      "size_bytes": 996937,
+      "size_human": "973.6 KB"
+    },
+    {
+      "path": "gse152097/GSE152097_HypothalamusESC_rnaseq_tpm_perReplicate.csv.gz",
+      "size_bytes": 13482570,
+      "size_human": "12.9 MB"
+    },
+    {
+      "path": "gse152098/GSE152098_RAW.tar",
+      "size_bytes": 5124812800,
+      "size_human": "4.8 GB"
+    },
+    {
+      "path": "gse243185/GSE243185_Tet1v4-featurecounts.csv.gz",
+      "size_bytes": 714988,
+      "size_human": "698.2 KB"
+    },
+    {
+      "path": "gse243185/GSE243185_VP64_featurecounts.csv.gz",
+      "size_bytes": 696800,
+      "size_human": "680.5 KB"
+    },
+    {
+      "path": "gse262700/GSE262700_RAW.tar",
+      "size_bytes": 202629120,
+      "size_human": "193.2 MB"
+    },
+    {
+      "path": "gse28525/GSE28525_RAW.tar",
+      "size_bytes": 6031360,
+      "size_human": "5.8 MB"
+    },
+    {
+      "path": "gse28525/GSE28525_signal_intensities.txt.gz",
+      "size_bytes": 2316111,
+      "size_human": "2.2 MB"
+    },
+    {
+      "path": "gse285284/GSE285284_RAW.tar",
+      "size_bytes": 1239275520,
+      "size_human": "1.2 GB"
+    },
+    {
+      "path": "gse285285/GSE285285_KRAB_full_results_with_counts.csv.gz",
+      "size_bytes": 718403,
+      "size_human": "701.6 KB"
+    },
+    {
+      "path": "gse285289/GSE285289_Tet1_sublib_results.csv.gz",
+      "size_bytes": 19569,
+      "size_human": "19.1 KB"
+    },
+    {
+      "path": "gse285293/GSE285293_VP64_full_results_with_coords.csv.gz",
+      "size_bytes": 703649,
+      "size_human": "687.2 KB"
+    },
+    {
+      "path": "gse285295/GSE285295_VP64_sublib_results.csv.gz",
+      "size_bytes": 18671,
+      "size_human": "18.2 KB"
+    },
+    {
+      "path": "gse285300/GSE285300_filtered_methylation_values_Tet1.csv.gz",
+      "size_bytes": 3744,
+      "size_human": "3.7 KB"
+    },
+    {
+      "path": "gse285300/GSE285300_filtered_methylation_values_VP64.csv.gz",
+      "size_bytes": 3150,
+      "size_human": "3.1 KB"
+    },
+    {
+      "path": "gse285302/GSE285302_neuron_methylation_analysis_coverage.csv.gz",
+      "size_bytes": 2890,
+      "size_human": "2.8 KB"
+    },
+    {
+      "path": "gse285305/GSE285305_Tet1-featurecounts.csv.gz",
+      "size_bytes": 4666006,
+      "size_human": "4.4 MB"
+    },
+    {
+      "path": "gse285305/GSE285305_VP64-featurecounts.csv.gz",
+      "size_bytes": 5133424,
+      "size_human": "4.9 MB"
+    },
+    {
+      "path": "gse285306/GSE243185_Tet1v4-featurecounts.csv.gz",
+      "size_bytes": 714988,
+      "size_human": "698.2 KB"
+    },
+    {
+      "path": "gse285306/GSE243185_VP64_featurecounts.csv.gz",
+      "size_bytes": 696800,
+      "size_human": "680.5 KB"
+    },
+    {
+      "path": "gse285306/GSE285289_Tet1_sublib_results.csv.gz",
+      "size_bytes": 19569,
+      "size_human": "19.1 KB"
+    },
+    {
+      "path": "gse285306/GSE285300_filtered_methylation_values_Tet1.csv.gz",
+      "size_bytes": 3744,
+      "size_human": "3.7 KB"
+    },
+    {
+      "path": "gse285306/GSE285300_filtered_methylation_values_VP64.csv.gz",
+      "size_bytes": 3150,
+      "size_human": "3.1 KB"
+    },
+    {
+      "path": "gse285306/GSE285305_Tet1-featurecounts.csv.gz",
+      "size_bytes": 4666006,
+      "size_human": "4.4 MB"
+    },
+    {
+      "path": "gse285306/GSE285305_VP64-featurecounts.csv.gz",
+      "size_bytes": 5133424,
+      "size_human": "4.9 MB"
+    },
+    {
+      "path": "gse285306/GSE285306_RAW.tar",
+      "size_bytes": 1239275520,
+      "size_human": "1.2 GB"
+    },
+    {
+      "path": "gse298378/GSE298378_processed_data.txt.gz",
+      "size_bytes": 235463433,
+      "size_human": "224.6 MB"
+    },
+    {
+      "path": "gse298378/GSE298378_RAW.tar",
+      "size_bytes": 286863360,
+      "size_human": "273.6 MB"
+    },
+    {
+      "path": "locus_annotation/cpg_islands.bed",
+      "size_bytes": 2694,
+      "size_human": "2.6 KB"
+    },
+    {
+      "path": "locus_annotation/cpg_islands.json",
+      "size_bytes": 20282,
+      "size_human": "19.8 KB"
+    },
+    {
+      "path": "locus_annotation/genes.bed",
+      "size_bytes": 10832,
+      "size_human": "10.6 KB"
+    },
+    {
+      "path": "locus_annotation/genes_ucsc.json",
+      "size_bytes": 169797,
+      "size_human": "165.8 KB"
+    },
+    {
+      "path": "locus_annotation/locus_summary.json",
+      "size_bytes": 1351,
+      "size_human": "1.3 KB"
+    },
+    {
+      "path": "locus_annotation/pws_subregions.bed",
+      "size_bytes": 189,
+      "size_human": "189.0 B"
+    },
+    {
+      "path": "manifest.json",
+      "size_bytes": 24542,
+      "size_human": "24.0 KB"
+    },
+    {
+      "path": "validation_report.json",
+      "size_bytes": 29555,
+      "size_human": "28.9 KB"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "protocol_version": "1.0",
+  "generated_utc": "2026-06-16T12:26:16.403356+00:00",
+  "title": "Experimental validation of in-silico PWS epigenome-editing designs (maternal UPD15)",
+  "objective": "Test whether computationally prioritized hybrid Tet1+VP64 designs achieve dual-gene reactivation (SNRPN + SNHG14) within 70-130% of paternal-equivalent expression in hypothalamic neurons, with acceptable collateral imprinting profile.",
+  "model_system": {
+    "primary": "PWS UPD15 iPSC-derived hypothalamic neurons or organoids",
+    "rationale": "Clinically relevant cell type; Nemoto 2025 demonstrated Tet1-class reactivation in this system",
+    "reference": "Nemoto et al. Nat Commun 2025 (GSE262700)",
+    "alternative": "PWS UPD15 iPSC neural progenitors (Rohm 2025 protocol)"
+  },
+  "test_arms": [
+    {
+      "arm_id": "A",
+      "label": "Top hybrid (bisulfite-validated Tet1 + minimal VP64)",
+      "design": {
+        "catalog_rank": 1,
+        "strategy": "Hybrid_Tet1_VP64",
+        "tet1_grna_id": "PWS_G.4670",
+        "tet1_protospacer": "GCAGGCTGGCGCGCATGCTC",
+        "tet1_hg38_start": 24954921.0,
+        "vp64_grna_id": "PWS_G.9414",
+        "vp64_protospacer": "CAGTTCAGGGCATGAGATAA",
+        "vp64_hg38_start": 24862855.0,
+        "recommended_w_tet1": 0.987,
+        "recommended_w_vp64": 0.062,
+        "predicted_SNRPN_pct_WT": 70.0,
+        "predicted_SNHG14_pct_WT": 98.3,
+        "both_in_target_window": true,
+        "objective_score": 1.0,
+        "uncertainty": 0.147,
+        "score_lower_bound": NaN,
+        "score_upper_bound": NaN,
+        "experimental_evidence": "top_Tet1_sublib_hit_Rohm2025;top_VP64_SNRPN_promoter_Rohm2025",
+        "validation_priority": 2,
+        "organoid_support": "GSE262700_Tet1_class_reactivation",
+        "collateral_risk": "low_ICR_targeted"
+      },
+      "editors": [
+        "dCas9-SunTag-TET1 or dCas9-Tet1",
+        "dCas9-VP64 (minimal dose ratio ~6%)"
+      ],
+      "priority": "primary"
+    },
+    {
+      "arm_id": "B",
+      "label": "Tet1 monotherapy comparator",
+      "design": {
+        "catalog_rank": 1,
+        "strategy": "Hybrid_Tet1_VP64",
+        "tet1_grna_id": "PWS_G.4670",
+        "tet1_protospacer": "GCAGGCTGGCGCGCATGCTC",
+        "tet1_hg38_start": 24954921.0,
+        "vp64_grna_id": "PWS_G.9414",
+        "vp64_protospacer": "CAGTTCAGGGCATGAGATAA",
+        "vp64_hg38_start": 24862855.0,
+        "recommended_w_tet1": 0.987,
+        "recommended_w_vp64": 0.062,
+        "predicted_SNRPN_pct_WT": 70.0,
+        "predicted_SNHG14_pct_WT": 98.3,
+        "both_in_target_window": true,
+        "objective_score": 1.0,
+        "uncertainty": 0.147,
+        "score_lower_bound": NaN,
+        "score_upper_bound": NaN,
+        "experimental_evidence": "top_Tet1_sublib_hit_Rohm2025;top_VP64_SNRPN_promoter_Rohm2025",
+        "validation_priority": 2,
+        "organoid_support": "GSE262700_Tet1_class_reactivation",
+        "collateral_risk": "low_ICR_targeted"
+      },
+      "editors": [
+        "dCas9-SunTag-TET1 or dCas9-Tet1"
+      ],
+      "priority": "comparator"
+    },
+    {
+      "arm_id": "C",
+      "label": "Non-targeting / unedited PWS UPD15 control",
+      "design": null,
+      "editors": [
+        "non-targeting gRNA or no editor"
+      ],
+      "priority": "control"
+    },
+    {
+      "arm_id": "D",
+      "label": "Healthy (WT) iPSC comparator",
+      "design": null,
+      "editors": [
+        "none"
+      ],
+      "priority": "reference"
+    }
+  ],
+  "delivery": {
+    "options": [
+      "AAV (hypothalamic tropism)",
+      "LNP-mRNA (transient)",
+      "RNP electroporation (iPSC)"
+    ],
+    "recommended_first": "RNP electroporation in iPSC (Rohm 2025) or mRNA/LNP for dose titration",
+    "dose_titration": "Titrate VP64 to avoid SNRPN >130% WT; start at in-silico w_vp64 ~0.06 relative to Tet1"
+  },
+  "primary_endpoints": [
+    {
+      "endpoint": "PWS-ICR CpG methylation",
+      "method": "Targeted bisulfite amplicon sequencing (GSE285300 loci)",
+      "success_criterion": "Edited methylation approaches WT (~40%) from PWS baseline (~95%)",
+      "guides": [
+        "PWS_G.4363 amplicon region"
+      ]
+    },
+    {
+      "endpoint": "SNRPN expression",
+      "method": "qPCR and/or bulk RNA-seq",
+      "success_criterion": "70-130% of WT iPSC SNRPN (paternal-equivalent window)"
+    },
+    {
+      "endpoint": "SNHG14 / SNORD116 expression",
+      "method": "qPCR and/or RNA-seq",
+      "success_criterion": "70-130% of WT; SNHG14 reactivation confirms ICR demethylation"
+    }
+  ],
+  "secondary_endpoints": [
+    {
+      "endpoint": "UBE3A expression",
+      "rationale": "maternally expressed \u2014 collateral imprinting check"
+    },
+    {
+      "endpoint": "ATP10A expression",
+      "rationale": "maternally expressed \u2014 collateral check"
+    },
+    {
+      "endpoint": "GABRB3/GABRA5 expression",
+      "rationale": "GABAA cluster preservation"
+    },
+    {
+      "endpoint": "Genome-wide methylation (optional)",
+      "method": "Illumina EPIC array or WGBS"
+    }
+  ],
+  "sample_size_guidance": {
+    "minimum_per_arm": "n=3 biological replicates",
+    "rationale": "Consistent with Rohm 2025 and Nemoto 2025 replicate structure",
+    "power_note": "Formal power calculation requires pilot variance estimate from Arm A"
+  },
+  "analysis_plan": [
+    "Compare measured SNRPN/SNHG14 %WT to forward model predictions",
+    "Compute Pearson/Spearman correlation with in-silico ranked designs (model refinement)",
+    "Report collateral gene expression as fold-change vs unedited PWS control",
+    "Update phenomenological hybrid dose model with empirical dose-response"
+  ],
+  "go_no_go_criteria": {
+    "go": "Both SNRPN and SNHG14 in 70-130% WT; no >2-fold collateral disruption at UBE3A/GABRB3",
+    "no_go": "SNRPN >200% WT (overshoot) or SNHG14 <50% WT without SNRPN rescue",
+    "iterate": "SNRPN 50-70% WT with SNHG14 in window \u2014 reduce VP64 dose and retest"
+  },
+  "computational_feedback_loop": "Measured outcomes feed back into train_forward_model.py editor priors and optimize_therapeutic_designs.py dose parameters for v2 model."
+}

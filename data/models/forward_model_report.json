@@ -1,0 +1,168 @@
+{
+  "model_approach": "Editor-stratified rules + within-editor Tet1 Ridge (not cross-editor ML)",
+  "primary_score": "rules_reactivation_score",
+  "tet1_within_editor_model": {
+    "status": "trained",
+    "cv_r2_mean": -0.17071841879765573,
+    "cv_r2_std": 0.16502122050915533,
+    "train_spearman": 0.12102747018967695,
+    "n": 57,
+    "features": [
+      "log_dist",
+      "targets_snh14"
+    ]
+  },
+  "validated_guide_benchmark": {
+    "PWS_G.4670": {
+      "found": true,
+      "global_rank": 1,
+      "global_percentile": 99.8,
+      "within_editor_rank": 1,
+      "within_editor_percentile": 98.2,
+      "editor_system": "dCas9-Tet1",
+      "score": 1.02,
+      "description": "Top Tet1 sublib hit (Rohm 2025)"
+    },
+    "PWS_G.4363": {
+      "found": true,
+      "global_rank": 22,
+      "global_percentile": 95.3,
+      "within_editor_rank": 22,
+      "within_editor_percentile": 61.4,
+      "editor_system": "dCas9-Tet1",
+      "score": 1.0033891252646077,
+      "description": "Tet1 guide used in bisulfite validation (GSE285300)"
+    },
+    "PWS_G.9414": {
+      "found": true,
+      "global_rank": 130,
+      "global_percentile": 72.0,
+      "within_editor_rank": 1,
+      "within_editor_percentile": 94.1,
+      "editor_system": "dCas9-VP64",
+      "score": 0.688445,
+      "description": "Top VP64 activation hit (Rohm 2025)"
+    },
+    "PWS_G.8738": {
+      "found": true,
+      "global_rank": 131,
+      "global_percentile": 71.8,
+      "within_editor_rank": 2,
+      "within_editor_percentile": 88.2,
+      "editor_system": "dCas9-VP64",
+      "score": 0.6883950099980004,
+      "description": "VP64 SNRPN promoter hit (Rohm 2025)"
+    }
+  },
+  "organoid_validation": {
+    "status": "validated",
+    "source": "Nemoto et al. 2025 GSE262700",
+    "SNRPN_fold_change": 5297.049217002237,
+    "SNHG14_fold_change": 158.13694937243608,
+    "SNRPN_pct_cells_expressing_edited": 58.5,
+    "SNHG14_pct_cells_expressing_edited": 73.6,
+    "interpretation": "Massive SNRPN/SNHG14 upregulation in edited vs unedited organoids confirms that ICR demethylation (SunTag-TET1) produces durable reactivation in hypothalamic tissue.",
+    "pass": true
+  },
+  "hybrid_therapeutic_strategy": {
+    "rationale": "Tet1 at PWS-ICR restores SNHG14 (~100% WT) but under-restores SNRPN (~52% WT). VP64 at SNRPN promoter hyperactivates SNRPN (~246% WT) without SNHG14 rescue. A hybrid strategy may combine ICR demethylation with minimal VP64 dosing.",
+    "phase_1_icr_demethylation": [
+      {
+        "grna_id": "PWS_G.4670",
+        "start_hg38": 24954921,
+        "protospacer": "GCAGGCTGGCGCGCATGCTC",
+        "rules_reactivation_score": 1.02
+      },
+      {
+        "grna_id": "PWS_G.3437",
+        "start_hg38": 24955035,
+        "protospacer": "CGGTCAGTGACGCGATGGAG",
+        "rules_reactivation_score": 1.0190477722623723
+      },
+      {
+        "grna_id": "PWS_G.5452",
+        "start_hg38": 24954924,
+        "protospacer": "GGCTGGCGCGCATGCTCAGG",
+        "rules_reactivation_score": 1.0184674636533215
+      }
+    ],
+    "phase_2_optional_activation": [
+      {
+        "grna_id": "PWS_G.9414",
+        "start_hg38": 24862855,
+        "protospacer": "CAGTTCAGGGCATGAGATAA",
+        "rules_reactivation_score": 0.688445
+      },
+      {
+        "grna_id": "PWS_G.8738",
+        "start_hg38": 24862854,
+        "protospacer": "ACAGTTCAGGGCATGAGATA",
+        "rules_reactivation_score": 0.6883950099980004
+      },
+      {
+        "grna_id": "PWS_G.10218",
+        "start_hg38": 24862862,
+        "protospacer": "GGGCATGAGATAAGGGCAGT",
+        "rules_reactivation_score": 0.5965082061095951
+      }
+    ],
+    "bulk_rna_evidence": {
+      "Tet1_SNRPN_pct_WT": 52.336,
+      "Tet1_SNHG14_pct_WT": 99.629,
+      "VP64_SNRPN_pct_WT": 246.298
+    },
+    "organoid_evidence": "SNRPN 5297\u00d7 and SNHG14 158\u00d7 in edited organoids (Nemoto 2025)"
+  },
+  "top_5_candidates": [
+    {
+      "rank": 1,
+      "grna_id": "PWS_G.4670",
+      "editor_system": "dCas9-Tet1",
+      "start_hg38": 24954921,
+      "subregion_hg38": "pws_icr",
+      "rules_reactivation_score": 1.02,
+      "padj": 9.2e-15
+    },
+    {
+      "rank": 2,
+      "grna_id": "PWS_G.3437",
+      "editor_system": "dCas9-Tet1",
+      "start_hg38": 24955035,
+      "subregion_hg38": "pws_icr",
+      "rules_reactivation_score": 1.0190477722623723,
+      "padj": 1.16e-08
+    },
+    {
+      "rank": 3,
+      "grna_id": "PWS_G.5452",
+      "editor_system": "dCas9-Tet1",
+      "start_hg38": 24954924,
+      "subregion_hg38": "pws_icr",
+      "rules_reactivation_score": 1.0184674636533215,
+      "padj": 3.68e-06
+    },
+    {
+      "rank": 4,
+      "grna_id": "PWS_G.5691",
+      "editor_system": "dCas9-Tet1",
+      "start_hg38": 24955036,
+      "subregion_hg38": "pws_icr",
+      "rules_reactivation_score": 1.0171354223803553,
+      "padj": 6.94e-08
+    },
+    {
+      "rank": 5,
+      "grna_id": "PWS_G.2815",
+      "editor_system": "dCas9-Tet1",
+      "start_hg38": 24954846,
+      "subregion_hg38": "pws_icr",
+      "rules_reactivation_score": 1.015412680384875,
+      "padj": 2.3e-06
+    }
+  ],
+  "scientific_caveats": [
+    "Rules score uses editor-level bulk RNA priors \u2014 not guide-resolved expression",
+    "Tet1 within-editor ML captures distance-to-ICR effect; VP64 uses rules only",
+    "Organoid validation confirms biological feasibility but is not a guide-level benchmark"
+  ]
+}

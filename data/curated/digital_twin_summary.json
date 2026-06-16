@@ -1,0 +1,90 @@
+{
+  "description": "PWS 15q11-q13 digital twin (static annotated map + empirical editing outcomes)",
+  "genome_builds": {
+    "locus_annotation": "hg38",
+    "editing_screens": "hg19",
+    "note": "Cross-build integration requires liftOver for base-pair alignment"
+  },
+  "node_counts": {
+    "atac_peak": 897,
+    "grna_target": 464,
+    "gene": 153,
+    "cpg_island": 81
+  },
+  "edge_count": 1389,
+  "significant_grna_targets": 464,
+  "pws_key_genes": 5,
+  "therapeutic_target_state": {
+    "dCas9-Tet1:ATP10A": {
+      "edited_mean_count": 137.66666666666666,
+      "pct_of_wt": null,
+      "within_target_window": null
+    },
+    "dCas9-Tet1:MKRN3": {
+      "edited_mean_count": 0.0,
+      "pct_of_wt": null,
+      "within_target_window": null
+    },
+    "dCas9-Tet1:NDN": {
+      "edited_mean_count": 0.0,
+      "pct_of_wt": null,
+      "within_target_window": null
+    },
+    "dCas9-Tet1:NPAP1": {
+      "edited_mean_count": 147.0,
+      "pct_of_wt": null,
+      "within_target_window": null
+    },
+    "dCas9-Tet1:SNHG14": {
+      "edited_mean_count": 0.0,
+      "pct_of_wt": null,
+      "within_target_window": null
+    },
+    "dCas9-Tet1:SNRPN": {
+      "edited_mean_count": 121.33333333333333,
+      "pct_of_wt": 52.336448598130836,
+      "within_target_window": false
+    },
+    "dCas9-Tet1:UBE3A": {
+      "edited_mean_count": 1384.6666666666667,
+      "pct_of_wt": null,
+      "within_target_window": null
+    },
+    "dCas9-VP64:ATP10A": {
+      "edited_mean_count": 195.66666666666666,
+      "pct_of_wt": null,
+      "within_target_window": null
+    },
+    "dCas9-VP64:MKRN3": {
+      "edited_mean_count": 0.0,
+      "pct_of_wt": null,
+      "within_target_window": null
+    },
+    "dCas9-VP64:NDN": {
+      "edited_mean_count": 0.3333333333333333,
+      "pct_of_wt": null,
+      "within_target_window": null
+    },
+    "dCas9-VP64:NPAP1": {
+      "edited_mean_count": 188.0,
+      "pct_of_wt": null,
+      "within_target_window": null
+    },
+    "dCas9-VP64:SNHG14": {
+      "edited_mean_count": 0.0,
+      "pct_of_wt": null,
+      "within_target_window": null
+    },
+    "dCas9-VP64:SNRPN": {
+      "edited_mean_count": 571.0,
+      "pct_of_wt": 246.29762760603882,
+      "within_target_window": false
+    },
+    "dCas9-VP64:UBE3A": {
+      "edited_mean_count": 1023.0,
+      "pct_of_wt": null,
+      "within_target_window": null
+    }
+  },
+  "key_finding": "Tet1 demethylation and VP64 activation hit distinct elements with different dosage outcomes \u2014 Tet1 partial rescue (~46% WT SNRPN), VP64 overshoot (~281% WT)"
+}

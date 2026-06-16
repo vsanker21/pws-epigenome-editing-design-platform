@@ -1,0 +1,91 @@
+{
+  "source": "GSE285305 neuron featureCounts (Rohm 2025)",
+  "cell_type": "differentiated neuron (not iPSC)",
+  "outcomes": {
+    "dCas9-Tet1:SNRPN": {
+      "neuron_edited_mean": 87.33333333333333,
+      "neuron_wt_mean": 185.16666666666666,
+      "neuron_pws_nt_mean": 8.555555555555555,
+      "pct_of_wt_neuron": 47.16471647164716
+    },
+    "dCas9-Tet1:SNHG14": {
+      "neuron_edited_mean": 44.666666666666664,
+      "neuron_wt_mean": 78.7051282051282,
+      "neuron_pws_nt_mean": 6.188034188034188,
+      "pct_of_wt_neuron": 56.751913992506914
+    },
+    "dCas9-Tet1:MAGEL2": {
+      "neuron_edited_mean": 10.875,
+      "neuron_wt_mean": 57.5625,
+      "neuron_pws_nt_mean": 2.7083333333333335,
+      "pct_of_wt_neuron": 18.892508143322477
+    },
+    "dCas9-Tet1:NDN": {
+      "neuron_edited_mean": 19.666666666666668,
+      "neuron_wt_mean": 63.666666666666664,
+      "neuron_pws_nt_mean": 4.0,
+      "pct_of_wt_neuron": 30.890052356020945
+    },
+    "dCas9-Tet1:MKRN3": {
+      "neuron_edited_mean": 1.0,
+      "neuron_wt_mean": 58.5,
+      "neuron_pws_nt_mean": 2.0,
+      "pct_of_wt_neuron": 1.7094017094017093
+    },
+    "dCas9-Tet1:UBE3A": {
+      "neuron_edited_mean": 72.875,
+      "neuron_wt_mean": 107.625,
+      "neuron_pws_nt_mean": 55.458333333333336,
+      "pct_of_wt_neuron": 67.71196283391406
+    },
+    "dCas9-Tet1:ATP10A": {
+      "neuron_edited_mean": 50.3448275862069,
+      "neuron_wt_mean": 77.27586206896552,
+      "neuron_pws_nt_mean": 42.49425287356322,
+      "pct_of_wt_neuron": 65.14948683623382
+    },
+    "dCas9-VP64:SNRPN": {
+      "neuron_edited_mean": 56.55555555555556,
+      "neuron_wt_mean": 219.66666666666666,
+      "neuron_pws_nt_mean": 14.333333333333334,
+      "pct_of_wt_neuron": 25.7460799190693
+    },
+    "dCas9-VP64:SNHG14": {
+      "neuron_edited_mean": 21.285714285714285,
+      "neuron_wt_mean": 68.35374149659864,
+      "neuron_pws_nt_mean": 9.401360544217686,
+      "pct_of_wt_neuron": 31.140525477707
+    },
+    "dCas9-VP64:MAGEL2": {
+      "neuron_edited_mean": 8.222222222222221,
+      "neuron_wt_mean": 79.55555555555556,
+      "neuron_pws_nt_mean": 8.0,
+      "pct_of_wt_neuron": 10.335195530726256
+    },
+    "dCas9-VP64:NDN": {
+      "neuron_edited_mean": 6.777777777777778,
+      "neuron_wt_mean": 67.11111111111111,
+      "neuron_pws_nt_mean": 4.777777777777778,
+      "pct_of_wt_neuron": 10.09933774834437
+    },
+    "dCas9-VP64:MKRN3": {
+      "neuron_edited_mean": 11.833333333333334,
+      "neuron_wt_mean": 61.833333333333336,
+      "neuron_pws_nt_mean": 11.333333333333334,
+      "pct_of_wt_neuron": 19.13746630727763
+    },
+    "dCas9-VP64:UBE3A": {
+      "neuron_edited_mean": 47.476190476190474,
+      "neuron_wt_mean": 121.9047619047619,
+      "neuron_pws_nt_mean": 42.714285714285715,
+      "pct_of_wt_neuron": 38.9453125
+    },
+    "dCas9-VP64:ATP10A": {
+      "neuron_edited_mean": 30.444444444444443,
+      "neuron_wt_mean": 94.35555555555555,
+      "neuron_pws_nt_mean": 32.68888888888889,
+      "pct_of_wt_neuron": 32.265661799340556
+    }
+  },
+  "comparison_to_ipsc": "Enables neuron-specific held-out validation vs GSE243185 iPSC bulk RNA"
+}

@@ -1,0 +1,15 @@
+sample,cell_type,marker_enrichment,markers,gene,mean,pct_expressing,n_cells
+edited,AgRP_neurons,0.1060175179160505,"AGRP,NPY",,,,
+edited,POMC_neurons,0.0741667614605847,"POMC,CART,PCSK1",,,,
+edited,OXT_neurons,0.005118871573199863,"OXT,AVP",,,,
+edited,SIM1_neurons,0.0,SIM1,,,,
+edited,Neural_progenitor,0.8261858719144579,"PAX6,SOX2",,,,
+edited,PWS_gene,,,SNRPN,2.0067114093959733,58.503014446593106,8791.0
+edited,PWS_gene,,,SNHG14,5.371743828915937,73.57524741212603,8791.0
+control,AgRP_neurons,0.015027149892663214,"AGRP,NPY",,,,
+control,POMC_neurons,0.09230963505493117,"POMC,CART,PCSK1",,,,
+control,OXT_neurons,0.006566485667382245,"OXT,AVP",,,,
+control,SIM1_neurons,0.024876878393736583,SIM1,,,,
+control,Neural_progenitor,0.7234499305467862,"PAX6,SOX2",,,,
+control,PWS_gene,,,SNRPN,0.00037883571157974494,0.03788357115797449,7919.0
+control,PWS_gene,,,SNHG14,0.03396893547165046,3.1948478343225153,7919.0

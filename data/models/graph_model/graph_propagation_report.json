@@ -1,0 +1,97 @@
+{
+  "method": "Personalized PageRank propagation on integrated locus graph",
+  "n_nodes": 1675,
+  "n_edges": 2315,
+  "damping_alpha": 0.85,
+  "validated_guide_propagation": [
+    {
+      "grna_id": "PWS_G.4670",
+      "editor_system": "dCas9-Tet1",
+      "propagation_scores": {
+        "SNRPN": 0.0,
+        "SNHG14": 0.001003842375653989,
+        "UBE3A": 0.0,
+        "ATP10A": 0.0
+      },
+      "SNRPN_propagated": 0.0,
+      "SNHG14_propagated": 0.001003842375653989,
+      "combined_propagation": 0.0005019211878269945
+    },
+    {
+      "grna_id": "PWS_G.4363",
+      "editor_system": "dCas9-Tet1",
+      "propagation_scores": {
+        "SNRPN": 0.0,
+        "SNHG14": 0.0010038423756539888,
+        "UBE3A": 0.0,
+        "ATP10A": 0.0
+      },
+      "SNRPN_propagated": 0.0,
+      "SNHG14_propagated": 0.0010038423756539888,
+      "combined_propagation": 0.0005019211878269944
+    },
+    {
+      "grna_id": "PWS_G.8738",
+      "editor_system": "dCas9-VP64",
+      "propagation_scores": {
+        "SNRPN": 0.0,
+        "SNHG14": 0.0010038423756539884,
+        "UBE3A": 0.0,
+        "ATP10A": 0.0
+      },
+      "SNRPN_propagated": 0.0,
+      "SNHG14_propagated": 0.0010038423756539884,
+      "combined_propagation": 0.0005019211878269942
+    },
+    {
+      "grna_id": "PWS_G.9414",
+      "editor_system": "dCas9-VP64",
+      "propagation_scores": {
+        "SNRPN": 0.0,
+        "SNHG14": 0.0010038423756539884,
+        "UBE3A": 0.0,
+        "ATP10A": 0.0
+      },
+      "SNRPN_propagated": 0.0,
+      "SNHG14_propagated": 0.0010038423756539884,
+      "combined_propagation": 0.0005019211878269942
+    }
+  ],
+  "top5_tet1_by_propagation": [
+    {
+      "grna_id": "PWS_G.7574",
+      "SNRPN_propagated": 0.0,
+      "SNHG14_propagated": 0.0015714442887256113,
+      "combined_propagation": 0.0007857221443628057
+    },
+    {
+      "grna_id": "PWS_G.3535",
+      "SNRPN_propagated": 0.0,
+      "SNHG14_propagated": 0.001003842375653989,
+      "combined_propagation": 0.0005019211878269945
+    },
+    {
+      "grna_id": "PWS_G.3094",
+      "SNRPN_propagated": 0.0,
+      "SNHG14_propagated": 0.001003842375653989,
+      "combined_propagation": 0.0005019211878269945
+    },
+    {
+      "grna_id": "PWS_G.741",
+      "SNRPN_propagated": 0.0,
+      "SNHG14_propagated": 0.001003842375653989,
+      "combined_propagation": 0.0005019211878269945
+    },
+    {
+      "grna_id": "PWS_G.2979",
+      "SNRPN_propagated": 0.0,
+      "SNHG14_propagated": 0.001003842375653989,
+      "combined_propagation": 0.0005019211878269945
+    }
+  ],
+  "caveats": [
+    "Graph is static; no learned edge weights",
+    "Propagation magnitude is relative, not absolute %WT",
+    "Complements rules-based forward model, does not replace it"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "genome_build": "GRCh38",
+  "region": "chr15:25000000-32700000",
+  "fetched_at": "2026-06-16T10:45:53.967667Z",
+  "subregions": {
+    "pws_critical": {
+      "start": 25000000,
+      "end": 32700000,
+      "description": "Full PWS/Angelman critical region including imprinting center"
+    },
+    "pws_icr": {
+      "start": 25700000,
+      "end": 25850000,
+      "description": "PWS imprinting control region (PWS-ICR / SNRPN promoter)"
+    },
+    "snrpn_snh14": {
+      "start": 25750000,
+      "end": 26300000,
+      "description": "SNRPN-SNHG14 transcriptional unit"
+    },
+    "snord116_cluster": {
+      "start": 26300000,
+      "end": 28500000,
+      "description": "SNORD116 snoRNA cluster (primary dosage-sensitive PWS genes)"
+    },
+    "gabaa_cluster": {
+      "start": 28500000,
+      "end": 31000000,
+      "description": "GABRB3, GABRA5, GABRG3 cluster (preserve in editing design)"
+    }
+  },
+  "key_genes": {
+    "paternally_expressed": [
+      "SNRPN",
+      "SNHG14",
+      "SNORD116-1",
+      "IPW",
+      "PAR5",
+      "PAR-SNCG",
+      "MKRN3",
+      "MAGEL2",
+      "NDN",
+      "NPAP1"
+    ],
+    "maternally_expressed": [
+      "UBE3A",
+      "ATP10A"
+    ],
+    "regulatory": [
+      "PWS-ICR",
+      "AS-ICR"
+    ]
+  },
+  "gene_count": 314,
+  "cpg_island_count": 81
+}

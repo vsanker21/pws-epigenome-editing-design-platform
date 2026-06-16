@@ -1,0 +1,24 @@
+{
+  "method": "Gaussian Process (Matern kernel) + Expected Improvement",
+  "guide_pair": "PWS_G.4363 (Tet1) + PWS_G.9414 (VP64)",
+  "n_initial_samples": 25,
+  "gp_best_ei": {
+    "w_tet1": 0.9977,
+    "w_vp64": 0.1604,
+    "predicted_SNRPN_pct": 97.9,
+    "predicted_SNHG14_pct": 99.4,
+    "objective": 1.0492,
+    "posterior_std": 0.0983
+  },
+  "dual_window_optimum": {
+    "w_tet1": 0.7041,
+    "w_vp64": 0.1231,
+    "predicted_SNRPN_pct": 70.4,
+    "predicted_SNHG14_pct": 70.1
+  },
+  "agreement_with_differential_evolution": "w_tet1~0.99, w_vp64~0.06 (cross-method concordance)",
+  "caveats": [
+    "GP surrogate of phenomenological model, not experimental dose-response",
+    "Uncertainty reflects GP posterior, not biological replicate variance"
+  ]
+}

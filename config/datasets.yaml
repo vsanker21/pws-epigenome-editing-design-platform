@@ -1,0 +1,127 @@
+# Curated dataset registry for PWS epigenome-editing computational platform
+# Run: python scripts/download_data.py --priority 99 --include-large
+#      python scripts/discover_geo.py
+#      python scripts/download_encode_reference.py
+
+datasets:
+
+  gse285306:
+    name: "Cell Genomics 2025 PWS SuperSeries (Gersbach/Duke)"
+    citation: "Rohm et al. Cell Genomics 2025;5:100770"
+    doi: "10.1016/j.xgen.2025.100770"
+    priority: 1
+    rationale: >
+      Allele-specific CRISPRa/demethylation screens across 15q11-13.
+      Core training data for PWS-locus forward model.
+    type: super_series
+    geo_accession: GSE285306
+    subseries:
+      - GSE243185
+      - GSE285284
+      - GSE285285
+      - GSE285289
+      - GSE285293
+      - GSE285295
+      - GSE285300
+      - GSE285302
+      - GSE285305
+    genome_build: hg19
+
+  gse262700:
+    name: "Nemoto/Okano 2025 Nat Commun PWS organoid scRNA-seq"
+    citation: "Nemoto et al. Nat Commun 2025;16:9442"
+    doi: "10.1038/s41467-025-64932-8"
+    priority: 1
+    rationale: >
+      dCas9-SunTag-TET1 demethylation; maternal PEG reactivation in hypothalamic organoids.
+    type: scrna_seq
+    geo_accession: GSE262700
+    genome_build: hg38
+
+  gse152098:
+    name: "Human ESC-derived hypothalamic neuron cis-regulatory atlas"
+    citation: "Cousminer et al. Nat Commun 2021"
+    doi: "10.1038/s41467-021-27001-4"
+    priority: 1
+    rationale: >
+      ATAC-seq, RNA-seq, Capture-C across hypothalamic differentiation.
+      Baseline chromatin architecture at 15q11-13 in relevant cell type.
+    type: super_series
+    geo_accession: GSE152098
+    subseries:
+      - GSE152090
+      - GSE152092
+      - GSE152097
+    genome_build: hg38
+
+  gse298378:
+    name: "PWS allele-specific methylation / EHMT2 mechanism"
+    citation: "G9a/EHMT2 imprinting maintenance at PWS-ICR"
+    priority: 2
+    rationale: >
+      Genome-wide methylation in PWS patient cells; EHMT2/G9a mechanism
+      for maternal silencing. Complements demethylation editor design.
+    type: methylation
+    geo_accession: GSE298378
+    genome_build: hg38
+
+  gse28525:
+    name: "Human imprinted DMR atlas (UPD screen)"
+    citation: "Woodfine et al. imprinted DMR mapping"
+    priority: 3
+    rationale: >
+      Comprehensive imprinted DMR catalog including 15q11-13.
+      Reference for collateral imprinting constraint in optimization.
+    type: methylation
+    geo_accession: GSE28525
+    genome_build: hg19
+
+  crisprepi:
+    name: "CRISPRepi multi-omic epigenome editing atlas"
+    citation: "Shi et al. Nucleic Acids Res 2025;53(D1):D901"
+    doi: "10.1093/nar/gkae1039"
+    priority: 2
+    rationale: >
+      671 curated datasets for training general epigenome-editing predictors.
+    type: database
+    base_url: "http://crisprepi.beyondthe.top:580"
+    files:
+      - url: "http://crisprepi.beyondthe.top:580/assets/download/organism/Homo_sapiens.tsv.gz"
+        description: "All human epigenome editing records"
+        size: medium
+      - url: "http://crisprepi.beyondthe.top:580/assets/download/organism/Mus_musculus.tsv.gz"
+        description: "Mouse records (Kim 2017 G9a model context)"
+        size: medium
+      - url: "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_Tet1.tsv.gz"
+        description: "TET1 demethylase records"
+        size: small
+      - url: "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_SunTag14aa_TET1cd.tsv.gz"
+        description: "SunTag-TET1 (Nemoto editor)"
+        size: small
+      - url: "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_SunTag22aa_TET1cd.tsv.gz"
+        description: "SunTag22-TET1 variant"
+        size: small
+      - url: "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_VP64.tsv.gz"
+        description: "VP64 activation (Gersbach screen)"
+        size: small
+      - url: "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/VP64_dCas9_VP64.tsv.gz"
+        description: "VP64-dCas9-VP64 activation system"
+        size: small
+      - url: "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_KRAB.tsv.gz"
+        description: "KRAB repression (Gersbach KRAB screen)"
+        size: small
+      - url: "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_p300.tsv.gz"
+        description: "p300 acetyltransferase"
+        size: small
+      - url: "http://crisprepi.beyondthe.top:580/assets/download/dCas9_type/dCas9_SunTag_p300.tsv.gz"
+        description: "SunTag-p300"
+        size: small
+
+  encode_chr15:
+    name: "ENCODE epigenetic reference tracks at 15q11-q13"
+    priority: 2
+    rationale: >
+      Control-state methylation and histone marks in relevant cell types
+      for digital twin baseline. Fetched via UCSC API.
+    type: reference
+    files: []  # populated by download_encode_reference.py

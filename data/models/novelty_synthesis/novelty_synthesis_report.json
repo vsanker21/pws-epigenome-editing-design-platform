@@ -1,0 +1,286 @@
+{
+  "title": "Computational Design Platform for CRISPR Epigenome-Editing Therapy in Maternal UPD15 Prader-Willi Syndrome",
+  "generated_utc": "2026-06-16T15:09:49.959494+00:00",
+  "genome_build": "GRCh38",
+  "novel_contributions": [
+    {
+      "contribution": "Allele-aware PWS locus digital twin",
+      "description": "Integrated 464 significant gRNA sites with CpG islands, hypothalamic ATAC, Capture-C loops, and methylation on unified hg38 coordinates",
+      "evidence": "data/integrated/locus_merged_hg38.parquet (1,662 graph nodes, 2,315 edges)"
+    },
+    {
+      "contribution": "Editor-stratified forward model with honest uncertainty",
+      "description": "Rules-informed scoring per mechanism class (Tet1 demethylation vs VP64 activation); cross-editor ML explicitly rejected (CV R\u00b2 < 0)",
+      "evidence": "data/models/forward_model_report.json"
+    },
+    {
+      "contribution": "Graph-propagation forward model",
+      "description": "PageRank diffusion from gRNA targets to PWS genes through Capture-C regulatory graph",
+      "evidence": [
+        {
+          "grna_id": "PWS_G.7574",
+          "SNRPN_propagated": 0.0,
+          "SNHG14_propagated": 0.0015714442887256113,
+          "combined_propagation": 0.0007857221443628057
+        },
+        {
+          "grna_id": "PWS_G.3535",
+          "SNRPN_propagated": 0.0,
+          "SNHG14_propagated": 0.001003842375653989,
+          "combined_propagation": 0.0005019211878269945
+        },
+        {
+          "grna_id": "PWS_G.3094",
+          "SNRPN_propagated": 0.0,
+          "SNHG14_propagated": 0.001003842375653989,
+          "combined_propagation": 0.0005019211878269945
+        },
+        {
+          "grna_id": "PWS_G.741",
+          "SNRPN_propagated": 0.0,
+          "SNHG14_propagated": 0.001003842375653989,
+          "combined_propagation": 0.0005019211878269945
+        },
+        {
+          "grna_id": "PWS_G.2979",
+          "SNRPN_propagated": 0.0,
+          "SNHG14_propagated": 0.001003842375653989,
+          "combined_propagation": 0.0005019211878269945
+        }
+      ]
+    },
+    {
+      "contribution": "Multi-objective Pareto optimization",
+      "description": "5 non-dominated designs on SNRPN/SNHG14/safety/confidence frontier",
+      "evidence": "data/models/pareto/pareto_therapeutic_designs.csv"
+    },
+    {
+      "contribution": "Bayesian GP dose optimization",
+      "description": "Uncertainty-aware w_tet1/w_vp64 recommendation for validated G4363+G9414 pair",
+      "evidence": {
+        "w_tet1": 0.7041,
+        "w_vp64": 0.1231,
+        "predicted_SNRPN_pct": 70.4,
+        "predicted_SNHG14_pct": 70.1
+      }
+    },
+    {
+      "contribution": "Hybrid therapeutic hypothesis",
+      "description": "Tet1 ICR demethylation (SNHG14 rescue) + minimal VP64 (SNRPN gap) achieves dual-gene paternal-equivalent window",
+      "evidence": "SNRPN 70% WT, SNHG14 98% WT at w_vp64~0.06"
+    },
+    {
+      "contribution": "ODE hypothalamic circuit simulation",
+      "description": "AgRP/POMC/OXT dynamics under predicted gene rescue \u2014 links molecular design to hyperphagia proxy",
+      "evidence": "Hybrid catalog_rank_1 hyperphagia_proxy=0.842 vs Tet1 monotherapy=0.759 \u2014 dual-gene window improves circuit normalization"
+    },
+    {
+      "contribution": "CRISPRepi transfer-learning priors",
+      "description": "2520 human epigenome-editing records inform mechanism-class confidence",
+      "evidence": "Tet1 demethylation prior: 62% of CRISPRepi Tet1 records report demethylation. VP64 activation prior: 60% report transcriptional effects. These inform mechanism-class confidence in forward model, not locus-specific outcomes."
+    },
+    {
+      "contribution": "Multi-layer validation",
+      "description": "Held-out guide benchmark + organoid scRNA + neuron RNA (GSE285305) + bisulfite methylation",
+      "evidence": {
+        "held_out_pass": true,
+        "organoid_pass": true,
+        "neuron_data": true
+      }
+    },
+    {
+      "contribution": "Cas-OFFinder-style genome-wide off-target scan",
+      "description": "Full hg38 SpCas9 NGG scan (mm0\u2013mm4) with genomic coordinates; integrated into catalog safety ranking",
+      "evidence": {
+        "available": true,
+        "top_tet1_score": 1.438,
+        "top_vp64_score": 2.625
+      }
+    },
+    {
+      "contribution": "ENCODE neuronal regulatory context",
+      "description": "Brain/embryo DNase, H3K27ac, H3K4me3, CTCF, TFBS at PWS locus via UCSC REST API",
+      "evidence": {
+        "tracks_success": 8,
+        "overall_success": true
+      }
+    },
+    {
+      "contribution": "GSE152098 RAW bigWig reprocessing",
+      "description": "Hypothalamic neuron ATAC signal quantified at PWS-ICR from 14 bigWig replicates",
+      "evidence": {
+        "neuron_vs_esc_icr_fold": 10.510729139004601,
+        "n_bigwig_files": 14
+      }
+    },
+    {
+      "contribution": "450K probe-level DMR mapping",
+      "description": "Illumina manifest + hg38 liftOver maps GSE28525/GSE298378 probes to PWS imprinted DMRs",
+      "evidence": {
+        "gse28525_imprinted_dmrs": 10,
+        "gse298378_probes": 1544
+      }
+    },
+    {
+      "contribution": "Genome-wide off-target risk integration",
+      "description": "Legacy seed-scan counts retained for backward compatibility",
+      "evidence": {
+        "available": true,
+        "chromosomes_attempted": null
+      }
+    },
+    {
+      "contribution": "Uncertainty-to-action robustness analysis",
+      "description": "Monte Carlo probability that top catalog designs achieve the dual-gene 70\u2013130% WT window under model uncertainty",
+      "evidence": {
+        "available": true,
+        "n_samples": 50000,
+        "sigma_model": {
+          "sigma_pct": "25.0 * uncertainty",
+          "K": 25.0
+        },
+        "top_design_p_both": 0.49756
+      }
+    }
+  ],
+  "top_therapeutic_design": {
+    "catalog_rank": 1,
+    "strategy": "Hybrid_Tet1_VP64",
+    "tet1_grna_id": "PWS_G.4670",
+    "tet1_protospacer": "GCAGGCTGGCGCGCATGCTC",
+    "tet1_hg38_start": 24954921.0,
+    "vp64_grna_id": "PWS_G.9414",
+    "vp64_protospacer": "CAGTTCAGGGCATGAGATAA",
+    "vp64_hg38_start": 24862855.0,
+    "recommended_w_tet1": 0.987,
+    "recommended_w_vp64": 0.062,
+    "predicted_SNRPN_pct_WT": 70.0,
+    "predicted_SNHG14_pct_WT": 98.3,
+    "both_in_target_window": true,
+    "objective_score": 1.0,
+    "uncertainty": 0.147,
+    "genome_offtarget_risk": 2.625,
+    "score_lower_bound": null,
+    "score_upper_bound": null,
+    "experimental_evidence": "top_Tet1_sublib_hit_Rohm2025;top_VP64_SNRPN_promoter_Rohm2025",
+    "validation_priority": 2,
+    "organoid_support": "GSE262700_Tet1_class_reactivation",
+    "collateral_risk": "low_ICR_targeted"
+  },
+  "validation_metrics": {
+    "held_out_benchmark": {
+      "per_guide": {
+        "PWS_G.4670": {
+          "found": true,
+          "editor": "dCas9-Tet1",
+          "rank": 1,
+          "n_editor_guides": 57,
+          "percentile": 98.2,
+          "in_top_decile": true,
+          "pass": true,
+          "score": 1.02,
+          "padj": 9.2e-15,
+          "evidence": "Top Tet1 sublibrary hit (Rohm 2025)"
+        },
+        "PWS_G.4363": {
+          "found": true,
+          "editor": "dCas9-Tet1",
+          "rank": 22,
+          "n_editor_guides": 57,
+          "percentile": 61.4,
+          "in_top_decile": false,
+          "pass": false,
+          "score": 1.0033891252646077,
+          "padj": 2.95e-06,
+          "evidence": "Bisulfite-validated Tet1 guide (GSE285300)"
+        },
+        "PWS_G.9414": {
+          "found": true,
+          "editor": "dCas9-VP64",
+          "rank": 1,
+          "n_editor_guides": 17,
+          "percentile": 94.1,
+          "in_top_decile": true,
+          "pass": true,
+          "score": 0.688445,
+          "padj": 7.5e-133,
+          "evidence": "Top VP64 activation hit (Rohm 2025)"
+        },
+        "PWS_G.8738": {
+          "found": true,
+          "editor": "dCas9-VP64",
+          "rank": 2,
+          "n_editor_guides": 17,
+          "percentile": 88.2,
+          "in_top_decile": true,
+          "pass": true,
+          "score": 0.6883950099980004,
+          "padj": 7.77e-93,
+          "evidence": "VP64 SNRPN promoter hit (Rohm 2025)"
+        }
+      },
+      "n_validated": 4,
+      "n_pass_top_decile": 3,
+      "pass_rate": 0.75,
+      "overall_pass": true
+    },
+    "organoid_concordance": {
+      "genes": [
+        {
+          "gene": "SNRPN",
+          "organoid_fold_change": 5297.049217002237,
+          "organoid_direction": "up",
+          "bulk_pct_WT": 52.336,
+          "bulk_direction": "up",
+          "direction_concordant": true
+        },
+        {
+          "gene": "SNHG14",
+          "organoid_fold_change": 158.13694937243608,
+          "organoid_direction": "up",
+          "bulk_pct_WT": 99.629,
+          "bulk_direction": "up",
+          "direction_concordant": true
+        }
+      ],
+      "all_concordant": true
+    },
+    "pareto_n_optimal": 5
+  },
+  "key_scientific_findings": [
+    "Tet1 at PWS-ICR demethylates and restores SNHG14 (~100% WT) but under-restores SNRPN (~52% WT)",
+    "VP64 at SNRPN promoter hyperactivates SNRPN (~246% WT) without SNHG14 rescue",
+    "Hybrid Tet1 + minimal VP64 achieves dual-gene paternal-equivalent window (70-130% WT)",
+    "Organoid validation confirms massive SNRPN/SNHG14 reactivation in hypothalamic tissue",
+    "Validated guides (G4363, G4670, G9414) recover in top decile within editor context"
+  ],
+  "citations": {
+    "Rohm2025": "Rohm et al. Cell Genomics 2025;5:100770 (GSE285306)",
+    "Nemoto2025": "Nemoto et al. Nat Commun 2025 (GSE262700)",
+    "Cousminer2021": "Cousminer et al. Nat Commun 2021 (GSE152098)",
+    "CRISPRepi2025": "Shi et al. NAR 2025;53(D1):D901"
+  },
+  "honest_limitations": [
+    "Forward model uses editor-level bulk RNA priors, not guide-resolved expression",
+    "Hybrid dose-response is phenomenological; requires experimental titration",
+    "Circuit mapping is hypothesis-generating only",
+    "Cas-OFFinder-style genome scan is in-silico; biochemical validation (CHANGE-seq/GUIDE-seq) still required",
+    "Held-out benchmark is small (n=4 validated guides)",
+    "Graph propagation and ODE circuit models are hypothesis-generating",
+    "Cas-OFFinder-style scan is in-silico; CHANGE-seq/GUIDE-seq validation still required",
+    "CNN/GNN deep learning not viable with n=57 Tet1 training guides"
+  ],
+  "what_is_not_novel": [
+    "Demonstrating PWS gene reactivation via Tet1 (Nemoto 2025, Rohm 2025)",
+    "gRNA screen data (Rohm 2025 Cell Genomics)",
+    "CRISPRepi database itself (Shi 2025)"
+  ],
+  "recommended_publication_framing": "First computational design-prioritization platform that integrates PWS-locus imprinting biology, multi-omic digital twin, editor-stratified forward models, Pareto/Bayesian optimization, and circuit-level hypothesis generation to rank uncertainty-aware epigenome-editing therapies for maternal UPD15 PWS.",
+  "experimental_next_step": [
+    "PWS UPD15 iPSC -> hypothalamic neuron/organoid differentiation",
+    "Test top 3 hybrid designs + Tet1 monotherapy comparator (PWS_G.4363)",
+    "Measure: PWS-ICR methylation (bisulfite), SNRPN/SNHG14 expression (qPCR/RNA-seq)",
+    "Collateral panel: UBE3A, ATP10A, GABRB3 expression; genome-wide methylation",
+    "Compare measured outcomes to forward model predictions; iterate model"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Cousminer et al. 2021 GSE152090 hypothalamic neuron ATAC-seq",
+  "proximity_threshold_bp": 500,
+  "n_catalog_designs": 25,
+  "icr_region_note": "PWS-ICR guides (hg38 ~24.95M) lie ~54 kb from the nearest hypothalamic ATAC peak in this atlas. The ICR window contains only 1 called peak. This reflects sparse peak calling at the imprinting center, not failed editing \u2014 Nemoto 2025 demonstrated effective Tet1 demethylation at this locus in hypothalamic organoids.",
+  "interpretation": "Low accessibility scores at PWS-ICR are expected given ATAC peak sparsity. dCas9-fused editors can demethylate relatively closed chromatin. Scores are supplementary context, not primary design criteria.",
+  "top_design_accessibility": [
+    {
+      "catalog_rank": 1,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna_id": "PWS_G.4670",
+      "vp64_grna_id": "PWS_G.9414",
+      "tet1_nearest_peak_dist_bp": 4646,
+      "tet1_nearest_peak_log2fpkm": 0.17,
+      "tet1_within_500bp_peaks": 0,
+      "tet1_max_log2fpkm_within_500bp": null,
+      "tet1_accessibility_score": 0.161,
+      "tet1_integrated_atac_flag": false,
+      "vp64_nearest_peak_dist_bp": 3939.0,
+      "vp64_nearest_peak_log2fpkm": 0.637,
+      "vp64_within_500bp_peaks": 0.0,
+      "vp64_max_log2fpkm_within_500bp": NaN,
+      "vp64_accessibility_score": 0.182,
+      "vp64_integrated_atac_flag": false
+    }
+  ],
+  "caveat": "ATAC peaks are from hypothalamic neuron differentiation; PWS UPD15 epigenetic state may differ"
+}

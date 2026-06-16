@@ -1,0 +1,136 @@
+{
+  "benchmark_type": "held_out_validation",
+  "n_significant_merged_sites": 464,
+  "validated_guide_recovery": {
+    "per_guide": {
+      "PWS_G.4670": {
+        "found": true,
+        "editor": "dCas9-Tet1",
+        "rank": 1,
+        "n_editor_guides": 57,
+        "percentile": 98.2,
+        "in_top_decile": true,
+        "pass": true,
+        "score": 1.02,
+        "padj": 9.2e-15,
+        "evidence": "Top Tet1 sublibrary hit (Rohm 2025)"
+      },
+      "PWS_G.4363": {
+        "found": true,
+        "editor": "dCas9-Tet1",
+        "rank": 22,
+        "n_editor_guides": 57,
+        "percentile": 61.4,
+        "in_top_decile": false,
+        "pass": false,
+        "score": 1.0033891252646077,
+        "padj": 2.95e-06,
+        "evidence": "Bisulfite-validated Tet1 guide (GSE285300)"
+      },
+      "PWS_G.9414": {
+        "found": true,
+        "editor": "dCas9-VP64",
+        "rank": 1,
+        "n_editor_guides": 17,
+        "percentile": 94.1,
+        "in_top_decile": true,
+        "pass": true,
+        "score": 0.688445,
+        "padj": 7.5e-133,
+        "evidence": "Top VP64 activation hit (Rohm 2025)"
+      },
+      "PWS_G.8738": {
+        "found": true,
+        "editor": "dCas9-VP64",
+        "rank": 2,
+        "n_editor_guides": 17,
+        "percentile": 88.2,
+        "in_top_decile": true,
+        "pass": true,
+        "score": 0.6883950099980004,
+        "padj": 7.77e-93,
+        "evidence": "VP64 SNRPN promoter hit (Rohm 2025)"
+      }
+    },
+    "n_validated": 4,
+    "n_pass_top_decile": 3,
+    "pass_rate": 0.75,
+    "overall_pass": true
+  },
+  "within_editor_concordance": {
+    "dCas9-Tet1": {
+      "n": 57,
+      "spearman_rho": 0.401,
+      "p_value": 0.002000113360776571,
+      "interpretation": "positive concordance"
+    },
+    "dCas9-VP64": {
+      "n": 17,
+      "spearman_rho": 0.63,
+      "p_value": 0.006727929621734702,
+      "interpretation": "positive concordance"
+    }
+  },
+  "tet1_distance_benchmark": {
+    "n_tet1": 57,
+    "dist_vs_padj_spearman": -0.121,
+    "dist_vs_score_spearman": -0.86,
+    "methylation_vs_score_spearman": 0.664,
+    "n_with_methylation": 48,
+    "expected": "negative rho (closer to ICR = higher significance/score)",
+    "pass": "False"
+  },
+  "editor_outcome_prediction": {
+    "source": "GSE243185 bulk RNA-seq (Rohm 2025)",
+    "expression_window_pct": [
+      70,
+      130
+    ],
+    "outcomes": [
+      {
+        "editor": "dCas9-Tet1",
+        "gene": "SNRPN",
+        "observed_pct_WT": 52.3,
+        "in_target_window": false
+      },
+      {
+        "editor": "dCas9-Tet1",
+        "gene": "SNHG14",
+        "observed_pct_WT": 99.6,
+        "in_target_window": true
+      },
+      {
+        "editor": "dCas9-VP64",
+        "gene": "SNRPN",
+        "observed_pct_WT": 246.3,
+        "in_target_window": false
+      },
+      {
+        "editor": "dCas9-VP64",
+        "gene": "SNHG14",
+        "observed_pct_WT": 0.0,
+        "in_target_window": false
+      }
+    ],
+    "Tet1_SNRPN_deficit": true,
+    "VP64_SNHG14_absent": true
+  },
+  "leave_one_out_stability": {
+    "PWS_G.4670": {
+      "excluded_guide": "PWS_G.4670",
+      "top5_overlap_with_baseline": 4,
+      "stable": true
+    },
+    "PWS_G.4363": {
+      "excluded_guide": "PWS_G.4363",
+      "top5_overlap_with_baseline": 5,
+      "stable": true
+    }
+  },
+  "limitations": [
+    "Only 4 experimentally validated guides available as held-out benchmark",
+    "Bulk RNA outcomes are editor-level, not guide-resolved",
+    "Cross-editor ranking is not a valid test (mechanisms differ)",
+    "Organoid validation (GSE262700) is separate \u2014 different editor construct (SunTag-TET1)"
+  ]
+}

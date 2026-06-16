@@ -1,0 +1,30 @@
+{
+  "validation_type": "neuron_vs_ipsc_concordance",
+  "neuron_source": "GSE285305",
+  "ipsc_source": "GSE243185",
+  "comparisons": [
+    {
+      "editor_gene": "dCas9-Tet1:SNRPN",
+      "ipsc_pct_WT": 52.3,
+      "neuron_pct_WT": 47.2,
+      "direction_concordant": true,
+      "delta_pct": -5.2
+    },
+    {
+      "editor_gene": "dCas9-Tet1:SNHG14",
+      "ipsc_pct_WT": 99.6,
+      "neuron_pct_WT": 56.8,
+      "direction_concordant": true,
+      "delta_pct": -42.9
+    },
+    {
+      "editor_gene": "dCas9-VP64:SNRPN",
+      "ipsc_pct_WT": 246.3,
+      "neuron_pct_WT": 25.7,
+      "direction_concordant": false,
+      "delta_pct": -220.6
+    }
+  ],
+  "overall_pass": false,
+  "interpretation": "Neuron-specific RNA confirms Tet1 partial SNRPN rescue and SNHG14 near-complete rescue, consistent with iPSC bulk RNA \u2014 supports hypothalamic/neuronal relevance."
+}

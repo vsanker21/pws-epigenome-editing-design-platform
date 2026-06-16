@@ -1,0 +1,57 @@
+{
+  "region": "chr15:24800000-32700000",
+  "genome_build": "GRCh38",
+  "api": "https://api.genome.ucsc.edu",
+  "tracks": {
+    "encRegTfbsClustered": {
+      "description": "ENCODE TFBS clusters (CTCF etc.)",
+      "n_items": 5000,
+      "status_code": 206,
+      "error": null
+    },
+    "wgEncodeReg4DnaseAllBrain": {
+      "description": "ENCODE DNase-seq \u2014 brain",
+      "n_items": 5000,
+      "status_code": 206,
+      "error": null
+    },
+    "wgEncodeReg4DnaseAllEmbryo": {
+      "description": "ENCODE DNase-seq \u2014 embryo (iPSC proxy)",
+      "n_items": 5000,
+      "status_code": 206,
+      "error": null
+    },
+    "wgEncodeReg4MarkH3k27acAllBrain": {
+      "description": "H3K27ac \u2014 brain",
+      "n_items": 5000,
+      "status_code": 206,
+      "error": null
+    },
+    "wgEncodeReg4MarkH3k27acAllEmbryo": {
+      "description": "H3K27ac \u2014 embryo",
+      "n_items": 5000,
+      "status_code": 206,
+      "error": null
+    },
+    "wgEncodeReg4MarkH3k4me3AllBrain": {
+      "description": "H3K4me3 \u2014 brain",
+      "n_items": 5000,
+      "status_code": 206,
+      "error": null
+    },
+    "wgEncodeReg4MarkH3k4me3AllEmbryo": {
+      "description": "H3K4me3 \u2014 embryo",
+      "n_items": 5000,
+      "status_code": 206,
+      "error": null
+    },
+    "wgEncodeReg4MarkCtcfAllBrain": {
+      "description": "CTCF ChIP-seq \u2014 brain",
+      "n_items": 5000,
+      "status_code": 206,
+      "error": null
+    }
+  },
+  "n_tracks_success": 8,
+  "overall_success": true
+}

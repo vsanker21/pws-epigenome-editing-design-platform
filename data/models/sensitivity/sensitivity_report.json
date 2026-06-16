@@ -1,0 +1,93 @@
+{
+  "analysis": "window_probability_monte_carlo",
+  "generated_utc": "2026-06-16T15:09:20.397165+00:00",
+  "window": {
+    "SNRPN_pct_WT": [
+      70.0,
+      130.0
+    ],
+    "SNHG14_pct_WT": [
+      70.0,
+      130.0
+    ]
+  },
+  "n_designs": 25,
+  "n_samples": 50000,
+  "sigma_model": {
+    "sigma_pct": "25.0 * uncertainty",
+    "K": 25.0
+  },
+  "top_design": {
+    "catalog_rank": 1,
+    "strategy": "Hybrid_Tet1_VP64",
+    "tet1_grna_id": "PWS_G.4670",
+    "vp64_grna_id": "PWS_G.9414",
+    "uncertainty": 0.147,
+    "sigma_pct": 3.675,
+    "p_SNRPN_in_window": 0.49756,
+    "p_SNHG14_in_window": 1.0,
+    "p_both_in_window": 0.49756
+  },
+  "top5": [
+    {
+      "catalog_rank": 1,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna_id": "PWS_G.4670",
+      "vp64_grna_id": "PWS_G.9414",
+      "uncertainty": 0.147,
+      "sigma_pct": 3.675,
+      "p_SNRPN_in_window": 0.49756,
+      "p_SNHG14_in_window": 1.0,
+      "p_both_in_window": 0.49756
+    },
+    {
+      "catalog_rank": 2,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna_id": "PWS_G.3437",
+      "vp64_grna_id": "PWS_G.9414",
+      "uncertainty": 0.151,
+      "sigma_pct": 3.775,
+      "p_SNRPN_in_window": 0.50216,
+      "p_SNHG14_in_window": 1.0,
+      "p_both_in_window": 0.50216
+    },
+    {
+      "catalog_rank": 3,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna_id": "PWS_G.3858",
+      "vp64_grna_id": "PWS_G.9414",
+      "uncertainty": 0.151,
+      "sigma_pct": 3.775,
+      "p_SNRPN_in_window": 0.50152,
+      "p_SNHG14_in_window": 1.0,
+      "p_both_in_window": 0.50152
+    },
+    {
+      "catalog_rank": 4,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna_id": "PWS_G.5691",
+      "vp64_grna_id": "PWS_G.9414",
+      "uncertainty": 0.152,
+      "sigma_pct": 3.8,
+      "p_SNRPN_in_window": 0.50008,
+      "p_SNHG14_in_window": 1.0,
+      "p_both_in_window": 0.50008
+    },
+    {
+      "catalog_rank": 5,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna_id": "PWS_G.5452",
+      "vp64_grna_id": "PWS_G.9414",
+      "uncertainty": 0.153,
+      "sigma_pct": 3.8249999999999997,
+      "p_SNRPN_in_window": 0.50088,
+      "p_SNHG14_in_window": 1.0,
+      "p_both_in_window": 0.50088
+    }
+  ],
+  "limitations": [
+    "Assumes Gaussian perturbations and shared sigma across genes per design",
+    "Uncertainty is heuristic (guide confidence), not a calibrated posterior",
+    "Does not include delivery variability or cell-type heterogeneity explicitly"
+  ]
+}

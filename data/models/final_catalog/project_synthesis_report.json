@@ -1,0 +1,94 @@
+{
+  "catalog_version": "1.0",
+  "generated_utc": "2026-06-16T15:09:20.986170+00:00",
+  "project": "PWS maternal UPD15 CRISPR epigenome-editing design platform",
+  "genome_build": "GRCh38",
+  "citations": {
+    "Rohm2025": "Rohm et al. Cell Genomics 2025;5:100770 (GSE285306)",
+    "Nemoto2025": "Nemoto et al. Nat Commun 2025 (GSE262700)",
+    "Cousminer2021": "Cousminer et al. Nat Commun 2021 (GSE152098)",
+    "CRISPRepi2025": "Shi et al. NAR 2025;53(D1):D901"
+  },
+  "pipeline_phases_complete": [
+    "Phase 1: Data acquisition (GEO, CRISPRepi)",
+    "Phase 2: Locus annotation (314 genes, 81 CpG islands)",
+    "Phase 3: Curation (23,506 editing records)",
+    "Phase 3b: hg38 integration + base-pair merge (464 significant sites)",
+    "Phase 5: Forward model (editor-stratified rules)",
+    "Phase 6/7: Hybrid optimization (121 designs)",
+    "Phase 8: Exploratory circuit mapping",
+    "Phase 9: Validation suite",
+    "Phase 10: Cell-type accessibility, locus off-target, experimental protocol",
+    "Phase 11: Pareto/Bayesian optimization, circuit ODE, sensitivity analysis",
+    "Phase 12: Cas-OFFinder scan, ENCODE context, GSE152098 bigWig, 450K DMR mapping"
+  ],
+  "top_recommended_design": {
+    "catalog_rank": 1,
+    "strategy": "Hybrid_Tet1_VP64",
+    "tet1_grna_id": "PWS_G.4670",
+    "tet1_protospacer": "GCAGGCTGGCGCGCATGCTC",
+    "tet1_hg38_start": 24954921.0,
+    "vp64_grna_id": "PWS_G.9414",
+    "vp64_protospacer": "CAGTTCAGGGCATGAGATAA",
+    "vp64_hg38_start": 24862855.0,
+    "recommended_w_tet1": 0.987,
+    "recommended_w_vp64": 0.062,
+    "predicted_SNRPN_pct_WT": 70.0,
+    "predicted_SNHG14_pct_WT": 98.3,
+    "both_in_target_window": true,
+    "objective_score": 1.0,
+    "uncertainty": 0.147,
+    "genome_offtarget_risk": 2.625,
+    "score_lower_bound": null,
+    "score_upper_bound": null,
+    "experimental_evidence": "top_Tet1_sublib_hit_Rohm2025;top_VP64_SNRPN_promoter_Rohm2025",
+    "validation_priority": 2,
+    "organoid_support": "GSE262700_Tet1_class_reactivation",
+    "collateral_risk": "low_ICR_targeted"
+  },
+  "validation_summary": {
+    "held_out_benchmark_pass": true,
+    "organoid_concordance_pass": true,
+    "collateral_risk": "low_to_moderate",
+    "locus_offtarget_risk": "low",
+    "genome_wide_offtarget_available": true,
+    "cas_offinder_available": true,
+    "encode_reference_available": true,
+    "methylation_dmr_mapping_available": true,
+    "gse152098_bigwig_reprocessed": true,
+    "sensitivity_available": true
+  },
+  "regulatory_context": {
+    "encode_tracks_success": 8,
+    "gse28525_imprinted_dmrs_in_pws": 10,
+    "neuron_vs_esc_icr_fold": 10.510729139004601
+  },
+  "robustness": {
+    "window_probability_report": "G:\\Prader Willi Syndrome\\data\\models\\sensitivity\\sensitivity_report.json",
+    "top_design_p_both_in_window": 0.49756
+  },
+  "cell_type_accessibility": "PWS-ICR guides (hg38 ~24.95M) lie ~54 kb from the nearest hypothalamic ATAC peak in this atlas. The ICR window contains only 1 called peak. This reflects sparse peak calling at the imprinting center, not failed editing \u2014 Nemoto 2025 demonstrated effective Tet1 demethylation at this locus in hypothalamic organoids.",
+  "experimental_protocol": "G:\\Prader Willi Syndrome\\data\\models\\experimental_protocol\\experimental_validation_protocol.json",
+  "key_scientific_findings": [
+    "Tet1 at PWS-ICR demethylates and restores SNHG14 (~100% WT) but under-restores SNRPN (~52% WT)",
+    "VP64 at SNRPN promoter hyperactivates SNRPN (~246% WT) without SNHG14 rescue",
+    "Hybrid Tet1 + minimal VP64 achieves dual-gene paternal-equivalent window (70-130% WT)",
+    "Organoid validation confirms massive SNRPN/SNHG14 reactivation in hypothalamic tissue",
+    "Validated guides (G4363, G4670, G9414) recover in top decile within editor context"
+  ],
+  "proposed_experimental_validation": [
+    "PWS UPD15 iPSC -> hypothalamic neuron/organoid differentiation",
+    "Test top 3 hybrid designs + Tet1 monotherapy comparator (PWS_G.4363)",
+    "Measure: PWS-ICR methylation (bisulfite), SNRPN/SNHG14 expression (qPCR/RNA-seq)",
+    "Collateral panel: UBE3A, ATP10A, GABRB3 expression; genome-wide methylation",
+    "Compare measured outcomes to forward model predictions; iterate model"
+  ],
+  "honest_limitations": [
+    "Forward model uses editor-level bulk RNA priors, not guide-resolved expression",
+    "Hybrid dose-response is phenomenological; requires experimental titration",
+    "Circuit mapping is hypothesis-generating only",
+    "Cas-OFFinder-style genome scan is in-silico; biochemical validation (CHANGE-seq/GUIDE-seq) still required",
+    "Held-out benchmark is small (n=4 validated guides)"
+  ],
+  "novelty_statement": "Novel contribution is the allele-aware PWS-locus design layer: integrating imprinting biology, editor-stratified forward models, and uncertainty-aware optimization over CRISPR epigenome-editing configurations \u2014 not demonstration that reactivation is possible (already shown by Nemoto 2025 and Rohm 2025)."
+}

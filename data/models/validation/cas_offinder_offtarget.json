@@ -1,0 +1,3564 @@
+{
+  "assessment_type": "cas_offinder_style_genome_scan",
+  "reference": {
+    "genome": "hg38",
+    "source": "UCSC hgdownload",
+    "chromosomes": [
+      "chr1",
+      "chr2",
+      "chr3",
+      "chr4",
+      "chr5",
+      "chr6",
+      "chr7",
+      "chr8",
+      "chr9",
+      "chr10",
+      "chr11",
+      "chr12",
+      "chr13",
+      "chr14",
+      "chr15",
+      "chr16",
+      "chr17",
+      "chr18",
+      "chr19",
+      "chr20",
+      "chr21",
+      "chr22",
+      "chrX",
+      "chrY",
+      "chrM"
+    ],
+    "chromosome_stats": {
+      "chr1": {
+        "scanned": true,
+        "length": 248956422
+      },
+      "chr2": {
+        "scanned": true,
+        "length": 242193529
+      },
+      "chr3": {
+        "scanned": true,
+        "length": 198295559
+      },
+      "chr4": {
+        "scanned": true,
+        "length": 190214555
+      },
+      "chr5": {
+        "scanned": true,
+        "length": 181538259
+      },
+      "chr6": {
+        "scanned": true,
+        "length": 170805979
+      },
+      "chr7": {
+        "scanned": true,
+        "length": 159345973
+      },
+      "chr8": {
+        "scanned": true,
+        "length": 145138636
+      },
+      "chr9": {
+        "scanned": true,
+        "length": 138394717
+      },
+      "chr10": {
+        "scanned": true,
+        "length": 133797422
+      },
+      "chr11": {
+        "scanned": true,
+        "length": 135086622
+      },
+      "chr12": {
+        "scanned": true,
+        "length": 133275309
+      },
+      "chr13": {
+        "scanned": true,
+        "length": 114364328
+      },
+      "chr14": {
+        "scanned": true,
+        "length": 107043718
+      },
+      "chr15": {
+        "scanned": true,
+        "length": 101991189
+      },
+      "chr16": {
+        "scanned": true,
+        "length": 90338345
+      },
+      "chr17": {
+        "scanned": true,
+        "length": 83257441
+      },
+      "chr18": {
+        "scanned": true,
+        "length": 80373285
+      },
+      "chr19": {
+        "scanned": true,
+        "length": 58617616
+      },
+      "chr20": {
+        "scanned": true,
+        "length": 64444167
+      },
+      "chr21": {
+        "scanned": true,
+        "length": 46709983
+      },
+      "chr22": {
+        "scanned": true,
+        "length": 50818468
+      },
+      "chrX": {
+        "scanned": true,
+        "length": 156040895
+      },
+      "chrY": {
+        "scanned": true,
+        "length": 57227415
+      },
+      "chrM": {
+        "scanned": true,
+        "length": 16569
+      }
+    }
+  },
+  "parameters": {
+    "pam": "SpCas9 NGG",
+    "guide_len": 20,
+    "max_mismatches": 4,
+    "seed_prefilter_mm": 1
+  },
+  "per_guide": {
+    "PWS_G.4627": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 0,
+        "mm4": 32
+      },
+      "cas_offinder_score": 3.0,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24954898,
+          "end": 24954918,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "GCACGCCTGCGCGGCCGCAG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 1178718,
+          "end": 1178738,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCACCCAGGGGCGGCCGCAG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr10",
+          "start": 92849164,
+          "end": 92849184,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "ACTCCCCCGCGCGGCCGCAG",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr11",
+          "start": 69986197,
+          "end": 69986217,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GACCGCGAGCGCGGCCGCAG",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr12",
+          "start": 51820894,
+          "end": 51820914,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGACGACGGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr12",
+          "start": 98645168,
+          "end": 98645188,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCAGGAGTGCGCGGCGGCAG",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr13",
+          "start": 97976875,
+          "end": 97976895,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CCCAGCCTGCGCGGCCGCCG",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr13",
+          "start": 111656541,
+          "end": 111656561,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CTACTCCTGGGCGGCCGCAG",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr13",
+          "start": 111656804,
+          "end": 111656824,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CTACTCCTGGGCGGCCGCAG",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr17",
+          "start": 7359669,
+          "end": 7359689,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGAGGCCAGCGCGGCCGCTG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22376887,
+          "end": 22376907,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22379257,
+          "end": 22379277,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22381627,
+          "end": 22381647,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22384002,
+          "end": 22384022,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22386349,
+          "end": 22386369,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22388724,
+          "end": 22388744,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22392498,
+          "end": 22392518,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22394863,
+          "end": 22394883,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22396226,
+          "end": 22396246,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22399049,
+          "end": 22399069,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22401517,
+          "end": 22401537,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22403719,
+          "end": 22403739,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 22405181,
+          "end": 22405201,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCGGCTGCGCGGCGGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr18",
+          "start": 5895364,
+          "end": 5895384,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGCCGGCGGCGCGGCCGCAG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr19",
+          "start": 40601236,
+          "end": 40601256,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCGCCCCCGCGCGGCCGCCG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 25342247,
+          "end": 25342267,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGACCCCGGCGGGGCCGCAG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr4",
+          "start": 2058640,
+          "end": 2058660,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGGCGCATGCGCGGCCGCGG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr5",
+          "start": 123423307,
+          "end": 123423327,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "AAACGCCCGGGCGGCCGCAG",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr7",
+          "start": 494066,
+          "end": 494086,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCCGGCCAGCGTGGCCGCAG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 19757244,
+          "end": 19757264,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TCCCTCCTGCGCGGCCGCCG",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr9",
+          "start": 36986355,
+          "end": 36986375,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CCCCGCCGGCGCGGCCGCGG",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chrX",
+          "start": 16719553,
+          "end": 16719573,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TGACGCTTGCGCGGCCGCGG",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chrX",
+          "start": 47513554,
+          "end": 47513574,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GATGGCCCGCGCGGCCGCAG",
+          "pam": "CCC"
+        }
+      ]
+    },
+    "PWS_G.4662": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 1,
+        "mm3": 4,
+        "mm4": 32
+      },
+      "cas_offinder_score": 3.75,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24829543,
+          "end": 24829563,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "GCAGCTCAGAAAGTGATGCA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr9",
+          "start": 132204520,
+          "end": 132204540,
+          "strand": "-",
+          "mismatches": 2,
+          "protospacer": "GCAGCTGAGAAAGAGATGCA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr1",
+          "start": 18006884,
+          "end": 18006904,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "CCTGGTCAGAAAGTGATGCA",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr5",
+          "start": 5570988,
+          "end": 5571008,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GCAGTGCAGAAAGTGATGGA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 36459410,
+          "end": 36459430,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GAAGCCCAGAAATTGATGCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 63064897,
+          "end": 63064917,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "ACATCTCTGAAAGTGATGCA",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr1",
+          "start": 1937114,
+          "end": 1937134,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "AGAGTTCAGAAAGTGATACA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 190607922,
+          "end": 190607942,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TGAGCTGAGAAAGTGATCCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr10",
+          "start": 95736688,
+          "end": 95736708,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TTTGCTCATAAAGTGATGCA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr11",
+          "start": 11550317,
+          "end": 11550337,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "ACCTCTCAGAAAATGATGCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr12",
+          "start": 46271810,
+          "end": 46271830,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TCTGCTCTGAAAGTGATGCC",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr12",
+          "start": 74723522,
+          "end": 74723542,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CCAGGGCAGAAAGTGATGGA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr12",
+          "start": 84014242,
+          "end": 84014262,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "ACACATCAGAAAGTGATTCA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr12",
+          "start": 115486988,
+          "end": 115487008,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCAGAGAAGAAAGTGATGCG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr13",
+          "start": 111654018,
+          "end": 111654038,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGAGATAAGAAAGTGGTGCA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr14",
+          "start": 70017815,
+          "end": 70017835,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GAGGCTGAGAAAGTGTTGCA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr14",
+          "start": 80221943,
+          "end": 80221963,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CAAGCCCAGAAAGTGATGAA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr15",
+          "start": 42485256,
+          "end": 42485276,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGACATTAGAAAGTGATGCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr15",
+          "start": 58371794,
+          "end": 58371814,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCCTGTCAGAAAGTGAGGCA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr16",
+          "start": 8960322,
+          "end": 8960342,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCAGTTAGGAAAGTGATGAA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr17",
+          "start": 64748666,
+          "end": 64748686,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "AAAGCTGAGAAAGTGATCCA",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr17",
+          "start": 67459704,
+          "end": 67459724,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "ACAGCATAGAAAGTGATGCC",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 57600742,
+          "end": 57600762,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TCAGCATAGAATGTGATGCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 195151667,
+          "end": 195151687,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TCATCCCAGAAAGTGCTGCA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr20",
+          "start": 50029379,
+          "end": 50029399,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTGTCTCAGAAAGTGATGCC",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr3",
+          "start": 59322595,
+          "end": 59322615,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "ACAGCTGTGAAAGTGATGGA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr5",
+          "start": 128343182,
+          "end": 128343202,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGAATTCAGAAAGTGATGAA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr5",
+          "start": 179638741,
+          "end": 179638761,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GTTGCTGAGAAAGTGATGCG",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr6",
+          "start": 127702435,
+          "end": 127702455,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GAAATTCAGAGAGTGATGCA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr6",
+          "start": 128185175,
+          "end": 128185195,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CGAACTCAGAAAGTGATGCC",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr6",
+          "start": 130111157,
+          "end": 130111177,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCAAGTAAGGAAGTGATGCA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr7",
+          "start": 21153734,
+          "end": 21153754,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GAAGTACAGAAAGTCATGCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr7",
+          "start": 73860580,
+          "end": 73860600,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGAAGTCAGAAAGTGAGGCA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr8",
+          "start": 60789220,
+          "end": 60789240,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCCACACAGAATGTGATGCA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr8",
+          "start": 141570132,
+          "end": 141570152,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCTGATGAGAAAGTGATGCT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr9",
+          "start": 1327917,
+          "end": 1327937,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GTAAGTCAGAAAGTTATGCA",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chrX",
+          "start": 24524129,
+          "end": 24524149,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CTACCTCAGAAAGGGATGCA",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chrX",
+          "start": 29161246,
+          "end": 29161266,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCAGGAGAGAAAGTGATGTA",
+          "pam": "TGG"
+        }
+      ]
+    },
+    "PWS_G.6065": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 4,
+        "mm4": 20
+      },
+      "cas_offinder_score": 2.75,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24955040,
+          "end": 24955060,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "GTGACGCGATGGAGCGGGCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 2896005,
+          "end": 2896025,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GTGAGGCAAGGGAGCGGGCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr17",
+          "start": 46033126,
+          "end": 46033146,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GTGAGGAGATGGAGAGGGCA",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 68252304,
+          "end": 68252324,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GGCACGCGAGGGAGCGGGCA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr5",
+          "start": 73436769,
+          "end": 73436789,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GGGCCGCGGTGGAGCGGGCA",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 8267585,
+          "end": 8267605,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCCGCGGGATGGAGCGGGCA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 98053619,
+          "end": 98053639,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CTGAAGCCCTGGAGCGGGCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 150374332,
+          "end": 150374352,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "ATGAAGAGATGGAGGGGGCA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr10",
+          "start": 116126625,
+          "end": 116126645,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTGATTCTCTGGAGCGGGCA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr11",
+          "start": 35372131,
+          "end": 35372151,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GAGAAGGGATGGAGAGGGCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr14",
+          "start": 100506057,
+          "end": 100506077,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GTGGAGGGAGGGAGCGGGCA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr17",
+          "start": 8965235,
+          "end": 8965255,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTTCCCCGCTGGAGCGGGCA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr17",
+          "start": 52159197,
+          "end": 52159217,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGACGAAATGGAGAGGGCA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr19",
+          "start": 39834017,
+          "end": 39834037,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTTACCTGAAGGAGCGGGCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 44921740,
+          "end": 44921760,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TTTACACGATGGAGGGGGCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 98550239,
+          "end": 98550259,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGGAGGGGATGGAGCGGGGA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 121075906,
+          "end": 121075926,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CTGACGGAATGGAGAGGGCA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr21",
+          "start": 33128655,
+          "end": 33128675,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GAGACTTGATGGAGCAGGCA",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr22",
+          "start": 44303905,
+          "end": 44303925,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TGGACAGGATGGAGCGGGCA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr22",
+          "start": 45010003,
+          "end": 45010023,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTGCCCGGATGGAGCGGGCC",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr4",
+          "start": 140151032,
+          "end": 140151052,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CAGCCGCGATGAAGCGGGCA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 1688173,
+          "end": 1688193,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGCACGGGATGGAGCTGGCA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr8",
+          "start": 116167892,
+          "end": 116167912,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GAGACTCCATGGAGAGGGCA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 126279303,
+          "end": 126279323,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GATACGGGATGGAGGGGGCA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chrY",
+          "start": 19087787,
+          "end": 19087807,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GTGGAGAGATGGAGGGGGCA",
+          "pam": "CCT"
+        }
+      ]
+    },
+    "PWS_G.2815": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 2,
+        "mm4": 9
+      },
+      "cas_offinder_score": 1.812,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24954845,
+          "end": 24954865,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "CCAGGTCATTCCGGTGAGGG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr12",
+          "start": 57154743,
+          "end": 57154763,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "CCAGGGCCTTCTGGTGAGGG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr5",
+          "start": 138453729,
+          "end": 138453749,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "CCAGGATCTTCCGGTGAGGG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr1",
+          "start": 3347093,
+          "end": 3347113,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CCCAGTCTTTCCGGGGAGGG",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 51878267,
+          "end": 51878287,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CCAAGCAATACCGGTGAGGG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr11",
+          "start": 131469756,
+          "end": 131469776,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CAAAATCATTCCAGTGAGGG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr17",
+          "start": 8013036,
+          "end": 8013056,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CCTGGGCTTTCTGGTGAGGG",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr19",
+          "start": 8002652,
+          "end": 8002672,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "ACAGTTGATTCCGGTGCGGG",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr22",
+          "start": 44143624,
+          "end": 44143644,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CCCCATCATTCCGGGGAGGG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr3",
+          "start": 54531583,
+          "end": 54531603,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "AAATGTCATTCTGGTGAGGG",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr5",
+          "start": 1219713,
+          "end": 1219733,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "ACAGGGCGTTCCTGTGAGGG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr7",
+          "start": 148883966,
+          "end": 148883986,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "ACAGCTCCTTCCGGGGAGGG",
+          "pam": "GGG"
+        }
+      ]
+    },
+    "PWS_G.10218": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 8,
+        "mm4": 21
+      },
+      "cas_offinder_score": 3.312,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24862861,
+          "end": 24862881,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "GGGCATGAGATAAGGGCAGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 215273547,
+          "end": 215273567,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "CAGCATGAGATGAGGGCAGT",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr10",
+          "start": 79927409,
+          "end": 79927429,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GGGGAGGAGATCAGGGCAGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 175152,
+          "end": 175172,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GGACCTGAGATAAAGGCAGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 162628953,
+          "end": 162628973,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GGGCAAGGCATAAGGGCAGT",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 217512100,
+          "end": 217512120,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GGGGAGGAGGTAAGGGCAGT",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr21",
+          "start": 34308697,
+          "end": 34308717,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GTGCACGAGATGAGGGCAGT",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr5",
+          "start": 45357,
+          "end": 45377,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GGACCTGAGATAAAGGCAGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr6",
+          "start": 157700034,
+          "end": 157700054,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GGCCCTGAGATAAGGGCAGG",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 54144860,
+          "end": 54144880,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTACATGTGGTAAGGGCAGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 58584844,
+          "end": 58584864,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTCCTTGAGATAAGGGCAGG",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr10",
+          "start": 11012796,
+          "end": 11012816,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TGGCACCAGATAAGGGCACT",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr10",
+          "start": 113895473,
+          "end": 113895493,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TGGTATTAGATAAGGGGAGT",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr11",
+          "start": 113236084,
+          "end": 113236104,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TGGGAAGAGGTAAGGGCAGT",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr11",
+          "start": 113677956,
+          "end": 113677976,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGAGAGAGATAAGGGCATT",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr12",
+          "start": 1756525,
+          "end": 1756545,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TGAAATGAGATAAGGTCAGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr16",
+          "start": 75683994,
+          "end": 75684014,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGGGAGAAGATAAGGGAAGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr19",
+          "start": 55689671,
+          "end": 55689691,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGACAGGGGATAAGGGGAGT",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr2",
+          "start": 219560829,
+          "end": 219560849,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGGAAGGTGATGAGGGCAGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr3",
+          "start": 39568108,
+          "end": 39568128,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TGTCCTGAGATAATGGCAGT",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr3",
+          "start": 122007594,
+          "end": 122007614,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCAGACGAGAAGGGCAGT",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr6",
+          "start": 37659550,
+          "end": 37659570,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGGGTAGAGATAGGGGCAGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr6",
+          "start": 45503452,
+          "end": 45503472,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGAAATCAGATATGGGCAGT",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr6",
+          "start": 146549055,
+          "end": 146549075,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "AGGAAGGAGATAAGTGCAGT",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr7",
+          "start": 105937657,
+          "end": 105937677,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "AGGCAGCAGATAAGGGCTGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 48736181,
+          "end": 48736201,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGAAGTGAGATGAGGGCAGT",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr9",
+          "start": 18001981,
+          "end": 18002001,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GAGAAGGAGCTAAGGGCAGT",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr9",
+          "start": 122378638,
+          "end": 122378658,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TGGCATCTGATAAGGGTAGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr9",
+          "start": 122380132,
+          "end": 122380152,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TGGCATCTGATAAGGGTAGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr9",
+          "start": 128403340,
+          "end": 128403360,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGGCTGGGGAGAAGGGCAGT",
+          "pam": "TGG"
+        }
+      ]
+    },
+    "PWS_G.8738": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 4,
+        "mm4": 15
+      },
+      "cas_offinder_score": 2.438,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24862853,
+          "end": 24862873,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "ACAGTTCAGGGCATGAGATA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 185147706,
+          "end": 185147726,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "ACATTTTAGGGCATGAGAGA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr15",
+          "start": 24775789,
+          "end": 24775809,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "ACAGGCCAGGGCATGAGAAA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr4",
+          "start": 78183660,
+          "end": 78183680,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "ATAGTTCTGGGCATGAGGTA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chrX",
+          "start": 5741181,
+          "end": 5741201,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "ACATTTGAGGGCAAGAGATA",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr1",
+          "start": 92820493,
+          "end": 92820513,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCAGTGGAGGGCATGAGAAA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 201083448,
+          "end": 201083468,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GAAGCTCAGGGCATGAGCTA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr11",
+          "start": 40688543,
+          "end": 40688563,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCAGAGCAGGGCATCAGATA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr11",
+          "start": 77452313,
+          "end": 77452333,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "AGATTTGAGGGCATGAGATC",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr12",
+          "start": 13218961,
+          "end": 13218981,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "ATTGCTCATGGCATGAGATA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr12",
+          "start": 65367658,
+          "end": 65367678,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "ACAGGGGAGGGCATGAGACA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr15",
+          "start": 62956398,
+          "end": 62956418,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CCAGCTAAGTGCATGAGATA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr15",
+          "start": 73072569,
+          "end": 73072589,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "ACACTTGTGGGAATGAGATA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 132408027,
+          "end": 132408047,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "AATGTGCAGGGCATGAGATT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr3",
+          "start": 109940101,
+          "end": 109940121,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CAATTTCAGGGCATGAGATT",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr6",
+          "start": 66483580,
+          "end": 66483600,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTAATTCAGGGCATGAAATA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr6",
+          "start": 90445086,
+          "end": 90445106,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TTATTTCAGGGCAAGAGATA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr7",
+          "start": 113368912,
+          "end": 113368932,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "AGAGAGCAGGGCATGGGATA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr9",
+          "start": 112857198,
+          "end": 112857218,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "AGAGGTGAGGGCATGAGATG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr9",
+          "start": 137826200,
+          "end": 137826220,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "AGAGACCAGGGCAGGAGATA",
+          "pam": "CCA"
+        }
+      ]
+    },
+    "PWS_G.6318": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 1,
+        "mm3": 7,
+        "mm4": 29
+      },
+      "cas_offinder_score": 3.938,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24829287,
+          "end": 24829307,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "GTTTCAGGCCTGGACTGGGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr19",
+          "start": 11195096,
+          "end": 11195116,
+          "strand": "+",
+          "mismatches": 2,
+          "protospacer": "GGGTCAGGCCTGGACTGGGT",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr10",
+          "start": 42992807,
+          "end": 42992827,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GATGCAGGCCTGGACAGGGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr10",
+          "start": 43193919,
+          "end": 43193939,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "TTCTCAGGCCTGGACAGGGT",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr10",
+          "start": 79229845,
+          "end": 79229865,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GTTTCCAACCTGGACTGGGT",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr11",
+          "start": 72779016,
+          "end": 72779036,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "ATTCCAGGCCTGGGCTGGGT",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr13",
+          "start": 51071340,
+          "end": 51071360,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GTCTCTGGCCTGCACTGGGT",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr13",
+          "start": 112981958,
+          "end": 112981978,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "TTTCCAGGCCTGGACTGGGC",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chrX",
+          "start": 68843490,
+          "end": 68843510,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GTTGAAGGCGTGGACTGGGT",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr1",
+          "start": 14306033,
+          "end": 14306053,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GTTTCCTCCCTGGACTGGGG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr1",
+          "start": 110613775,
+          "end": 110613795,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGTTCTTGCCTGGACTGGCT",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr1",
+          "start": 230743703,
+          "end": 230743723,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CTGTAAGGCCTGGACCGGGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr12",
+          "start": 47769323,
+          "end": 47769343,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTGTCTGTCCTGGGCTGGGT",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr14",
+          "start": 103126719,
+          "end": 103126739,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTCTGGGGCCTGGACGGGGT",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr15",
+          "start": 23877523,
+          "end": 23877543,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCATCAGACCTGGACTGGGA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr15",
+          "start": 65214842,
+          "end": 65214862,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTCCAAGGCCTGGCCTGGGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr15",
+          "start": 80443048,
+          "end": 80443068,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGACCAGACCTGGACTGGGT",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr16",
+          "start": 83626533,
+          "end": 83626553,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TTTCCAAACCTGGACTGGGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr17",
+          "start": 6280569,
+          "end": 6280589,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TCTTCAAGGCTGGACTGGGT",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr17",
+          "start": 79149005,
+          "end": 79149025,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTTCTGGGCTTGGACTGGGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr18",
+          "start": 21157052,
+          "end": 21157072,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTGGCAGTGCTGGACTGGGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 141393636,
+          "end": 141393656,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "AGCTCAGGCTTGGACTGGGT",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr20",
+          "start": 24598549,
+          "end": 24598569,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCTACACGCCAGGACTGGGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr22",
+          "start": 29260475,
+          "end": 29260495,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GAGGCAGGCCTGGACTGGGC",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr3",
+          "start": 61543716,
+          "end": 61543736,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GTTTCTATCCTGGACTTGGT",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr3",
+          "start": 88288646,
+          "end": 88288666,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TGTTCTGGCCTGAACTGGGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr3",
+          "start": 113229056,
+          "end": 113229076,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCTTCATTCCTGGACTGGGA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr4",
+          "start": 7568051,
+          "end": 7568071,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGTTGATGCTTGGACTGGGT",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr4",
+          "start": 182157258,
+          "end": 182157278,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "ATCTCCGGCCTCGACTGGGT",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr5",
+          "start": 1210288,
+          "end": 1210308,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GATCCCGGCCTGCACTGGGT",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr6",
+          "start": 44134311,
+          "end": 44134331,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "ATGCCAGGCCTGGACTGGGG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr6",
+          "start": 101885650,
+          "end": 101885670,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TTTGCAGCCCTGGACTGGGA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr8",
+          "start": 4642591,
+          "end": 4642611,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CTCTCAGTCCTGGGCTGGGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 38612658,
+          "end": 38612678,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GACCCAGGCCTGGACTGAGT",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr8",
+          "start": 69765864,
+          "end": 69765884,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CAGTCAGGCCTGGACTTGGT",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr9",
+          "start": 36153968,
+          "end": 36153988,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GATGCTGGCCTGGCCTGGGT",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chrX",
+          "start": 4269832,
+          "end": 4269852,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTTTTCGACCTGGAGTGGGT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chrX",
+          "start": 119695145,
+          "end": 119695165,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCCTGAGCCCTGGACTGGGT",
+          "pam": "TGG"
+        }
+      ]
+    },
+    "PWS_G.5117": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 4,
+        "mm4": 26
+      },
+      "cas_offinder_score": 3.125,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24829661,
+          "end": 24829681,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "GGAACCAGTCAGAACAGGTG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr11",
+          "start": 66175462,
+          "end": 66175482,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GGAAATAGACAGAACAGGTG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr2",
+          "start": 176768383,
+          "end": 176768403,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GGATACAGTCTGAACAGGTG",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr4",
+          "start": 41510509,
+          "end": 41510529,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GGGAACATTCAGAACAGGTG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr5",
+          "start": 4904342,
+          "end": 4904362,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GGAAGCGGTGAGAACAGGTG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr1",
+          "start": 7195519,
+          "end": 7195539,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TGCATCAGTCAGGACAGGTG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr1",
+          "start": 248365594,
+          "end": 248365614,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TGATACAGGCAGAACAGGTG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr11",
+          "start": 14036701,
+          "end": 14036721,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GAATCAAGTCAGAACAGGAG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr11",
+          "start": 67730611,
+          "end": 67730631,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGTGCCAATCAGCACAGGTG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr11",
+          "start": 71908723,
+          "end": 71908743,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGTGCCAATCAGCACAGGTG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr12",
+          "start": 19604023,
+          "end": 19604043,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTAACTACTCAGAACAGGTA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr12",
+          "start": 47307712,
+          "end": 47307732,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GAGAACAGTCAGAACCGGTG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr14",
+          "start": 66342250,
+          "end": 66342270,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "AGAAGCAATCAGAACTGGTG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr14",
+          "start": 105188075,
+          "end": 105188095,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGCATGAGTCAGAGCAGGTG",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr15",
+          "start": 23112701,
+          "end": 23112721,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCACCCAATCAGGACAGGTG",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr15",
+          "start": 23589186,
+          "end": 23589206,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGAATCGCACAGAACAGGTG",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr15",
+          "start": 85497409,
+          "end": 85497429,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGAAGCTTTCAGAAAAGGTG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr17",
+          "start": 37724368,
+          "end": 37724388,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TGGACCTGTCAGAACAGCTG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr18",
+          "start": 57188485,
+          "end": 57188505,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGAAGAGGTGAGAACAGGTG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr18",
+          "start": 73333190,
+          "end": 73333210,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TTAACCAATCAGAATAGGTG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr19",
+          "start": 17567341,
+          "end": 17567361,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCTACCATTCAGAACAGCTG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr2",
+          "start": 239976328,
+          "end": 239976348,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GAAAGGAGACAGAACAGGTG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr21",
+          "start": 22643267,
+          "end": 22643287,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TCTATCAGTCAGAACAGGTG",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr21",
+          "start": 45301926,
+          "end": 45301946,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGCCCCGTCAGAAAAGGTG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr3",
+          "start": 28655646,
+          "end": 28655666,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TGAACATGTCAGAACATGTG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr3",
+          "start": 74022947,
+          "end": 74022967,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "AGAAAGAGTCAGAATAGGTG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr3",
+          "start": 191326835,
+          "end": 191326855,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGACCTATACAGAACAGGTG",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr4",
+          "start": 167233173,
+          "end": 167233193,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGCTCCATTCAGATCAGGTG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr9",
+          "start": 71353189,
+          "end": 71353209,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGAATAGTCAGAACATGTG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr9",
+          "start": 123948783,
+          "end": 123948803,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGAACATATCATAACAGGTG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chrX",
+          "start": 29673161,
+          "end": 29673181,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GTAACTATTCAGAAAAGGTG",
+          "pam": "CCA"
+        }
+      ]
+    },
+    "PWS_G.4521": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 1,
+        "mm4": 9
+      },
+      "cas_offinder_score": 1.688,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24955003,
+          "end": 24955023,
+          "strand": "-",
+          "mismatches": 0,
+          "protospacer": "GATGCGTCAGGCATCTCCGG",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr17",
+          "start": 28997605,
+          "end": 28997625,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GATTTGTCAGGCATCTCTGG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr1",
+          "start": 12773163,
+          "end": 12773183,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GAAGGTTCAGGCTTCTCCGG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr10",
+          "start": 8095568,
+          "end": 8095588,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CATCCTTCAGTCATCTCCGG",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr11",
+          "start": 47153384,
+          "end": 47153404,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GATATGTTAGGCATCTCCTG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr19",
+          "start": 29819909,
+          "end": 29819929,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GTGGCTTCAGGCATCTCCTG",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 46690613,
+          "end": 46690633,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCAGCTTCAGGCATCTACGG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr2",
+          "start": 107014980,
+          "end": 107015000,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TATTAGTCAGGGATCTCCGG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr22",
+          "start": 17258034,
+          "end": 17258054,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GATTGGGTAGGCATCTCCGG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr3",
+          "start": 37138584,
+          "end": 37138604,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCAGTTTCAGGCATCTCCGG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr4",
+          "start": 1208399,
+          "end": 1208419,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GAGGCTGCAGGCAGCTCCGG",
+          "pam": "CCC"
+        }
+      ]
+    },
+    "PWS_G.4862": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 2,
+        "mm4": 11
+      },
+      "cas_offinder_score": 1.938,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24917658,
+          "end": 24917678,
+          "strand": "-",
+          "mismatches": 0,
+          "protospacer": "GCGCACTGCAGCGCAGACCA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr4",
+          "start": 89837071,
+          "end": 89837091,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GCGGGCTGCAGCGCAGACCC",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr6",
+          "start": 168427936,
+          "end": 168427956,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GCTCACTCCAGCGCAGCCCA",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr1",
+          "start": 46290643,
+          "end": 46290663,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CTGCACTCCAGCCCAGACCA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr10",
+          "start": 78376517,
+          "end": 78376537,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCCCTTTGCAGCGCTGACCA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr10",
+          "start": 128610775,
+          "end": 128610795,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCTGCCTGCAGGGCAGACCA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr16",
+          "start": 3100161,
+          "end": 3100181,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGGAATGCAGAGCAGACCA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr16",
+          "start": 50879907,
+          "end": 50879927,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CAGCACAGCAGCGCAGAGCA",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr16",
+          "start": 68737675,
+          "end": 68737695,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCCCCCTCCAGCGCAGACCG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr16",
+          "start": 70341718,
+          "end": 70341738,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GACCACGGCAGTGCAGACCA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr20",
+          "start": 17902389,
+          "end": 17902409,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CCGTGCTGCAACGCAGACCA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr22",
+          "start": 21956628,
+          "end": 21956648,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGGGGCTGCAGCGAAGACCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr22",
+          "start": 22222700,
+          "end": 22222720,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGGGGCTGCAGCGAAGACCA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 68815511,
+          "end": 68815531,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCAGTCTGCAGAGCAGACCA",
+          "pam": "TGG"
+        }
+      ]
+    },
+    "PWS_G.3858": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 1,
+        "mm4": 12
+      },
+      "cas_offinder_score": 1.875,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24955291,
+          "end": 24955311,
+          "strand": "-",
+          "mismatches": 0,
+          "protospacer": "CTGTCGCGACACCACAGTTG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr18",
+          "start": 62186783,
+          "end": 62186803,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "CGGGCGCGACACCACAGTTT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr1",
+          "start": 167926593,
+          "end": 167926613,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CAGTTGGGGCACCACAGTTG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr10",
+          "start": 12535890,
+          "end": 12535910,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CTGTGGTAACACCACAGATG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr10",
+          "start": 92637232,
+          "end": 92637252,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CAGTATAGACACCACAGTTG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr18",
+          "start": 7526865,
+          "end": 7526885,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CTCTCTCAACACCACAGATG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 31385344,
+          "end": 31385364,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTGTCACAAAACCACAGTTG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 149763609,
+          "end": 149763629,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CTCTTGTGACACCTCAGTTG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 182254802,
+          "end": 182254822,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CTGCAGAGACAACACAGTTG",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr6",
+          "start": 125884894,
+          "end": 125884914,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CTGCTGCAACAGCACAGTTG",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr6",
+          "start": 164125118,
+          "end": 164125138,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CTGTATCTACACCACAGCTG",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 37611101,
+          "end": 37611121,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CTGAGGCCACACCACAGCTG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 52074317,
+          "end": 52074337,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CTGTTTCAACACCACAGTTT",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr9",
+          "start": 94809364,
+          "end": 94809384,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CTCCCTCGACACAACAGTTG",
+          "pam": "CCC"
+        }
+      ]
+    },
+    "PWS_G.9414": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 1,
+        "mm3": 2,
+        "mm4": 18
+      },
+      "cas_offinder_score": 2.625,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24862854,
+          "end": 24862874,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "CAGTTCAGGGCATGAGATAA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr7",
+          "start": 48459358,
+          "end": 48459378,
+          "strand": "-",
+          "mismatches": 2,
+          "protospacer": "AAGTTCAGAGCATGAGATAA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr22",
+          "start": 37911725,
+          "end": 37911745,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "CAGGGCAGGGCATGAGATCA",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 42164284,
+          "end": 42164304,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GGGTTCAGGGCATGAGAGAA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr10",
+          "start": 80482248,
+          "end": 80482268,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CAATGCACGGCATGTGATAA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr15",
+          "start": 79692328,
+          "end": 79692348,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "ATATTAAGGGCATGAGATAA",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr17",
+          "start": 6921550,
+          "end": 6921570,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CAGTGGTGGGTATGAGATAA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr17",
+          "start": 68298836,
+          "end": 68298856,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TAGATGAGGTCATGAGATAA",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr2",
+          "start": 16247135,
+          "end": 16247155,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CACCTAAGGGAATGAGATAA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 50315994,
+          "end": 50316014,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CAGTAAACGGCATGAGATGA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 116152042,
+          "end": 116152062,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CTGTACATGACATGAGATAA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr20",
+          "start": 54739767,
+          "end": 54739787,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CACTTCTTGCCATGAGATAA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr5",
+          "start": 35374641,
+          "end": 35374661,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TATTTCTGGGCATGAGATAG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr5",
+          "start": 55251005,
+          "end": 55251025,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CTGTACATGGCATGAGGTAA",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr5",
+          "start": 72739747,
+          "end": 72739767,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TAGATGTGGGCATGAGATAA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr6",
+          "start": 104080650,
+          "end": 104080670,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "ATGTTAAGGGCATGGGATAA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr7",
+          "start": 36564606,
+          "end": 36564626,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TTGTTTAGGGCTTGAGATAA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr8",
+          "start": 97126988,
+          "end": 97127008,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TTGTGCAGGGTATGAGATAA",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chrX",
+          "start": 42536968,
+          "end": 42536988,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TAATTGAGGGCATGCGATAA",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chrX",
+          "start": 71482224,
+          "end": 71482244,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CAGTATTGGCCATGAGATAA",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chrX",
+          "start": 73491200,
+          "end": 73491220,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CAGCTTTGGGGATGAGATAA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chrX",
+          "start": 135565322,
+          "end": 135565342,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CAGATGAAGGCATGACATAA",
+          "pam": "TGG"
+        }
+      ]
+    },
+    "PWS_G.5691": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 2,
+        "mm4": 5
+      },
+      "cas_offinder_score": 1.562,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24955035,
+          "end": 24955055,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "GGTCAGTGACGCGATGGAGC",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr12",
+          "start": 48981986,
+          "end": 48982006,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GGTCGCTGGCGCGATGGAGC",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr7",
+          "start": 4744550,
+          "end": 4744570,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GGGCAGCAACGCGATGGAGC",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr15",
+          "start": 84840163,
+          "end": 84840183,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CATCTGTGACGCCATGGAGC",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr18",
+          "start": 53668118,
+          "end": 53668138,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TTTCAGAGACGTGATGGAGC",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr2",
+          "start": 31400160,
+          "end": 31400180,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TGTCATTCAGGCGATGGAGC",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr6",
+          "start": 29473389,
+          "end": 29473409,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GAGCATTGACGGGATGGAGC",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chrX",
+          "start": 41923372,
+          "end": 41923392,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCTCCGCGACGCGACGGAGC",
+          "pam": "CCG"
+        }
+      ]
+    },
+    "PWS_G.5029": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 3,
+        "mm4": 22
+      },
+      "cas_offinder_score": 2.75,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24954924,
+          "end": 24954944,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "GCTGGCGCGCATGCTCAGGC",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr14",
+          "start": 104095505,
+          "end": 104095525,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GGAGGGGCGCATGCTCAGGC",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr16",
+          "start": 57458285,
+          "end": 57458305,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GCTGGTGAGCAGGCTCAGGC",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr16",
+          "start": 86555295,
+          "end": 86555315,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "CCAGGCGCGCATGCTCGGGC",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr11",
+          "start": 124209836,
+          "end": 124209856,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGGGTGCACATGCTCAGGC",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr11",
+          "start": 134041183,
+          "end": 134041203,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCGTGCGTGCATGCTCAGTC",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr14",
+          "start": 50056335,
+          "end": 50056355,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCTCACACGCATGCTCAGGG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr15",
+          "start": 62457269,
+          "end": 62457289,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCGAGCGTGCATGCACAGGC",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr15",
+          "start": 63799928,
+          "end": 63799948,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "ACTGTTGCGCAGGCTCAGGC",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr16",
+          "start": 85835500,
+          "end": 85835520,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CCAGGCACGCATGCTCTGGC",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr18",
+          "start": 48327111,
+          "end": 48327131,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCTGGGCAGCCTGCTCAGGC",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr20",
+          "start": 25195651,
+          "end": 25195671,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CCAGCCGCGCATGCGCAGGC",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr20",
+          "start": 36645870,
+          "end": 36645890,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCTGAGACGCATGCTCTGGC",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr3",
+          "start": 127427727,
+          "end": 127427747,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CCTCCCGGGCATGCTCAGGC",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr4",
+          "start": 2659627,
+          "end": 2659647,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCAGTCGGGCATGCTCAGCC",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr4",
+          "start": 56571563,
+          "end": 56571583,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCTAGCCACCATGCTCAGGC",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr6",
+          "start": 36751096,
+          "end": 36751116,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CCTGGCATGCATGCCCAGGC",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr7",
+          "start": 99512547,
+          "end": 99512567,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TCTGTGGCGCTTGCTCAGGC",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr7",
+          "start": 151130892,
+          "end": 151130912,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "ACTGAAGAGCATGCTCAGGC",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr7",
+          "start": 151251966,
+          "end": 151251986,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CGCGGCGCGCATGCCCAGGC",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 19363730,
+          "end": 19363750,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCTTGAACCCATGCTCAGGC",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr8",
+          "start": 122898846,
+          "end": 122898866,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCTGGGATGCATGCCCAGGC",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr9",
+          "start": 36748529,
+          "end": 36748549,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGTGGCAGGCATTCTCAGGC",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chrX",
+          "start": 23886731,
+          "end": 23886751,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGTGGTGAGCATGCTGAGGC",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chrX",
+          "start": 76145086,
+          "end": 76145106,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GCGAACGCGCATGCACAGGC",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chrX",
+          "start": 76150002,
+          "end": 76150022,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GCGAACGCGCATGCACAGGC",
+          "pam": "CCT"
+        }
+      ]
+    },
+    "PWS_G.5452": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 2,
+        "mm4": 6
+      },
+      "cas_offinder_score": 1.625,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24954923,
+          "end": 24954943,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "GGCTGGCGCGCATGCTCAGG",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr15",
+          "start": 41985799,
+          "end": 41985819,
+          "strand": "+",
+          "mismatches": 3,
+          "protospacer": "GGCTGCAGCCCATGCTCAGG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr3",
+          "start": 127077182,
+          "end": 127077202,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GACTGGCTCGCATGCTCCGG",
+          "pam": "CCC"
+        },
+        {
+          "chrom": "chr15",
+          "start": 22959524,
+          "end": 22959544,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGCAGTCCCGCCTGCTCAGG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr16",
+          "start": 30096495,
+          "end": 30096515,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CGCTGGGACGCATGCTCTGG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr16",
+          "start": 86555294,
+          "end": 86555314,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CCCAGGCGCGCATGCTCGGG",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr17",
+          "start": 6331518,
+          "end": 6331538,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTCTGGGTCACATGCTCAGG",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr18",
+          "start": 79901367,
+          "end": 79901387,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGGTGGGCCGCTTGCTCAGG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr9",
+          "start": 89641058,
+          "end": 89641078,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGCTGTGTCGCATGCTCTGG",
+          "pam": "CGG"
+        }
+      ]
+    },
+    "PWS_G.4670": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 1,
+        "mm4": 5
+      },
+      "cas_offinder_score": 1.438,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24954920,
+          "end": 24954940,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "GCAGGCTGGCGCGCATGCTC",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr13",
+          "start": 108927895,
+          "end": 108927915,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GCAGCCTAGAGCGCATGCTC",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr16",
+          "start": 11256137,
+          "end": 11256157,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGCGGCTCTCGCGCATGCTC",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr18",
+          "start": 79715010,
+          "end": 79715030,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CGAGCCTGGCGCGCATGCCC",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr7",
+          "start": 140479526,
+          "end": 140479546,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGCCGCGGGCGCGCATGCTC",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr8",
+          "start": 143282210,
+          "end": 143282230,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GAAGGGTTTCGCGCATGCTC",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr9",
+          "start": 26659273,
+          "end": 26659293,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CGATGCTGGCTCGCATGCTC",
+          "pam": "CCA"
+        }
+      ]
+    },
+    "PWS_G.1288": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 0,
+        "mm4": 1
+      },
+      "cas_offinder_score": 1.062,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24955029,
+          "end": 24955049,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "AGGAGCGGTCAGTGACGCGA",
+          "pam": "TGG"
+        },
+        {
+          "chrom": "chr12",
+          "start": 13000419,
+          "end": 13000439,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "AGGGCGGGTCAGTGATGCGA",
+          "pam": "AGG"
+        }
+      ]
+    },
+    "PWS_G.3437": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 0,
+        "mm4": 4
+      },
+      "cas_offinder_score": 1.25,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24955034,
+          "end": 24955054,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "CGGTCAGTGACGCGATGGAG",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr12",
+          "start": 76285283,
+          "end": 76285303,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CAGGCAGAGACGCTATGGAG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr17",
+          "start": 73952377,
+          "end": 73952397,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CAGCCAGAGACGCGCTGGAG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr19",
+          "start": 592178,
+          "end": 592198,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "CGGAGAGGGACGCGGTGGAG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chrX",
+          "start": 136205996,
+          "end": 136206016,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "TGAGCAGTGACCCGATGGAG",
+          "pam": "CCA"
+        }
+      ]
+    },
+    "PWS_G.5274": {
+      "counts": {
+        "mm0": 1,
+        "mm1": 0,
+        "mm2": 0,
+        "mm3": 1,
+        "mm4": 5
+      },
+      "cas_offinder_score": 1.438,
+      "risk_label": "low",
+      "top_hits": [
+        {
+          "chrom": "chr15",
+          "start": 24954889,
+          "end": 24954909,
+          "strand": "+",
+          "mismatches": 0,
+          "protospacer": "GGCAAACAAGCACGCCTGCG",
+          "pam": "CGG"
+        },
+        {
+          "chrom": "chr19",
+          "start": 41412222,
+          "end": 41412242,
+          "strand": "-",
+          "mismatches": 3,
+          "protospacer": "GGCAAAGGAGCACGCCTGGG",
+          "pam": "CCT"
+        },
+        {
+          "chrom": "chr13",
+          "start": 30133628,
+          "end": 30133648,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "CTCAAAGAAACACGCCTGCG",
+          "pam": "CCG"
+        },
+        {
+          "chrom": "chr17",
+          "start": 1223767,
+          "end": 1223787,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GGAGAGCAAGCAAGCCTGCG",
+          "pam": "GGG"
+        },
+        {
+          "chrom": "chr19",
+          "start": 4523847,
+          "end": 4523867,
+          "strand": "-",
+          "mismatches": 4,
+          "protospacer": "GGCCCACGCGCACGCCTGCG",
+          "pam": "CCA"
+        },
+        {
+          "chrom": "chr19",
+          "start": 18994308,
+          "end": 18994328,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "TGCATACCAGCACGCCAGCG",
+          "pam": "AGG"
+        },
+        {
+          "chrom": "chr21",
+          "start": 42768358,
+          "end": 42768378,
+          "strand": "+",
+          "mismatches": 4,
+          "protospacer": "GTTAAACGAGCACGCCTGGG",
+          "pam": "TGG"
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Mismatch-only model; no RNA-DNA bulges",
+    "Does not model chromatin accessibility",
+    "mm0 hits include intended on-target sites"
+  ]
+}

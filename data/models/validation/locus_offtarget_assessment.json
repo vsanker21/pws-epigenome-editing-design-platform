@@ -1,0 +1,32 @@
+{
+  "assessment_type": "locus_level_protospacer_uniqueness",
+  "scope": "PWS critical region significant screen sites only (not genome-wide)",
+  "top_recommended_design": {
+    "tet1_grna_id": "PWS_G.4670",
+    "vp64_grna_id": "PWS_G.9414"
+  },
+  "guide_assessments": {
+    "tet1_PWS_G.4670": {
+      "protospacer": "GCAGGCTGGCGCGCATGCTC",
+      "exact_duplicates_in_locus": 0,
+      "near_seed_matches_1mm": 0,
+      "offtarget_locus_risk": "low",
+      "duplicate_sites": [],
+      "seed_near_matches": []
+    },
+    "vp64_PWS_G.9414": {
+      "protospacer": "CAGTTCAGGGCATGAGATAA",
+      "exact_duplicates_in_locus": 0,
+      "near_seed_matches_1mm": 0,
+      "offtarget_locus_risk": "low",
+      "duplicate_sites": [],
+      "seed_near_matches": []
+    }
+  },
+  "limitations": [
+    "Does not predict genome-wide Cas9 binding or cutting",
+    "Limited to sites tiled in Rohm 2025 screen library",
+    "Recommend Cas-OFFinder or CHANGE-seq for preclinical off-target validation"
+  ],
+  "overall_locus_offtarget_risk": "low"
+}

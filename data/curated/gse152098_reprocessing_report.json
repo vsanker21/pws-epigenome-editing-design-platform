@@ -1,0 +1,32 @@
+{
+  "dataset": "GSE152098_RAW",
+  "method": "UCSC bigWigSummary via WSL",
+  "n_bigwig_files": 14,
+  "regions_quantified": [
+    "pws_critical",
+    "pws_icr",
+    "snrpn_snh14",
+    "snord116_cluster",
+    "gabaa_cluster"
+  ],
+  "icr_celltype_means": [
+    {
+      "cell_type": "HumanESCells",
+      "icr_mean_signal": 0.057332575
+    },
+    {
+      "cell_type": "HypothalamicNeurons",
+      "icr_mean_signal": 0.6026071666666667
+    },
+    {
+      "cell_type": "HypothalamicProg",
+      "icr_mean_signal": 0.3316685
+    }
+  ],
+  "neuron_vs_esc_icr_fold": 10.510729139004601,
+  "outputs": {
+    "regions": "G:\\Prader Willi Syndrome\\data\\curated\\gse152098_bigwig_regions.parquet",
+    "guides": "G:\\Prader Willi Syndrome\\data\\curated\\gse152098_bigwig_guides.parquet"
+  },
+  "rationale": "Direct bigWig reprocessing provides replicate-resolved ATAC signal at PWS-ICR in hypothalamic neurons vs ESC."
+}

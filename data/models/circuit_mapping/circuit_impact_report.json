@@ -1,0 +1,227 @@
+{
+  "phase": 8,
+  "status": "exploratory_hypothesis_generating",
+  "organoid_validation": {
+    "source": "Nemoto et al. 2025 GSE262700",
+    "finding": "Tet1 editing reactivates SNRPN/SNHG14 in hypothalamic organoids",
+    "SNRPN_fold_change": 5297,
+    "SNHG14_fold_change": 158
+  },
+  "circuit_nodes": {
+    "AgRP_neurons": {
+      "markers": [
+        "AGRP",
+        "NPY"
+      ],
+      "pws_phenotype_link": "hyperphagia / orexigenic drive",
+      "expected_direction_if_PWS_rescued": "normalize_down"
+    },
+    "POMC_neurons": {
+      "markers": [
+        "POMC",
+        "CART"
+      ],
+      "pws_phenotype_link": "anorexigenic signaling deficit",
+      "expected_direction_if_PWS_rescued": "normalize_up"
+    },
+    "OXT_neurons": {
+      "markers": [
+        "OXT",
+        "AVP"
+      ],
+      "pws_phenotype_link": "social/endocrine dysfunction",
+      "expected_direction_if_PWS_rescued": "normalize_up"
+    },
+    "SIM1_neurons": {
+      "markers": [
+        "SIM1",
+        "ESR1"
+      ],
+      "pws_phenotype_link": "PVH metabolic integration",
+      "expected_direction_if_PWS_rescued": "normalize"
+    }
+  },
+  "design_circuit_impacts": [
+    {
+      "design_rank": 1,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5691",
+      "vp64_grna": "PWS_G.9414",
+      "predicted_SNRPN_pct_WT": 70.0,
+      "predicted_SNHG14_pct_WT": 98.3,
+      "circuit_impacts": {
+        "AgRP_neurons": {
+          "predicted_normalization_score": 0.688,
+          "direction": "normalize_down",
+          "phenotype_link": "hyperphagia / orexigenic drive",
+          "confidence": "exploratory"
+        },
+        "POMC_neurons": {
+          "predicted_normalization_score": 0.688,
+          "direction": "normalize_up",
+          "phenotype_link": "anorexigenic signaling deficit",
+          "confidence": "exploratory"
+        },
+        "OXT_neurons": {
+          "predicted_normalization_score": 0.42,
+          "direction": "normalize_up",
+          "phenotype_link": "social/endocrine dysfunction",
+          "confidence": "exploratory"
+        },
+        "SIM1_neurons": {
+          "predicted_normalization_score": 0.42,
+          "direction": "normalize",
+          "phenotype_link": "PVH metabolic integration",
+          "confidence": "exploratory"
+        }
+      },
+      "hyperphagia_normalization_proxy": 0.688,
+      "caveat": "Circuit mapping is hypothesis-generating. SNRPN/SNHG14 reactivation does not directly predict AgRP/POMC normalization without longitudinal hypothalamic circuit data."
+    },
+    {
+      "design_rank": 2,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5452",
+      "vp64_grna": "PWS_G.6318",
+      "predicted_SNRPN_pct_WT": 70.0,
+      "predicted_SNHG14_pct_WT": 98.3,
+      "circuit_impacts": {
+        "AgRP_neurons": {
+          "predicted_normalization_score": 0.688,
+          "direction": "normalize_down",
+          "phenotype_link": "hyperphagia / orexigenic drive",
+          "confidence": "exploratory"
+        },
+        "POMC_neurons": {
+          "predicted_normalization_score": 0.688,
+          "direction": "normalize_up",
+          "phenotype_link": "anorexigenic signaling deficit",
+          "confidence": "exploratory"
+        },
+        "OXT_neurons": {
+          "predicted_normalization_score": 0.42,
+          "direction": "normalize_up",
+          "phenotype_link": "social/endocrine dysfunction",
+          "confidence": "exploratory"
+        },
+        "SIM1_neurons": {
+          "predicted_normalization_score": 0.42,
+          "direction": "normalize",
+          "phenotype_link": "PVH metabolic integration",
+          "confidence": "exploratory"
+        }
+      },
+      "hyperphagia_normalization_proxy": 0.688,
+      "caveat": "Circuit mapping is hypothesis-generating. SNRPN/SNHG14 reactivation does not directly predict AgRP/POMC normalization without longitudinal hypothalamic circuit data."
+    },
+    {
+      "design_rank": 3,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5452",
+      "vp64_grna": "PWS_G.4662",
+      "predicted_SNRPN_pct_WT": 70.0,
+      "predicted_SNHG14_pct_WT": 98.3,
+      "circuit_impacts": {
+        "AgRP_neurons": {
+          "predicted_normalization_score": 0.688,
+          "direction": "normalize_down",
+          "phenotype_link": "hyperphagia / orexigenic drive",
+          "confidence": "exploratory"
+        },
+        "POMC_neurons": {
+          "predicted_normalization_score": 0.688,
+          "direction": "normalize_up",
+          "phenotype_link": "anorexigenic signaling deficit",
+          "confidence": "exploratory"
+        },
+        "OXT_neurons": {
+          "predicted_normalization_score": 0.42,
+          "direction": "normalize_up",
+          "phenotype_link": "social/endocrine dysfunction",
+          "confidence": "exploratory"
+        },
+        "SIM1_neurons": {
+          "predicted_normalization_score": 0.42,
+          "direction": "normalize",
+          "phenotype_link": "PVH metabolic integration",
+          "confidence": "exploratory"
+        }
+      },
+      "hyperphagia_normalization_proxy": 0.688,
+      "caveat": "Circuit mapping is hypothesis-generating. SNRPN/SNHG14 reactivation does not directly predict AgRP/POMC normalization without longitudinal hypothalamic circuit data."
+    },
+    {
+      "design_rank": 4,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5452",
+      "vp64_grna": "PWS_G.5117",
+      "predicted_SNRPN_pct_WT": 70.0,
+      "predicted_SNHG14_pct_WT": 98.3,
+      "circuit_impacts": {
+        "AgRP_neurons": {
+          "predicted_normalization_score": 0.688,
+          "direction": "normalize_down",
+          "phenotype_link": "hyperphagia / orexigenic drive",
+          "confidence": "exploratory"
+        },
+        "POMC_neurons": {
+          "predicted_normalization_score": 0.688,
+          "direction": "normalize_up",
+          "phenotype_link": "anorexigenic signaling deficit",
+          "confidence": "exploratory"
+        },
+        "OXT_neurons": {
+          "predicted_normalization_score": 0.42,
+          "direction": "normalize_up",
+          "phenotype_link": "social/endocrine dysfunction",
+          "confidence": "exploratory"
+        },
+        "SIM1_neurons": {
+          "predicted_normalization_score": 0.42,
+          "direction": "normalize",
+          "phenotype_link": "PVH metabolic integration",
+          "confidence": "exploratory"
+        }
+      },
+      "hyperphagia_normalization_proxy": 0.688,
+      "caveat": "Circuit mapping is hypothesis-generating. SNRPN/SNHG14 reactivation does not directly predict AgRP/POMC normalization without longitudinal hypothalamic circuit data."
+    },
+    {
+      "design_rank": 5,
+      "strategy": "Hybrid_Tet1_VP64",
+      "tet1_grna": "PWS_G.5452",
+      "vp64_grna": "PWS_G.3437",
+      "predicted_SNRPN_pct_WT": 70.0,
+      "predicted_SNHG14_pct_WT": 98.3,
+      "circuit_impacts": {
+        "AgRP_neurons": {
+          "predicted_normalization_score": 0.688,
+          "direction": "normalize_down",
+          "phenotype_link": "hyperphagia / orexigenic drive",
+          "confidence": "exploratory"
+        },
+        "POMC_neurons": {
+          "predicted_normalization_score": 0.688,
+          "direction": "normalize_up",
+          "phenotype_link": "anorexigenic signaling deficit",
+          "confidence": "exploratory"
+        },
+        "OXT_neurons": {
+          "predicted_normalization_score": 0.42,
+          "direction": "normalize_up",
+          "phenotype_link": "social/endocrine dysfunction",
+          "confidence": "exploratory"
+        },
+        "SIM1_neurons": {
+          "predicted_normalization_score": 0.42,
+          "direction": "normalize",
+          "phenotype_link": "PVH metabolic integration",
+          "confidence": "exploratory"
+        }
+      },
+      "hyperphagia_normalization_proxy": 0.688,
+      "caveat": "Circuit mapping is hypothesis-generating. SNRPN/SNHG14 reactivation does not directly predict AgRP/POMC normalization without longitudinal hypothalamic circuit data."
+    }
+  ],
+  "interpretation": "Designs achieving dual-gene reactivation in the 70-130% WT window are predicted to partially normalize orexigenic/anorexigenic circuit balance. AgRP normalization depends primarily on SNHG14/SNORD116 restoration; POMC/OXT on SNRPN dosage within therapeutic window."
+}

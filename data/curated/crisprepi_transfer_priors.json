@@ -1,0 +1,191 @@
+{
+  "source": "CRISPRepi (Shi et al. NAR 2025;53(D1):D901)",
+  "n_human_records": 2520,
+  "editor_class_priors": {
+    "dCas9-Tet1": {
+      "n_crisprepi_records": 16,
+      "primary_epigenetic_effects": {
+        "demethylation": 0.625,
+        "unknown": 0.375
+      },
+      "demethylation_fraction": 0.625,
+      "activation_fraction": 0.0,
+      "cell_types": {
+        "FX52 iPSCs": 16
+      },
+      "tissues": {
+        "FXS iPSC": 13,
+        "Neurons derived from FXS iPSCs": 3
+      }
+    },
+    "dCas9-VP64": {
+      "n_crisprepi_records": 134,
+      "primary_epigenetic_effects": {
+        "transcription factor": 0.5746268656716418,
+        "unknown": 0.39552238805970147,
+        "H3K27ac": 0.014925373134328358,
+        "H3K27ac/transcription factor": 0.014925373134328358
+      },
+      "demethylation_fraction": 0.0,
+      "activation_fraction": 0.6044776119402985,
+      "cell_types": {
+        "HEK293FT": 51,
+        "HEK293T": 23,
+        "LNCaP": 16,
+        "iPSC": 12,
+        "MCF7": 6
+      },
+      "tissues": {
+        "HEK293FT": 27,
+        "HEK293T": 11,
+        "293T": 4,
+        "LChIT clone": 3,
+        "Differentiated iPSCs": 3
+      }
+    },
+    "dCas9-KRAB": {
+      "n_crisprepi_records": 1489,
+      "primary_epigenetic_effects": {
+        "transcription factor": 0.49630624580255206,
+        "unknown": 0.3794492948287441,
+        "H3K9me3": 0.051712558764271326,
+        "methylation/transcription factor": 0.0335795836131632,
+        "H3K4 demethylation/transcription factor": 0.01208865010073875
+      },
+      "demethylation_fraction": 0.0,
+      "activation_fraction": 0.5580926796507724,
+      "cell_types": {
+        "XCL4": 492,
+        "BC1": 192,
+        "K562": 189,
+        "HeLa": 126,
+        "HEK293T": 54
+      },
+      "tissues": {
+        "K562": 112,
+        "HeLa": 79,
+        "HEK293T": 46,
+        "HEK293": 26,
+        "Pathological intervertebral disc cells from the nucleus pulposus": 4
+      }
+    },
+    "dCas9-p300": {
+      "n_crisprepi_records": 23,
+      "primary_epigenetic_effects": {
+        "H3K27ac": 0.6956521739130435,
+        "unknown": 0.30434782608695654
+      },
+      "demethylation_fraction": 0.0,
+      "activation_fraction": 0.6956521739130435,
+      "cell_types": {
+        "HEK293T": 21,
+        "HaCaT": 2
+      },
+      "tissues": {
+        "HEK293T": 15
+      }
+    }
+  },
+  "chr15_coordinate_hits": 43,
+  "chr15_records": [
+    {
+      "Target_gene": "EEA-motif",
+      "dCas9_type": "dCas9-VP192",
+      "EpiEffect": "transcription factor",
+      "sgRNA_coordinate": "chr1:225781653:-,chr20:61319690:+,chr10:34664739:+,chr15:34127088:-,chr7:50639559:-"
+    },
+    {
+      "Target_gene": "EEA-motif",
+      "dCas9_type": "dCas9-VP192",
+      "EpiEffect": "transcription factor",
+      "sgRNA_coordinate": "chr5:92399958:-,chr19:10950714:-,chr7:128813732:-,chr14:50683240:-,chr15:75107667:-"
+    },
+    {
+      "Target_gene": "EEA-motif",
+      "dCas9_type": "dCas9-VP192",
+      "EpiEffect": "transcription factor",
+      "sgRNA_coordinate": "chr2:62142562:+,chr15:78543829:-,chr15:45078917:+,chr15:38157347:-,chr17:69493647:-"
+    },
+    {
+      "Target_gene": "EEA-motif",
+      "dCas9_type": "dCas9-VP192",
+      "EpiEffect": "transcription factor",
+      "sgRNA_coordinate": "chr17:59721631:+,chr7:87704181:-,chr15:41146344:-,chr5:150426009:+,chr10:87781761:+"
+    },
+    {
+      "Target_gene": "OCT4,SOX2,KLF4,MYC,LIN28A,EEA-motif",
+      "dCas9_type": "dCas9-VP192",
+      "EpiEffect": "transcription factor",
+      "sgRNA_coordinate": "chr6:31170765:+,chr6:31171306:-,chr6:31170866:-,chr3:181711719:+,chr3:181711828:+,chr9:107489882:-,chr8:127736037:+,chr1:26410614:+,chr1:26410514:+,chr1:26410351:+,chr3:170209560:-,chr19:38994704:-,chr8:103065308:-,chr12:98687249:+,chr15:99190391:+,chr9:107489727:-,chr9:107489778:-,chr9:107489882:-,chr9:107490086:+,chr9:107490137:-,chr8:127736037:+,chr8:127736014:+,chr8:127735970:+,chr8:127735889:+,chr8:127735841:+"
+    },
+    {
+      "Target_gene": "OCT4,SOX2,KLF4,MYC,LIN28A,EEA-motif",
+      "dCas9_type": "dCas9-VP192",
+      "EpiEffect": "transcription factor",
+      "sgRNA_coordinate": "chr6:31170765:+,chr6:31171306:-,chr6:31170866:-,chr3:181711719:+,chr3:181711828:+,chr9:107489882:-,chr8:127736037:+,chr1:26410614:+,chr1:26410514:+,chr1:26410351:+,chr13:99274975:-,chr15:77850885:-,chr9:6027503:-,chrX:120466961:-,chr12:82156758:+,chr9:107489727:-,chr9:107489778:-,chr9:107489882:-,chr9:107490086:+,chr9:107490137:-,chr8:127736037:+,chr8:127736014:+,chr8:127735970:+,chr8:127735889:+,chr8:127735841:+"
+    },
+    {
+      "Target_gene": "OCT4,SOX2,KLF4,MYC,LIN28A,EEA-motif",
+      "dCas9_type": "dCas9-VP192",
+      "EpiEffect": "transcription factor",
+      "sgRNA_coordinate": "chr6:31170765:+,chr6:31171306:-,chr6:31170866:-,chr3:181711719:+,chr3:181711828:+,chr9:107489882:-,chr8:127736037:+,chr1:26410614:+,chr1:26410514:+,chr1:26410351:+,chr17:62945873:-,chr12:114633529:+,chr15:88875962:-,chrX:52734537:+,chr1:35061948:+,chr9:107489727:-,chr9:107489778:-,chr9:107489882:-,chr9:107490086:+,chr9:107490137:-,chr8:127736037:+,chr8:127736014:+,chr8:127735970:+,chr8:127735889:+,chr8:127735841:+"
+    },
+    {
+      "Target_gene": "OCT4",
+      "dCas9_type": "dCas9-dMSK1",
+      "EpiEffect": "H3S10ph,H3S28ph",
+      "sgRNA_coordinate": "chr2:158007671:-,chr6:31170866:-,chr6:31170836:-,chr15:79339704:-"
+    },
+    {
+      "Target_gene": "EEA-motif",
+      "dCas9_type": "dCas9-GFP",
+      "EpiEffect": NaN,
+      "sgRNA_coordinate": "chr15:91167070:-"
+    },
+    {
+      "Target_gene": "B2M",
+      "dCas9_type": "dCas9-KRAB",
+      "EpiEffect": "transcription factor",
+      "sgRNA_coordinate": "chr15:44711689:+"
+    }
+  ],
+  "file_summaries": {
+    "dCas9_KRAB.tsv": {
+      "n_records": 1379,
+      "unique_genes": 166
+    },
+    "dCas9_p300.tsv": {
+      "n_records": 20,
+      "unique_genes": 3
+    },
+    "dCas9_SunTag14aa_TET1cd.tsv": {
+      "n_records": 2,
+      "unique_genes": 1
+    },
+    "dCas9_SunTag22aa_TET1cd.tsv": {
+      "n_records": 14,
+      "unique_genes": 2
+    },
+    "dCas9_SunTag_p300.tsv": {
+      "n_records": 6,
+      "unique_genes": 1
+    },
+    "dCas9_Tet1.tsv": {
+      "n_records": 17,
+      "unique_genes": 2
+    },
+    "dCas9_VP64.tsv": {
+      "n_records": 86,
+      "unique_genes": 13
+    },
+    "Mus_musculus.tsv": {
+      "n_records": 609,
+      "unique_genes": 44
+    },
+    "VP64_dCas9_VP64.tsv": {
+      "n_records": 3,
+      "unique_genes": 1
+    }
+  },
+  "transfer_learning_use": "Tet1 demethylation prior: 62% of CRISPRepi Tet1 records report demethylation. VP64 activation prior: 60% report transcriptional effects. These inform mechanism-class confidence in forward model, not locus-specific outcomes."
+}
